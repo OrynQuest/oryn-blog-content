@@ -5,6 +5,7 @@ date: 2026-09-21
 author: "ORYN Quest Team"
 keyword: "what age should kids start swim lessons"
 tags: [swimming, readiness]
+areas: [Southern California]
 answer: "Most children are ready for structured swim lessons between ages 4 and 6, when they can follow simple instructions and are comfortable putting their face in the water. Parent-and-child water-familiarisation classes can start from around age 1. Readiness matters more than the birthday."
 image: "/blog/what-age-should-kids-start-swim-lessons.jpg"
 imageAlt: "Indoor swimming pool lane with coral, teal and yellow kickboards and pool noodles lined up on the tiled edge"
@@ -23,6 +24,8 @@ A child who will put their face in the bath water, follow a two-step instruction
 ## What does a first swim lesson look like?
 
 Small groups, a warm pool, and a coach in the water. Expect floating, kicking on a noodle and blowing bubbles before any stroke work.
+
+Many Southern California pools are heated and run lessons all year, so there is no need to wait for summer — a quieter autumn class is often the easier start.
 
 ## FAQ
 

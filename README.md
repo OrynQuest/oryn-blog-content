@@ -24,6 +24,7 @@ author: "ORYN Quest Team"                             # optional; "Mariam", "Eli
 image: /blog/swim-lessons-what-age.png                # hero, 1200×630 PNG/JPG under public/blog/, file name = slug (also: heroImage, cover)
 imageAlt: "…"                                         # what the picture actually shows — required when image is set
 video: https://www.youtube.com/watch?v=XXXXXXXXXXX    # optional; a public/unlisted YouTube URL → embed under the hero + VideoObject schema
+areas: [Orange County]                                # where the post is for (see Areas) — Southern California first
 keyword: "swim lessons age"                           # optional target keyword (also: targetKeyword, keywords)
 tags: [swimming, ages-3-5]                            # optional
 answer: "…"                                           # optional 40–60-word direct answer shown under the title
@@ -41,6 +42,11 @@ Unknown keys are ignored. A post missing `title`, `description` or `date` is ski
 - **Video** is optional: set `video:` to a YouTube URL (public or unlisted). The site embeds it (privacy-enhanced, lazy) and emits `VideoObject` structured data with the post's title, description, date and thumbnail. Keep the transcript's key points in the body — search engines read text, not video.
 - Without a hero, the card falls back to a branded cover generated from the title; the page shows no hero. So: always ship a hero.
 
+## Areas (Southern California first — per post, never site-wide)
+- `areas:` says where the post is for: `[Orange County]`, `[Los Angeles, Long Beach]`, or `[Southern California]` for a region-wide post. Recognised today: Southern California, Los Angeles, Orange County, San Diego, Inland Empire, Ventura County, Long Beach, Pasadena, Irvine, Anaheim, Santa Monica, Riverside, San Bernardino, Temecula (SoCal / LA / OC are understood). Any other place is kept as written — when ORYN expands, write it as one list item `"City, State"` (e.g. `["Phoenix, Arizona"]`); no site change is needed.
+- The site turns `areas` into location chips on the post and the card, `<meta keywords>`, RSS categories, and `spatialCoverage` / `contentLocation` in the article's structured data. The area never appears on the site's main landing page or in the site-wide Organization schema — the founders will expand, and the blog is where the local page lives.
+- Editorial: put the area in the keyword and the title when a family would search that way ("swim lessons in Orange County", "kids' art classes in Pasadena"); name real local specifics (seasons, school calendars, venue types, drive times); keep one evergreen post for every two or three local ones. A local post is still about the activity — the area is not padding, and never claims "best in …".
+
 ## Body conventions the site understands
 - Standard Markdown (GitHub-flavoured: tables, task lists, footnotes).
 - A `## FAQ` section whose items are `### Question?` followed by the answer becomes an FAQ block with `FAQPage` structured data. The FAQ ends at the next `##` heading or at a `---` line — put a `---` before any closing call-to-action paragraph so it is not read as part of the last answer.
@@ -51,6 +57,6 @@ Unknown keys are ignored. A post missing `title`, `description` or `date` is ski
 - The word for a business on ORYN Quest is **vendor**, never "provider".
 - Never "vetted", never counts of vendors/families/bookings, never guarantees.
 - No photos of real children. Informational only on health/therapy topics.
-- Service area today is Southern California; say so rather than implying nationwide coverage.
+- Service area today is Southern California; a post says which area it covers (`areas:`) rather than implying nationwide coverage.
 
 _Site loader verified live on 20 Sep 2026 (push webhook → orynquest.com/api/blog/revalidate)._
