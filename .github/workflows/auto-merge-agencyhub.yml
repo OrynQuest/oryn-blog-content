@@ -1,0 +1,74 @@
+name: Auto-merge Agency Hub posts
+
+# Agency Hub publishes a post as a pull request from the AceWattGit machine
+# account on a branch named agencyhub/<slug>. The founders review the post
+# inside Agency Hub before it is published, so the pull request is a
+# technical step, not a second review. This workflow merges it when the
+# change is structurally what the site expects; anything else stays open for
+# a human. The site's own loader remains the safety net: a post that breaks
+# an editorial hard rule is hidden until fixed, never a broken site.
+#
+# Contract: README.md in this repository.
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  check-and-merge:
+    if: github.event.pull_request.user.login == 'AceWattGit' && startsWith(github.event.pull_request.head.ref, 'agencyhub/')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check the changed files against the contract
+        id: check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          files=$(gh api "repos/${GITHUB_REPOSITORY}/pulls/${PR}/files" --paginate --jq '.[] | "\(.status) \(.filename)"')
+          echo "$files"
+          fail=""
+          while read -r status file; do
+            [ -z "$file" ] && continue
+            case "$file" in
+              parents/*.md|vendors/*.md) ;;
+              public/blog/*.png|public/blog/*.jpg|public/blog/*.jpeg|public/blog/*.webp) ;;
+              *) fail="$fail\n- $file is outside parents/, vendors/ or public/blog/";;
+            esac
+            case "$status" in
+              added|modified) ;;
+              *) fail="$fail\n- $file: $status is not allowed (only add or modify)";;
+            esac
+            if [[ "$file" == *.md ]]; then
+              fm=$(gh api "repos/${GITHUB_REPOSITORY}/contents/${file}?ref=${HEAD_SHA}" --jq '.content' | base64 -d | awk 'NR==1 && $0!="---" {exit 1} NR>1 && /^---$/ {exit} NR>1 {print}')
+              for key in title description date; do
+                echo "$fm" | grep -Eq "^${key}:[[:space:]]*[^[:space:]]" || fail="$fail\n- $file: front-matter is missing ${key}"
+              done
+              base=$(basename "$file" .md)
+              echo "$base" | grep -Eq '^[a-z0-9]+(-[a-z0-9]+)*$' || fail="$fail\n- $file: slug must be lowercase words joined by hyphens"
+            fi
+          done <<< "$files"
+          if [ -n "$fail" ]; then
+            printf 'Not merged automatically:%b\n' "$fail" | tee /tmp/reason.txt
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Explain why it stayed open
+        if: steps.check.outputs.ok == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+        run: gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --body-file /tmp/reason.txt
+      - name: Merge
+        if: steps.check.outputs.ok == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+        run: gh pr merge "$PR" --repo "$GITHUB_REPOSITORY" --squash --delete-branch

@@ -60,3 +60,10 @@ Unknown keys are ignored. A post missing `title`, `description` or `date` is ski
 - Service area today is Southern California; a post says which area it covers (`areas:`) rather than implying nationwide coverage.
 
 _Site loader verified live on 20 Sep 2026 (push webhook → orynquest.com/api/blog/revalidate)._
+
+## How a post goes live (Agency Hub → this repo → orynquest.com)
+1. Agency Hub publishes an approved piece as a **pull request** from its `AceWattGit` account on a branch `agencyhub/<slug>` (one Markdown file + the hero under `public/blog/`).
+2. `.github/workflows/auto-merge-agencyhub.yml` merges it automatically when the change is only files under `parents/`, `vendors/` or `public/blog/`, added or modified, with `title`, `description` and `date` in the front-matter and a valid slug. Anything else stays open and the workflow comments why.
+3. The push to `main` calls the site's revalidate webhook; the post is live within a minute. A post that breaks an editorial hard rule (see above) is hidden by the site until fixed.
+
+The founders' review happens inside Agency Hub before step 1; the pull request is a technical step, not a second review.
