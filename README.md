@@ -43,3 +43,5 @@ Unknown keys are ignored. A post missing `title`, `description` or `date` is ski
 - Never "vetted", never counts of vendors/families/bookings, never guarantees.
 - No photos of real children. Informational only on health/therapy topics.
 - Service area today is Southern California; say so rather than implying nationwide coverage.
+
+_Site loader verified live on 20 Sep 2026 (push webhook → orynquest.com/api/blog/revalidate)._
