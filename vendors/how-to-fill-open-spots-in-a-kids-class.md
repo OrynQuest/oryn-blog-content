@@ -35,4 +35,6 @@ A trial works when it leads straight into a booked block; a standalone freebie r
 ### How far ahead should I open slots?
 Four to six weeks. Families book around school terms and siblings' activities.
 
+---
+
 List your classes on ORYN Quest — free to join, no commission, families nearby find you. [Apply as a vendor](/vendors).

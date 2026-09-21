@@ -34,7 +34,7 @@ Unknown keys are ignored. A post missing `title`, `description` or `date` is ski
 
 ## Body conventions the site understands
 - Standard Markdown (GitHub-flavoured: tables, task lists, footnotes).
-- A `## FAQ` section whose items are `### Question?` followed by the answer becomes an FAQ block with `FAQPage` structured data.
+- A `## FAQ` section whose items are `### Question?` followed by the answer becomes an FAQ block with `FAQPage` structured data. The FAQ ends at the next `##` heading or at a `---` line — put a `---` before any closing call-to-action paragraph so it is not read as part of the last answer.
 - `> **Key takeaways**` blockquote at the top renders as a callout.
 - Links to `/explore`, `/waitlist`, `/vendors` are the calls to action; the site adds an audience button at the end regardless.
 

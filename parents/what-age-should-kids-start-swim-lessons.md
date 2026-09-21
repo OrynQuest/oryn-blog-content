@@ -30,4 +30,6 @@ Not for a parent-and-child class. For a drop-off beginner class, most coaches su
 ### How many lessons a week?
 One or two. Consistency over months matters more than intensity in one week.
 
+---
+
 Find beginner swim classes near you on [Explore](/explore), or [join the waiting list](/waitlist) if we are not in your area yet.
