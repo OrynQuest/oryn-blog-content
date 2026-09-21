@@ -42,7 +42,13 @@ jobs:
               *) fail="$fail\n- $file is outside parents/, vendors/ or public/blog/";;
             esac
             case "$status" in
-              added|modified) ;;
+              added) ;;
+              modified)
+                # A change to an EXISTING post is not merged on its own: the
+                # Hub's image judge accepted an off-topic hero on 21 Sep 2026
+                # and re-published over a hand fix within the hour. New posts
+                # still merge automatically; edits wait for a human.
+                if [[ "$file" == *.md ]]; then fail="$fail\n- $file: changes an existing post — needs a human look before it goes live"; fi;;
               *) fail="$fail\n- $file: $status is not allowed (only add or modify)";;
             esac
             if [[ "$file" == *.md ]]; then
