@@ -6,7 +6,7 @@ author: "ORYN Quest Team"
 keyword: "how to fill open spots in a kids class"
 tags: [marketing, bookings]
 answer: "Open spots fill fastest when families can see exactly what a class is, when it runs and what it costs, book it in one step, and hear about it from another parent. Detail, a clear schedule and easy booking beat a discount, which only teaches families to wait for the next one."
-draft: true
+draft: false
 ---
 
 > **Key takeaways**
