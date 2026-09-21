@@ -5,7 +5,7 @@ date: 2026-09-21
 author: "ORYN Quest"
 description: "A parent-focused guide to finding great local kids activities: what to look for, how to budget, and 12 activity ideas."
 image: "/blog-assets/kids-activities-near-me-12-ideas-southern-california-parents.png"
-imageAlt: "Photorealistic hero photo for this brand's blog article about: Kids Activities Near Me: 12 Ideas Southern California Parents Love"
+imageAlt: "an outdoor children's arts and crafts workshop at golden hour with three kids doing pottery, painting and terrarium building, palm trees and hills in the distance"
 tags: [kids activities]
 areas: [Southern California]
 draft: false
