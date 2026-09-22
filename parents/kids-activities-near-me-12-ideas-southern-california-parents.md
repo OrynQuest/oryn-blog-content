@@ -1,11 +1,11 @@
 ---
 keyword: "kids activities near me"
 title: "Kids Activities Near Me: 12 Ideas Southern California Parents Love"
-date: 2026-09-21
+date: 2026-09-22
 author: "ORYN Quest"
 description: "A parent-focused guide to finding great local kids activities: what to look for, how to budget, and 12 activity ideas."
-image: "/blog-assets/kids-activities-near-me-12-ideas-southern-california-parents-hero.jpg"
-imageAlt: "Three children at an outdoor art table at golden hour: one shaping clay on a pottery wheel, one painting a small wooden airplane, one planting a glass terrarium, with palm trees behind"
+image: "/blog-assets/kids-activities-near-me-12-ideas-southern-california-parents.png"
+imageAlt: "Photorealistic hero photo for this brand's blog article about: Kids Activities Near Me: 12 Ideas Southern California Parents Love"
 tags: [kids activities]
 areas: [Southern California]
 draft: false
