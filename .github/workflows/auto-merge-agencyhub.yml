@@ -52,7 +52,7 @@ jobs:
               *) fail="$fail\n- $file: $status is not allowed (only add or modify)";;
             esac
             if [[ "$file" == *.md ]]; then
-              fm=$(gh api "repos/${GITHUB_REPOSITORY}/contents/${file}?ref=${HEAD_SHA}" --jq '.content' | base64 -d | awk 'NR==1 && $0!="---" {exit 1} NR>1 && /^---$/ {exit} NR>1 {print}')
+              fm=$(gh api "repos/${GITHUB_REPOSITORY}/contents/${file}?ref=${HEAD_SHA}" --jq '.content' | base64 -d | awk 'NR==1 && $0!="---" {bad=1} NR>1 && /^---$/ {done=1} NR>1 && !done && !bad {print} END {exit bad}')
               for key in title description date; do
                 echo "$fm" | grep -Eq "^${key}:[[:space:]]*[^[:space:]]" || fail="$fail\n- $file: front-matter is missing ${key}"
               done
