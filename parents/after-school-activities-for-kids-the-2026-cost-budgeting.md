@@ -49,7 +49,7 @@ The advertised rate is rarely the full number. Watch for:
 
 ## 4. How ORYN Membership Plans Can Reduce Activity Budgets
 
-ORYN replaces a stack of per-studio registrations with one monthly membership built on credits. The four tiers, Play, Plus, Pro, and Premium, scale by monthly credit amount, so a family with one child in one weekly class can start small while a household of three swimmers starts larger. You can move between tiers month to month, which matters when camp season hits or when a season ends and the cleats get shelved.
+ORYN replaces a stack of per-studio registrations with one monthly membership built on credits. The four tiers, Play, Plus, Pro, and Premium, scale by monthly credit amount, so a family with one child in one weekly class can start small while a household of three swimmers starts larger. Top-up credit packs cover the busy months, like camp season, without changing your plan.
 
 The structural win is cash flow. Instead of paying $340 upfront for an eight-week session plus a $50 registration fee, credits draw down as you book. Credits work across categories too, so the same pool covers Tuesday art, Saturday swim, and a spring robotics workshop.
 
@@ -74,7 +74,7 @@ The budget move: spend a single top-up credit on one trial session before commit
 
 ## 7. How Vendors Use ORYN to Fill Open Spots and Offer Lower-Cost Availability
 
-This marketplace runs in both directions. Studios, instructors, and camps list classes on ORYN, manage bookings, and publish availability to local families searching to book kids activities online. When Thursday's tumbling class has four open mats at noon, vendors can push that availability to nearby members the same day.
+This marketplace runs in both directions. Studios, instructors, and camps list classes on ORYN, manage bookings, and publish availability to local families searching to book kids activities online. When Thursday's tumbling class has four open mats at noon, vendors can offer those seats as a last-minute deal the same day.
 
 For parents, this is a quiet budget channel. Open spots in the next 24 to 48 hours are exactly where flexible families find weeknight and weekend options at standard credit rates rather than premium one-off pricing. For vendors, filling seats that would otherwise sit empty beats the alternative, and reaching Southern California families directly means fewer empty classes and steadier pricing year-round. If you run a studio or camp, listing through ORYN's vendor tools puts your open spots in front of the families most likely to take them.
 
@@ -89,4 +89,4 @@ A framework you can run in about fifteen minutes:
 5. **Run the comparison.** Tally a sample month at one-off rates: four gymnastics classes at $35 ($140), two group swim lessons at $35 ($70), and one open art studio ($35) totals $245, before any registration fees. Under a kids activity membership, those same bookings draw from credits you have already paid for once, with no per-studio registration stacked on top.
 6. **Review quarterly.** Your booking history in the app shows exactly where credits went, so spring planning starts with facts instead of feelings.
 
-Your next step is simple. Download ORYN on iOS or Android, pick the plan size that matches your ceiling, and book one priority class per child this week. And if a sibling needs entertaining while big brother is at karate, ORYN Play and ORYN Town are free games waiting in the app, which makes this the rare line item on the list that costs you nothing at all.
+Your next step is simple. Download ORYN on iOS or Android, pick the plan size that matches your ceiling, and book one priority class per child this week. And if a sibling needs entertaining while big brother is at karate, ORYN Play and ORYN Town are free kids' games at orynquest.com/play, which makes this the rare line item on the list that costs you nothing at all.
