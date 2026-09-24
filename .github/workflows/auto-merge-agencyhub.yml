@@ -29,6 +29,12 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR: ${{ github.event.pull_request.number }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+          # "true" = NEW posts wait for a person too. Set 23 Sep 2026: the Hub
+          # now approves pieces with no human in the loop, and its approved
+          # queue repeated product-fact errors John had just removed from
+          # PR #8. Set back to "false" once the Hub has a human approval step
+          # (or its fact gate is verified) — then new posts merge on their own.
+          HOLD_NEW_POSTS: "true"
         run: |
           set -euo pipefail
           files=$(gh api "repos/${GITHUB_REPOSITORY}/pulls/${PR}/files" --paginate --jq '.[] | "\(.status) \(.filename)"')
@@ -42,7 +48,8 @@ jobs:
               *) fail="$fail\n- $file is outside parents/, vendors/ or public/blog/";;
             esac
             case "$status" in
-              added) ;;
+              added)
+                if [[ "$file" == *.md && "$HOLD_NEW_POSTS" == "true" ]]; then fail="$fail\n- $file: new post — held for a person to check the facts before it goes live (HOLD_NEW_POSTS)"; fi;;
               modified)
                 # A change to an EXISTING post is not merged on its own: the
                 # Hub's image judge accepted an off-topic hero on 21 Sep 2026
