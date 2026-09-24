@@ -40,4 +40,4 @@ Four to six weeks. Families book around school terms and siblings' activities.
 
 ---
 
-List your classes on ORYN Quest — free to join, no commission, families nearby find you. [Apply as a vendor](/vendors).
+List your classes on ORYN Quest: free to join and no commission today, and families nearby can find you. [Apply as a vendor](/vendor-apply).

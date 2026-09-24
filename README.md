@@ -8,6 +8,7 @@ Markdown posts for **orynquest.com/blog**. Written and published by Agency Hub; 
 parents/<slug>.md      posts for parents  → https://orynquest.com/blog/<slug>
 vendors/<slug>.md      posts for vendors  → https://orynquest.com/blog/<slug>
 public/blog/<slug>.png hero image (1200×630) → served at https://orynquest.com/blog-assets/<slug>.png
+docs/vendor-facts.md   the ONLY ORYN facts a post may state (checked against the live product; not published on the site)
 ```
 
 The folder decides the audience. The file name is the slug: lowercase, hyphens, no dates. Slugs must be unique across both folders.
@@ -52,6 +53,9 @@ Unknown keys are ignored. A post missing `title`, `description` or `date` is ski
 - A `## FAQ` section whose items are `### Question?` followed by the answer becomes an FAQ block with `FAQPage` structured data. The FAQ ends at the next `##` heading or at a `---` line — put a `---` before any closing call-to-action paragraph so it is not read as part of the last answer.
 - `> **Key takeaways**` blockquote at the top renders as a callout.
 - Links to `/explore`, `/waitlist`, `/vendors` are the calls to action; the site adds an audience button at the end regardless.
+
+## Facts about ORYN
+- A post may state a fact about ORYN itself (joining, fees, payouts, cancellations, check-in, messaging, apps, rewards) **only if it is in `docs/vendor-facts.md`**. If it is not there, leave it out. John updates the sheet when the product changes.
 
 ## Rules the site enforces (a post breaking a hard rule is hidden until fixed)
 - The word for a business on ORYN Quest is **vendor**, never "provider".
