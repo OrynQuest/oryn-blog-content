@@ -4,7 +4,9 @@ title: "After-School Activities for Kids: The 2026 Cost & Budgeting Guide"
 date: 2026-09-23T16:56:11.220Z
 status: "published"
 author: "ORYN Quest, Inc."
-description: "Why After-School Activity Costs Feel Higher in 2026"
+description: "What Southern California families pay for after-school activities in 2026, the costs hiding under the sticker price, and simple ways to budget for them."
+image: "/blog-assets/after-school-activities-for-kids-the-2026-cost-budgeting.jpg"
+imageAlt: "A sunny kitchen counter with a coral piggy bank, a jar of coins, ballet slippers, a soccer ball, a small keyboard, a paint set and an open notebook"
 ---
 
 # Budgeting for After-School Activities for Kids in Southern California: A 2026 Family Guide
@@ -12,7 +14,7 @@ description: "Why After-School Activity Costs Feel Higher in 2026"
 If your Tuesdays involve a snack handoff in a parking lot, a leotard emergency, and a 3:45 sprint across town, you already know the real currency of after-school activities for kids: time and money, in that order. This guide lays out what Southern California families actually pay in 2026, the costs hiding under the sticker price, and how a credit-based ORYN membership can smooth out the spikes.
 
 ## 1. Why Activity Costs Feel Higher in 2026
-![1. Why Activity Costs Feel Higher in 2026 - three, forces, pushing](/blog/after-school-activities-for-kids-the-2026-cost-budgeting-s1.png)
+![A sunny windowsill with a child's violin, a ballet slipper, a cup of paint brushes, a folded teal T-shirt and a notebook](/blog-assets/after-school-activities-for-kids-the-2026-cost-budgeting-s1.jpg)
 
 
 Three forces are pushing prices up across Los Angeles, Orange, San Diego, Riverside, and Ventura counties. Commercial rent near family neighborhoods keeps climbing, and studios pass that along. Instructor pay has risen with California wage floors, which matters enormously in businesses running on 6-to-1 and 8-to-1 student-to-teacher ratios. Insurance premiums for youth sports and swim programs have grown steadily since 2020, especially anything involving water, trampolines, or gymnastics equipment.

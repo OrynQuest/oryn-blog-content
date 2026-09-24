@@ -7,8 +7,8 @@ keyword: "how to fill open spots in a kids class"
 tags: [marketing, bookings]
 areas: [Southern California]
 answer: "Open spots fill fastest when families can see exactly what a class is, when it runs and what it costs, book it in one step, and hear about it from another parent. Detail, a clear schedule and easy booking beat a discount, which only teaches families to wait for the next one."
-image: "/blog-assets/how-to-fill-open-spots-in-a-kids-class.jpg"
-imageAlt: "A bright children's art studio set up before class, with small tables, art supplies and coral and teal aprons on the chairs"
+image: "/blog-assets/how-to-fill-open-spots-in-a-kids-class-v2.jpg"
+imageAlt: "A sunny children's art studio set up before class, with small wooden tables, paint brushes and coral and teal aprons on the chairs"
 draft: false
 ---
 
