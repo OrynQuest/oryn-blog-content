@@ -8,7 +8,8 @@ Markdown posts for **orynquest.com/blog**. Written and published by Agency Hub; 
 parents/<slug>.md      posts for parents  → https://orynquest.com/blog/<slug>
 vendors/<slug>.md      posts for vendors  → https://orynquest.com/blog/<slug>
 public/blog/<slug>.png hero image (1200×630) → served at https://orynquest.com/blog-assets/<slug>.png
-docs/vendor-facts.md   the ONLY ORYN facts a post may state (checked against the live product; not published on the site)
+docs/vendor-facts.md   ORYN facts a vendor post may state   ┐ the ONLY ORYN facts a post may state (checked against
+docs/parent-facts.md   ORYN facts a parent post may state   ┘ the live product; not published on the site)
 ```
 
 The folder decides the audience. The file name is the slug: lowercase, hyphens, no dates. Slugs must be unique across both folders.
@@ -22,7 +23,7 @@ description: "…"                                      # required, 120–160 ch
 date: 2026-09-28                                      # required, YYYY-MM-DD (also accepted: publishedAt, published)
 updated: 2026-09-28                                   # optional (also: updatedAt, lastUpdated)
 author: "ORYN Quest Team"                             # optional; "Mariam", "Eliza", "Mike/Manvel" map to founder profiles
-image: /blog/swim-lessons-what-age.png                # hero, 1200×630 PNG/JPG under public/blog/, file name = slug (also: heroImage, cover)
+image: /blog-assets/swim-lessons-what-age.png         # hero, 1200×630 PNG/JPG under public/blog/, file name = slug (also: heroImage, cover)
 imageAlt: "…"                                         # what the picture actually shows — required when image is set
 video: https://www.youtube.com/watch?v=XXXXXXXXXXX    # optional; a public/unlisted YouTube URL → embed under the hero + VideoObject schema
 areas: [Orange County]                                # where the post is for (see Areas) — Southern California first
@@ -55,7 +56,7 @@ Unknown keys are ignored. A post missing `title`, `description` or `date` is ski
 - Links to `/explore`, `/waitlist`, `/vendors` are the calls to action; the site adds an audience button at the end regardless.
 
 ## Facts about ORYN
-- A post may state a fact about ORYN itself (joining, fees, payouts, cancellations, check-in, messaging, apps, rewards) **only if it is in `docs/vendor-facts.md`**. If it is not there, leave it out. John updates the sheet when the product changes.
+- A post may state a fact about ORYN itself (joining, fees, payouts, cancellations, check-in, messaging, apps, rewards) **only if it is in `docs/vendor-facts.md` or `docs/parent-facts.md`**. If it is in neither, leave it out. Vendor posts lean on the vendor sheet, parent posts on the parent sheet (which also lists what must never be claimed). John updates both when the product changes.
 
 ## Rules the site enforces (a post breaking a hard rule is hidden until fixed)
 - The word for a business on ORYN Quest is **vendor**, never "provider".
