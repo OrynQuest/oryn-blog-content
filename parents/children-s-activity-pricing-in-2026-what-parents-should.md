@@ -1,7 +1,7 @@
 ---
-title: "Children's Activity Pricing in 2026: What Parents Should Budget"
+title: "Children's Activity Pricing in 2026: What to Budget"
 description: "What kids' classes, lessons and camps cost in Southern California in 2026, the fees hiding under the sticker price, and how to plan one monthly budget."
-date: 2026-09-24T13:06:15.963Z
+date: 2026-09-27T20:30:00.000Z
 status: "published"
 author: "ORYN Quest Team"
 keyword: "children's activity pricing 2026"
@@ -91,7 +91,7 @@ The classic search for affordable kids classes near me usually surfaces a random
 
 ## How Vendors Set Pricing and Fill Open Spots on ORYN
 
-For the studio owners, independent instructors, and camp directors reading along: pricing starts from your costs, not from a competitor's rate card. A class with eight enrolled kids at $20 each needs to cover the instructor hour, the room hour, insurance, and materials before anything becomes margin. Know that break-even number per session before you publish a listing. Anchor your pricing on the individual session rather than burying it in a semester package, because families now comparison-shop per class. The vendor-side tools on ORYN Quest let you list classes, set your dollar price per seat (ORYN shows it to families as credits), offer last-minute deals, and manage bookings in one place, which matters most when a Saturday workshop is still half full the day before. A last-minute deal (5 to 75% off, paid by ORYN, on sessions inside 24 hours) can fill remaining seats without cutting what you are paid. Sibling-friendly time slots, where two age groups run at the same time, let one family bring both children in one trip. When siblings are booked into the same session, ORYN pays the sibling discount (10% today), not you. See [orynquest.com/vendors](/vendors).
+For the studio owners, independent instructors, and camp directors reading along: pricing starts from your costs, not from a competitor's rate card. Each class has to cover the instructor hour, the room hour, insurance, and materials before anything becomes margin. Know that break-even number per session before you publish a listing. Anchor your pricing on the individual session rather than burying it in a semester package, because families now comparison-shop per class. The vendor-side tools on ORYN Quest let you list classes, set your price per seat (families see it in credits), offer last-minute deals, and manage bookings in one place, which matters most when a Saturday workshop is still half full the day before. A last-minute deal (5 to 75% off, paid by ORYN, on sessions inside 24 hours) can fill remaining seats without cutting what you are paid. Sibling-friendly time slots, where two age groups run at the same time, let one family bring both children in one trip. When siblings are booked into the same session, ORYN pays the sibling discount (10% today), not you. See [orynquest.com/vendors](/vendors).
 
 ## Planning Your 2026 Family Activity Budget with ORYN
 
