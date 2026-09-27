@@ -10,7 +10,7 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 ## Writing rules — read these first
 
 - Say "free to join" and "no commission" with the word **today**. Never "ever".
-- Never say vendors are paid for no-shows or late cancellations, that vendors set their own cancellation or refund rules, or that there are late fees.
+- Vendors ARE paid for no-shows and late family cancellations (see section 4). Never say vendors set their own cancellation or refund rules, or that there are late fees: the family simply gets less back.
 - About photos, say only "you keep ownership of your photos and brand". Don't say how long ORYN may use them.
 - Don't promise every vendor a storefront in ORYN Town.
 
@@ -65,9 +65,9 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 - The vendor is paid the price the listing had **when the family booked**, even if it changes later.
 - Discounts ORYN pays for don't cut vendor pay: promo codes, last-minute deals, and the 10% sibling discount.
 - Last-minute deal: a vendor can offer 5–75% off sessions starting within 24 hours that still have seats. ORYN pays the discount.
-- Vendors are paid only for **completed** sessions (checked out, or completed by the platform or ORYN).
+- Vendors are paid for **completed** sessions (checked out, or completed by the platform or ORYN), and for the part of a booking the family gives up by cancelling late or not showing (section 4).
 - **How vendors are paid today:** ORYN's finance team sends a bank transfer. Stripe payouts to vendors are switched OFF.
-- **When:** there is no fixed payout day. ORYN must start each payout within 30 days after the end of the month the session was completed in, once your bank details are confirmed.
+- **When:** there is no fixed payout day. ORYN must start each payout within 30 days after the end of the month the session was completed in (for a late cancel or no-show, the month it was earned), once your bank details are confirmed.
 - Bank details: the vendor enters only the last 4 digits of its account and routing numbers. ORYN confirms the full numbers directly before the first transfer. Each payout is recorded at the full amount earned, with no fee taken out, and shows on the Payouts page with its status and reference code.
 - Stripe payouts (monthly, $50 minimum, 14-day wait, optional paid "Get paid now") are in the Vendor Agreement and built, but **switched OFF** today. "Get paid now" is hidden and refused while off. ORYN may switch Stripe on after telling vendors.
 - ORYN may hold a payout while it looks into fraud or a dispute, and may take refunds and chargebacks out of future payouts. Payouts are in US dollars.
@@ -77,6 +77,9 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 
 - Vendors get an email for every new booking. Families get a reminder about one day before class.
 - Family cancellations use one schedule for every listing: more than 48 hours before, 100% of credits back; 24–48 hours, 50%; under 24 hours, nothing. Families can move a booking to another time for free until class starts or the child is checked in.
+- **Late cancels and no-shows pay the vendor** (since 27 Sep 2026): the vendor gets the share the family didn't get back. Under 24 hours before class, or a no-show: the vendor's full price. 24–48 hours: half. More than 48 hours: nothing. A late cancel counts as earned when the class would have started.
+- The share follows what the family actually got back: if a family gets more back (for example a Platinum loyalty member, or a refund ORYN adjusts), the vendor's share is smaller. If the vendor cancels the session, or ORYN cancels a booking, the vendor is not paid for it.
+- A no-show may only be recorded for a child who didn't come to a class that ran. Recording a false one breaks the Vendor Agreement.
 - If the vendor cancels, the family automatically gets 100% back, however close to class time. A vendor can't cancel after the child is checked in or class has started. Frequent cancelling can hurt a vendor's ranking.
 - Check-in opens **1 hour before** class. Check-out, "complete" and "no-show" open **when class starts**.
 - Once a child is checked in, the family can't cancel or move that booking in the app. They must contact support.
@@ -130,7 +133,7 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 - ❌ Recurring enrollment or automatic term billing for families. It is switched off.
 - ❌ "ORYN-verified", "vetted", "background-checked", "licensed", "insured" or "safety-certified" vendors, or any badge. ORYN also doesn't insure anyone or check insurance.
 - ❌ Guaranteed bookings, income, full classes, top ranking or AI recommendations.
-- ❌ That vendors set their own cancellation or refund rules, charge late fees, or get paid for no-shows or late cancellations.
+- ❌ That vendors set their own cancellation or refund rules or charge late fees. (Vendors DO get paid for no-shows and late cancellations — say it the way section 4 does.)
 - ❌ "Every vendor gets a storefront in ORYN Town", or that ORYN Town placement can be bought.
 - ❌ That vendors can take cash or Venmo for ORYN bookings, or quote dollar prices in chat.
 - ❌ That vendors get parents' phone numbers or emails with bookings.
