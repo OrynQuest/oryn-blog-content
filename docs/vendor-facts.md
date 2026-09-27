@@ -104,7 +104,7 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 - Quality rule: with 3+ reviews, an average below 4.0 stars puts a vendor on probation automatically. Listings stay visible, and the vendor is restored at 4.0+. This is checked daily.
 - After a completed class, a vendor can send the family short feedback: ratings for engagement, focus, social skills and confidence, strength tags, and a note.
 - The portal has an AI assistant you can type or talk to. It can show listings, bookings, reviews, revenue and today's roster. It can draft listings, add time slots, message customers, reply to reviews, mark attendance, and suggest schedules.
-- The assistant must get the vendor's tap on Confirm before it changes anything. The vendor stays responsible for what it helps write.
+- Creating a listing and messaging all upcoming customers always need the vendor's tap on Confirm on screen. Adding a time slot, replying to a review, marking attendance, messaging one customer and changing a listing's status need a tap on Confirm in chat; by voice they can be confirmed by saying yes. The vendor stays responsible for what it helps write.
 - ORYN Town: approved vendors appear as a free storefront on Main Street in ORYN's kids' game world. It shows only name, category and city: no prices, contacts or ads. Vendors can opt out any time, and placement is never sold.
 - A vendor can close its own shop from Profile once no upcoming sessions remain, and is still paid what it's owed.
 - A vendor phone app ("ORYN Quest Business") is **not** in the app stores yet. Vendors use the web portal.

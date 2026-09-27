@@ -76,7 +76,7 @@ For Hermes / Agency Hub and John. A blog post for parents may state an ORYN fact
 
 - Built into the website and the family app. Works by typing or by voice.
 - It can: search listings by what you describe and by category, show listings near you, open listing and vendor details, find similar listings, show your bookings, credits, children, favorites, subscription and next session, open the Explore filters, message a vendor, join a waitlist and check your place on it, post in the community, and prepare a booking, a reschedule or a cancellation.
-- Every change (book, move, cancel) needs the parent's tap on **Confirm**. The assistant never books on its own.
+- Booking always needs the parent's tap on **Confirm** on screen; the assistant never books on its own. In chat, a move, a cancel, joining a waitlist, a message or a post also needs a tap on Confirm. By voice, those can be confirmed by saying yes (convex/ai/voiceConfirmationPolicy.ts: tier 1 = voice may confirm, tier 2 = on-screen only).
 - It searches by category and place, not by day or time. Say "find a gymnastics class for a 4-year-old near Pasadena", then the parent picks the slot.
 - It does not "sync your calendar". Bookings land on the ORYN calendar (and Google Calendar if connected) whoever made them.
 
@@ -91,7 +91,7 @@ For Hermes / Agency Hub and John. A blog post for parents may state an ORYN fact
 - ❌ A digital pass, QR code, "show your phone" or "scan at check-in"; or that a partner or grandparent "handles check-in on their phone".
 - ❌ ORYN Play or ORYN Town "in the app" or "built into the app".
 - ❌ Filtering by day of the week, time of day, "Saturday morning", week, or city.
-- ❌ That the assistant books, moves or cancels without the parent tapping Confirm, "syncs your calendar", or finds "Saturday morning" or "small group" classes.
+- ❌ That the assistant books without the parent tapping Confirm, or moves or cancels in chat without a tap, "syncs your calendar", or finds "Saturday morning" or "small group" classes.
 - ❌ Per-vendor or per-camp cancellation windows, makeup policies "on the listing", or "check the camp's policy". One schedule for every listing.
 - ❌ Moving a "missed" lesson (only upcoming bookings move) or moving credits "to another program".
 - ❌ What a plan "fits" (one weekly class, two kids, a full season), "cheaper per class", "savings", "comes out ahead", or that vendors "price accordingly" for members.
