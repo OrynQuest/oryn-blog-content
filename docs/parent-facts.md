@@ -26,7 +26,7 @@ For Hermes / Agency Hub and John. A blog post for parents may state an ORYN fact
 ## 1. Finding classes
 
 - Explore (orynquest.com/explore) lists classes, camps, drop-ins and birthday parties, in person or online. There is also a map view.
-- Filters today: category, child's age, maximum credit cost, listing type (class, camp, drop-in, birthday party), in person or online, skill level (beginner, intermediate, advanced, all levels), favorites only, and text search. Needs filters: sensory-friendly, autism-friendly, wheelchair-accessible, accepts insurance.
+- Filters today: category, child's age, maximum credit cost, listing type (class, camp, drop-in, birthday party), in person or online, skill level (beginner, intermediate, advanced, all levels), favorites only, and text search. Needs filters: autism-friendly (labelled **Inclusive** on the website, **Autism-friendly** in the app), **Wheelchair Accessible**, **Sensory-friendly**, and insurance accepted (checked in code 27 Sep 2026). Needs filters: sensory-friendly, autism-friendly, wheelchair-accessible, accepts insurance.
 - Sort today: recommended, distance from you, credit price low or high, rating, newest.
 - There is **no** filter for day of the week, time of day, "this week", or city. A parent opens a listing to see its sessions and picks one.
 - Categories today: Arts & Crafts, Sports & Fitness, STEM & Science, Music & Dance, Tutoring & Education, Therapy & Wellness, Camps & Outdoors, Social Skills, Cooking & Baking, Language & Reading.
@@ -77,7 +77,7 @@ For Hermes / Agency Hub and John. A blog post for parents may state an ORYN fact
 - Built into the website and the family app. Works by typing or by voice.
 - It can: search listings by what you describe and by category, show listings near you, open listing and vendor details, find similar listings, show your bookings, credits, children, favorites, subscription and next session, open the Explore filters, message a vendor, join a waitlist and check your place on it, post in the community, and prepare a booking, a reschedule or a cancellation.
 - Booking always needs the parent's tap on **Confirm** on screen; the assistant never books on its own. In chat, a move, a cancel, joining a waitlist, a message or a post also needs a tap on Confirm. By voice, those can be confirmed by saying yes (convex/ai/voiceConfirmationPolicy.ts: tier 1 = voice may confirm, tier 2 = on-screen only).
-- It searches by category and place, not by day or time. Say "find a gymnastics class for a 4-year-old near Pasadena", then the parent picks the slot.
+- It can also filter by needs: autism-friendly, and accommodations such as wheelchair accessible or sensory-friendly ("find a sensory-friendly art class near Pasadena" works). It searches by category and place, not by day or time. Say "find a gymnastics class for a 4-year-old near Pasadena", then the parent picks the slot.
 - It does not "sync your calendar". Bookings land on the ORYN calendar (and Google Calendar if connected) whoever made them.
 
 ## 7. ORYN Play and ORYN Town
