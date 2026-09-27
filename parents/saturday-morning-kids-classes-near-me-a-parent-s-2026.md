@@ -39,9 +39,9 @@ Then check five things before you book:
 4. **Clear policies.** On ORYN every listing uses the same cancellation schedule: cancel more than 48 hours before and all your credits come back, 24 to 48 hours before returns half, and under 24 hours returns nothing. You can move a booking to another session for free until it starts.
 5. **Instructor fit.** Vendors on ORYN Quest describe their classes up front, and you can message them before booking, so you can judge whether a teaching style suits your child before you leave the house.
 
-## Top Saturday Morning Class Categories on ORYN Quest: Arts, Sports, STEM, Music, and More
+## Saturday Morning Class Categories on ORYN Quest: Arts, Sports, STEM, Music, and More
 
-Filter by category and age, sort by distance, open a listing, and you will see its Saturday morning sessions and open seats across Southern California:
+Filter by category and age, sort by distance, then open a listing to see its upcoming sessions and open seats, and pick a Saturday morning one if it has it:
 
 - **Arts:** Painting, ceramics, and mixed-media crafts. Parents searching "kids arts and crafts classes near me" love that Saturday studio classes keep the mess out of the kitchen.
 - **Sports:** Soccer clinics, swim lessons, gymnastics, martial arts, basketball. Swim lessons are the ones to book earliest.
@@ -50,7 +50,7 @@ Filter by category and age, sort by distance, open a listing, and you will see i
 - **Tutoring:** Saturday reading and math support for kids whose weekday afternoons are already full.
 - **Wellness:** Kids yoga and mindfulness, a nice pairing with a sibling's high-energy sports class.
 
-Every listing shows its session times and open seats, and many show an age range, so you are browsing actual open seats and skipping the phone calls to learn the real answer.
+Every listing shows its session times and open seats, and a listing can show an age range, so you are browsing actual open seats and skipping the phone calls to learn the real answer.
 
 ## How ORYN Quest Makes Saturday Booking and Check-In Easy for Busy Parents
 
@@ -105,4 +105,4 @@ A settled Saturday can look like this:
 
 Three timing tips for 2026: book popular Saturday classes a few weeks out, book spring swim early, and remember that Southern California summer camps open enrollment as early as January and February. If your plans grow faster than your credits, a top-up pack closes the gap.
 
-Download the ORYN Quest app on iOS or Android, or open [Explore on orynquest.com](/explore), set your Saturday filters once, and book your first class for this weekend.
+Download the ORYN Quest app on iOS or Android, or open [Explore on orynquest.com](/explore), set your filters once (category, your child's age, sort by distance), and book your first Saturday class for this weekend.

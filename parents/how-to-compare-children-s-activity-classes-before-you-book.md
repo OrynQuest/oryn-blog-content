@@ -63,9 +63,9 @@ A 25-minute drive for a 45-minute class means 100 minutes of round-trip time, an
 
 Once you know what you want, let ORYN narrow the field. Explore filters by category, age and credit cost, plus needs like sensory-friendly, autism-friendly or wheelchair access, and can sort by distance from you. Each listing shows its upcoming sessions and open seats, so the list matches your real week rather than your theoretical one.
 
-For fuzzy, real-life questions, ask the ORYN AI assistant. By voice or chat, you can say "find a gymnastics class for a 4-year-old near Irvine" or "compare two art studios in Pasadena," and the assistant searches, books once you tap Confirm, and the session lands on your ORYN calendar (and on Google Calendar, if you connect it). It can also answer account questions, like how many credits you have left before summer camp registration opens.
+For fuzzy, real-life questions, ask the ORYN AI assistant. By voice or chat, you can say "find a gymnastics class for a 4-year-old near Irvine" or "show me art studios in Pasadena," and the assistant searches, books once you tap Confirm, and the session lands on your ORYN calendar (and on Google Calendar, if you connect it). It can also answer account questions, like how many credits you have left before summer camp registration opens.
 
-Reviews work best when you read them like a detective. Skip the five-star summaries and look for specifics: how the instructor handled a child who did not want to participate, whether the instructor learned names in the first session, what happened during a fire drill. Reviews from parents in your own city carry more weight than reviews from somewhere else.
+Reviews work best when you read them like a detective. Skip the five-star summaries and look for specifics: how the instructor handled a child who did not want to participate, whether the instructor learned names in the first session, what happened during a fire drill.
 
 ## Try a Class With Credits Instead of Committing to a Full Season
 
