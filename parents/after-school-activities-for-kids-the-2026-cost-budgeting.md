@@ -55,7 +55,7 @@ ORYN replaces a stack of per-studio registrations with one monthly membership bu
 
 The structural win is cash flow. Instead of paying $340 upfront for an eight-week session plus a $50 registration fee, credits draw down as you book. Credits work across categories too, so the same pool covers Tuesday art, Saturday swim, and a spring robotics workshop.
 
-One-time top-up credit packs handle the irregular stuff: a birthday pottery class, a trial session before committing to a full session, or a last-minute camp spot when a teacher in-service day appears out of nowhere. The ORYN digital pass keeps check-in quick and gives you a running record of what you have booked, used, and spent, which turns a kids extracurricular budget from guesswork into a receipt you can actually read.
+One-time top-up credit packs handle the irregular stuff: a birthday pottery class, a trial session before committing to a full session, or a last-minute camp spot when a teacher in-service day appears out of nowhere. Check-in needs nothing from you (the vendor checks your child in from the class roster; there is nothing to print or scan), and your Credits & Wallet page keeps a running record of what you have bought and spent, which turns a kids extracurricular budget from guesswork into a receipt you can actually read.
 
 ## 5. Budgeting for Multiple Kids Without Duplicating Fees
 
