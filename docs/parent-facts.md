@@ -40,6 +40,7 @@ For Hermes / Agency Hub and John. A blog post for parents may state an ORYN fact
 - How a price is set: the vendor sets a dollar price per seat and ORYN turns it into credits, rounding up (today $20 becomes 23 credits). Don't put this arithmetic in a parent post; families see only credits.
 - Four monthly plans today, with ORYN's own descriptions: **Play** "Perfect for trying out activities", **Plus** "Great for regular activities", **Pro** "For active families" (the "Popular" tier), **Premium** "Our best value per credit". Bigger plans cost less per credit. Prices and credit counts live on orynquest.com/pricing; link there rather than quoting numbers.
 - Credits arrive monthly. Parents can upgrade, downgrade or cancel any time, self-serve, with no long-term contract.
+- A monthly plan IS ORYN's membership: the site says "Start Your Membership" and "ORYN Quest Membership", and the legal documents call it a Membership. "Membership" and "plan" may be used for the same thing. A plan is one fixed monthly price, so it turns a family's activity spending into one predictable monthly amount. Don't claim it costs less than paying elsewhere (section 8).
 - One-time credit packs (the "Boost" packs) need no subscription. A plan is the better deal for anyone booking regularly.
 - Siblings booked into the same session get a sibling discount (10% today). ORYN pays it.
 - Promo codes exist. ORYN pays for them; the vendor is paid in full.
