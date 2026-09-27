@@ -26,7 +26,7 @@ For Hermes / Agency Hub and John. A blog post for parents may state an ORYN fact
 ## 1. Finding classes
 
 - Explore (orynquest.com/explore) lists classes, camps, drop-ins and birthday parties, in person or online. There is also a map view.
-- Filters today: category, child's age, maximum credit cost, listing type (class, camp, drop-in, birthday party), in person or online, skill level (beginner, intermediate, advanced, all levels), favorites only, and text search. Needs filters: **Inclusive** (autism-friendly), **Wheelchair Accessible**, **Sensory-friendly** and **Insurance Accepted** (web and family app; checked in code 27 Sep 2026). Needs filters: sensory-friendly, autism-friendly, wheelchair-accessible, accepts insurance.
+- Filters today: category, child's age, maximum credit cost, listing type (class, camp, drop-in, birthday party), in person or online, skill level (beginner, intermediate, advanced, all levels), favorites only, and text search. Needs filters: autism-friendly (labelled **Inclusive** on the website, **Autism-friendly** in the app), **Wheelchair Accessible**, **Sensory-friendly**, and insurance accepted (checked in code 27 Sep 2026). Needs filters: sensory-friendly, autism-friendly, wheelchair-accessible, accepts insurance.
 - Sort today: recommended, distance from you, credit price low or high, rating, newest.
 - There is **no** filter for day of the week, time of day, "this week", or city. A parent opens a listing to see its sessions and picks one.
 - Categories today: Arts & Crafts, Sports & Fitness, STEM & Science, Music & Dance, Tutoring & Education, Therapy & Wellness, Camps & Outdoors, Social Skills, Cooking & Baking, Language & Reading.
