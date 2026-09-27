@@ -1,7 +1,7 @@
 ---
-title: "Weekend Activities for Kids on Any Budget: 2026 Parent's Guide"
+title: "Weekend Activities for Kids on Any Budget (2026 Guide)"
 description: "Free and low-cost weekend ideas for Southern California kids, pay-per-visit classes, and how ORYN credits keep weekend activity spending predictable."
-date: 2026-09-25T13:35:41.188Z
+date: 2026-09-27T20:30:00.000Z
 status: "published"
 author: "ORYN Quest Team"
 keyword: "weekend activities for kids near me"
@@ -54,7 +54,7 @@ When camp season arrives, top-up credit packs can cover extra sessions. Spring b
 
 Families searching for sensory friendly kids classes near me usually need more than a listing title. They need to know whether the room is loud, whether the lights are bright, whether the group is small, and whether a child can take a movement break. ORYN Quest gives parents two practical starting points.
 
-First, use the needs filters on [Explore](/explore) (sensory-friendly, autism-friendly, wheelchair-accessible), or ask ORYN AI, the built-in voice-and-chat assistant, for sensory-friendly art classes near Pasadena, then pick a Saturday slot. Second, open the parent community. Southern California parents can share which studios, pools, gyms, and instructors have welcomed their children, and they can suggest what to ask before booking.
+First, use the filters on [Explore](/explore) (Inclusive, Wheelchair Accessible, Sensory-friendly), or ask ORYN AI, the built-in voice-and-chat assistant, for sensory-friendly art classes near Pasadena, then pick a Saturday slot. Second, open the parent community. Southern California parents can share which studios, pools, gyms, and instructors have welcomed their children, and they can suggest what to ask before booking.
 
 Good questions to ask before you book include class size, music volume, lighting, seating, whether caregivers can observe, and whether the space has a quiet corner. Early Saturday sessions are often calmer than midday ones. Some gyms and swim schools offer sensory-friendly hours with smaller groups and reduced noise. Before booking, confirm the details that matter most to your child, especially if your family needs accessible parking, step-free entry, or a particular communication style from instructors.
 
