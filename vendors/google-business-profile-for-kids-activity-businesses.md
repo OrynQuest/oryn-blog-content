@@ -19,7 +19,7 @@ draft: false
 
 ## Why parents find you here first
 
-When a parent types "swim lessons near me" or "art class for 6 year olds Pasadena", the map results often show up before any website. Those results come from Google Business Profiles. A complete, accurate profile will not guarantee a top spot, but a thin or wrong one makes it easy for a parent to pick the studio down the road.
+When a parent types "swim lessons near me" or "art class for 6 year olds Pasadena", the map results often show up before any website. Those results come from Google Business Profiles. A complete, accurate profile is no promise of a top spot, but a thin or wrong one makes it easy for a parent to pick the studio down the road.
 
 This checklist walks through each part of the profile in the order you will meet it.
 
