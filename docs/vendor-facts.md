@@ -72,6 +72,7 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 - Stripe payouts (monthly, $50 minimum, 14-day wait, optional paid "Get paid now") are in the Vendor Agreement and built, but **switched OFF** today. "Get paid now" is hidden and refused while off. ORYN may switch Stripe on after telling vendors.
 - ORYN may hold a payout while it looks into fraud or a dispute, and may take refunds and chargebacks out of future payouts. Payouts are in US dollars.
 - Vendors handle their own taxes. ORYN keeps earnings records and issues tax forms (such as 1099s) where the law requires.
+- ORYN does not give tax advice. For what handling your own taxes means, point vendors to the IRS "Self-employed individuals tax center" (irs.gov/businesses/small-businesses-self-employed/self-employed-individuals-tax-center) or a tax professional. Use that exact name; don't paraphrase what the IRS says.
 
 ## 4. Bookings, cancellations, no-shows
 
