@@ -41,6 +41,7 @@ For Hermes / Agency Hub and John. A blog post for parents may state an ORYN fact
 - Four monthly plans today, with ORYN's own descriptions: **Play** "Perfect for trying out activities", **Plus** "Great for regular activities", **Pro** "For active families" (the "Popular" tier), **Premium** "Our best value per credit". Bigger plans cost less per credit. Prices and credit counts live on orynquest.com/pricing; link there rather than quoting numbers.
 - Credits arrive monthly. Parents can upgrade, downgrade or cancel any time, self-serve, with no long-term contract.
 - Credits from a plan **don't expire**: unused credits roll over and each month's credits are added on top (Refund Policy §3.5). Promotional or bonus credits may have an end date, and parents are told it when they get them.
+- Credits belong to the account they're in. They can't be sold, transferred or gifted to another account (Parent Terms §14.6).
 - A monthly plan IS ORYN's membership: the site says "Start Your Membership" and "ORYN Quest Membership", and the legal documents call it a Membership. "Membership" and "plan" may be used for the same thing. A plan is one fixed monthly price, so it turns a family's activity spending into one predictable monthly amount. Don't claim it costs less than paying elsewhere (section 8).
 - One-time credit packs (the "Boost" packs) need no subscription. A plan is the better deal for anyone booking regularly.
 - Siblings booked into the same session get a sibling discount (10% today). ORYN pays it.
