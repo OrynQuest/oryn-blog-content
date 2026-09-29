@@ -13,7 +13,7 @@ tags: [kids-classes, kids, classes, parents]
 
 # Kids Classes in Southern California: What Families Actually Pay in 2026 (and How to Keep It Predictable)
 
-Kids' classes in Southern California vary widely in price depending on the activity type, instructor experience, session length, and location, so a single flat rate rarely tells the full story. On ORYN Quest, every listing shows its credit price per seat before you confirm, and monthly membership plans turn scattered activity spending into one predictable amount. Sibling discounts, roll-over credits, and one clear cancellation window add further protection.
+Kids' classes in Southern California vary widely in price depending on the activity type, instructor experience, session length, and location, so a single flat rate rarely tells the full story. On ORYN Quest, every listing shows its credit price per seat before you confirm, and monthly membership plans turn scattered activity spending into one predictable amount. Sibling discounts, roll-over credits, and one standard cancellation schedule add further protection.
 
 ## What Shapes Kids' Class and Camp Pricing Across Southern California in 2026
 ![A parent and young child shape clay bowls at a wooden table in a sunlit studio](/blog-assets/what-kids-activities-really-cost-in-southern-california-2026-s1.jpg)
@@ -70,7 +70,7 @@ It is also worth watching the Deals page, where vendors can discount sessions st
 
 ## Cancellation and Reschedule Policies That Protect Your Credits
 
-Kids get sick, nap schedules shift, and a birthday party invite appears out of nowhere. ORYN Quest keeps this simple with one schedule across every listing, so you never have to dig through fine print for each studio:
+Kids get sick, nap schedules shift, and a birthday party invite appears out of nowhere. ORYN Quest keeps this simple with one standard schedule across every listing, so you never have to dig through fine print for each studio:
 
 - **More than 48 hours before the session:** 100% of credits back
 - **24 to 48 hours before:** 50% back
