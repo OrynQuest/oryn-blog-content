@@ -37,7 +37,7 @@ Then check five things before you book:
 1. **Drive time.** Under 20 minutes each way keeps the morning pleasant. ORYN Quest can sort listings by distance from you, so you see what is genuinely near.
 2. **Sibling overlap.** Many studios run back-to-back Saturday slots, so a 6-year-old can take art at 9 a.m. while a 10-year-old takes martial arts at 10 a.m. in the same plaza.
 3. **Low-commitment booking.** Credit-based booking lets your child try a class before you commit to a full session. A kid who balks at soccer may love it after one visit, or turn out to be a swim kid all along.
-4. **Clear policies.** On ORYN every listing uses the same cancellation schedule: cancel more than 48 hours before and all your credits come back, 24 to 48 hours before returns half, and under 24 hours returns nothing. You can move a booking to another session for free until it starts.
+4. **Clear policies.** On ORYN every listing uses the same cancellation schedule: cancel more than 48 hours before and all your credits come back, 24 to 48 hours before returns half, and under 24 hours returns nothing. You can move a booking to another session for free while it is more than 48 hours away.
 5. **Instructor fit.** Vendors on ORYN Quest describe their classes up front, and you can message them before booking, so you can judge whether a teaching style suits your child before you leave the house.
 
 ## Saturday Morning Class Categories on ORYN Quest: Arts, Sports, STEM, Music, and More

@@ -74,7 +74,7 @@ The listed rate is rarely the full cost. Before enrolling anywhere, ask these fo
 
 1. **Is there an annual registration or enrollment fee?** These commonly run $30 to $75 per child, per program.
 2. **What gear is required, and what does it cost?** A martial arts uniform runs $60 to $110, instrument rental runs $25 to $45 monthly, leotards, dance shoes and cleats add up fast, and art or STEM programs may add material fees.
-3. **What is the makeup policy?** Some studios offer a makeup class for a missed session with notice; others do not. This matters enormously for families managing unpredictable schedules. On ORYN, cancelling more than 48 hours before returns all credits, 24 to 48 hours half, under 24 hours none; you can move a booking for free until it starts.
+3. **What is the makeup policy?** Some studios offer a makeup class for a missed session with notice; others do not. This matters enormously for families managing unpredictable schedules. On ORYN, cancelling more than 48 hours before returns all credits, 24 to 48 hours half, under 24 hours none; you can move a booking to another session for free while it is more than 48 hours away.
 4. **How are siblings handled?** Some programs take a percentage off the second child's tuition; others charge full price for parallel classes. The difference compounds quickly with three kids. On ORYN, siblings booked into the same session get a sibling discount (10% today) that ORYN pays.
 
 Dance recital fees commonly run $85 to $175 per dancer, and costumes can add $60 to $120 each, so factor them in when comparing, say, a $95 monthly class against a $120 one that includes performances.

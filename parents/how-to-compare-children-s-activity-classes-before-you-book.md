@@ -57,7 +57,7 @@ A 25-minute drive for a 45-minute class means 100 minutes of round-trip time, an
 - **Distance:** Under 15 minutes is the sweet spot for weekly classes. Over 25 minutes, weigh whether the activity is worth the recurring drive.
 - **Parking:** A free lot beats circling metered street parking in a beach town with a hungry preschooler in the back seat.
 - **Sibling plan:** Look for a shaded bench, a stroller-friendly entrance, or a library or playground within walking distance for the kid who waits. Some studios make room for waiting siblings, so it is worth asking.
-- **Cancellation window:** On ORYN, every listing uses the same schedule: cancel more than 48 hours before the session and all your credits come back, 24 to 48 hours before returns half, and under 24 hours returns nothing. You can also move a booking to another session for free until it starts. Outside ORYN, policies vary, so read them before booking rather than after the fact.
+- **Cancellation window:** On ORYN, every listing uses the same schedule: cancel more than 48 hours before the session and all your credits come back, 24 to 48 hours before returns half, and under 24 hours returns nothing. You can also move a booking to another session for free while it is more than 48 hours away. Outside ORYN, policies vary, so read them before booking rather than after the fact.
 - **Check-in:** Nothing to print or scan. The vendor checks your child in from their roster when you arrive, and the booking lives under My Bookings if you need the details while carrying a water bottle and a leotard.
 
 ## Use ORYN's Filters, Reviews, and Nova to Shortlist Classes Faster

@@ -16,7 +16,7 @@ areas: [Southern California]
 If your Tuesdays involve a snack handoff in a parking lot, a leotard emergency, and a 3:45 sprint across town, you already know the real currency of after-school activities for kids: time and money, in that order. This guide lays out what Southern California families actually pay in 2026, the costs hiding under the sticker price, and how a credit-based ORYN membership can smooth out the spikes.
 
 ## 1. Why Activity Costs Feel Higher in 2026
-![A sunny windowsill with a child's violin, a ballet slipper, a cup of paint brushes, a folded teal T-shirt and a notebook](/blog-assets/after-school-activities-for-kids-the-2026-cost-budgeting-s1.jpg)
+![A sunny windowsill with a small violin, a ballet slipper, a cup of paint brushes, a folded teal T-shirt and a notebook](/blog-assets/after-school-activities-for-kids-the-2026-cost-budgeting-s1.jpg)
 
 
 Three forces are pushing prices up across Los Angeles, Orange, San Diego, Riverside, and Ventura counties. Commercial rent near family neighborhoods keeps climbing, and studios pass that along. Instructor pay has risen with California wage floors, which matters enormously in businesses running on 6-to-1 and 8-to-1 student-to-teacher ratios. Insurance premiums for youth sports and swim programs have grown steadily since 2020, especially anything involving water, trampolines, or gymnastics equipment.
