@@ -73,7 +73,8 @@ def log(msg: str) -> None:
 def sh(*cmd: str, check: bool = True) -> str:
     res = subprocess.run(cmd, capture_output=True, text=True)
     if check and res.returncode != 0:
-        raise RuntimeError(f"{' '.join(cmd)} failed ({res.returncode}): {res.stderr.strip() or res.stdout.strip()}")
+        shown = " ".join(cmd[:5]) + (" …" if len(cmd) > 5 else "")
+        raise RuntimeError(f"{shown} failed ({res.returncode}): {(res.stderr.strip() or res.stdout.strip())[:300]}")
     return res.stdout.strip()
 
 
@@ -379,6 +380,20 @@ def revert(target: str, slugs: list[str], mode: str, run_id: str, paths: list[st
     return pr_url or "(dry run)", f"reverted {short} through {pr_url or 'a pull request (dry run)'}"
 
 
+def cleanup_after_failure(mode: str, run_id: str) -> None:
+    """Leave no half-made branches behind (a rehearsal's throwaway copy of main,
+    or a revert branch whose pull request could not be opened)."""
+    subprocess.run(["git", "revert", "--abort"], capture_output=True)
+    subprocess.run(["git", "switch", "--quiet", "--detach", "origin/main"], capture_output=True)
+    if mode == "rehearsal":
+        subprocess.run(["git", "push", "--quiet", "origin", "--delete", f"live-check-rehearsal-{run_id}"], capture_output=True)
+        for ref in git("ls-remote", "--heads", "origin", "revert/*", check=False).splitlines():
+            name = ref.split("refs/heads/")[-1]
+            log_msg = git("log", "-1", "--format=%s", ref.split()[0], check=False)
+            if "rehearsal" in log_msg or name.endswith(f"-{run_id}"):
+                subprocess.run(["git", "push", "--quiet", "origin", "--delete", name], capture_output=True)
+
+
 def open_issue(post: dict, action: str, mode: str) -> str:
     title = f"Live check failed: {post['slug']}"
     if mode == "rehearsal":
@@ -487,14 +502,18 @@ def main() -> int:
         else:
             actions[post["path"]] = f"not reverted: {reason}"
     for target, group in by_target.items():
-        pr, result = revert(target, [p["slug"] for p in group], args.mode, args.run_id, [p["path"] for p in group])
+        try:
+            pr, result = revert(target, [p["slug"] for p in group], args.mode, args.run_id, [p["path"] for p in group])
+        except Exception as err:  # a failed revert must still leave an issue behind
+            pr, result = None, f"the revert could not be completed: {err}"[:600]
+            cleanup_after_failure(args.mode, args.run_id)
         log(f"  {result}")
         for p in group:
             actions[p["path"]] = result if pr else f"not reverted: {result}"
     for post in failing:
         url = open_issue(post, actions[post["path"]], args.mode)
         log(f"  issue: {url}")
-        log(f"::error title=Live check failed::{post['slug']}: {actions[post['path']]}")
+        log(f"::error title=Live check failed::{post['slug']}: {' '.join(actions[post['path']].split())}")
         summary.append(f"\n- **{post['slug']}**: {actions[post['path']]} — issue {url}")
     write_summary(summary)
     return 0 if test_mode else 1

@@ -323,7 +323,7 @@ def publish(new_rows: list[dict], message: str) -> None:
                     encoding="utf-8",
                 )
             sh("git", "add", "-A", cwd=work)
-            sh("git", "commit", "--quiet", "-m", message, cwd=work)
+            sh("git", "commit", "--quiet", "-m", message + os.environ.get("LEDGER_COMMIT_TRAILER", ""), cwd=work)
             res = subprocess.run(["git", "push", "--quiet", "origin", f"HEAD:refs/heads/{BRANCH}"], cwd=work, capture_output=True, text=True)
             if res.returncode == 0:
                 print(f"Pushed {len(added)} row(s) to {BRANCH}.")
