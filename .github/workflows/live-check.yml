@@ -1,0 +1,93 @@
+name: Live check (posts on orynquest.com)
+
+# Gate 5 of the Agency Hub automation plan (QUEST, 2 Oct 2026). After a post is
+# added or changed on main, fetch it from https://orynquest.com/blog/<slug> as
+# Googlebot and as GPTBot: HTTP 200, its title (or seoTitle) in a <title>, not a
+# "not found" page, not noindex. Retries for about 3 minutes while the push
+# webhook refreshes the site, then looks once more at 11 minutes (the site's
+# own cache period) before acting. If it still fails, the commit that added or
+# changed the post is reverted through a pull request merged with this
+# workflow's token, and an issue records the evidence. The rules that stop a
+# wrong revert are in .github/scripts/live_gate.py (site healthy, the commit
+# touched only that post and blog images, never a revert of a revert, nobody
+# changed the post since, at most one auto-revert per post per day).
+#
+# Security: runs only this repository's main branch and reads the public site.
+# It never checks out or runs pull-request code.
+#
+# Note: a push made with a workflow's GITHUB_TOKEN (the Agency Hub auto-merge)
+# does not start other workflows, so auto-merge-agencyhub.yml starts this one
+# with workflow_dispatch after it merges.
+
+on:
+  push:
+    branches: [main]
+    paths: ["parents/**", "vendors/**"]
+  workflow_dispatch:
+    inputs:
+      sha:
+        description: "Commit on main to check (empty = the head of main)"
+        required: false
+        default: ""
+      paths:
+        description: "Post files to check, space-separated (empty = the posts that commit added or changed)"
+        required: false
+        default: ""
+      mode:
+        description: "live = really revert; dry-run = only report; rehearsal = revert a stand-in commit on a throwaway branch"
+        type: choice
+        options: [live, dry-run, rehearsal]
+        default: live
+      simulate_fail:
+        description: "Test only: fetch a URL that cannot exist, so the check fails"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  live-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      # Today the site may stream <title> into <body> for crawlers, so a <title>
+      # anywhere counts. Set to "true" once the release that keeps <title> in
+      # <head> ships (checked 2 Oct 2026: all 13 live posts already have it there).
+      REQUIRE_TITLE_IN_HEAD: "false"
+    steps:
+      - name: Check out main (this repository's own posts, never pull-request code)
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'push' && github.sha || 'main' }}
+          fetch-depth: 0
+      - name: Check the posts live, revert if broken
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EVENT: ${{ github.event_name }}
+          PUSH_BEFORE: ${{ github.event.before }}
+          PUSH_AFTER: ${{ github.sha }}
+          IN_SHA: ${{ inputs.sha }}
+          IN_PATHS: ${{ inputs.paths }}
+          IN_MODE: ${{ inputs.mode }}
+          IN_SIMULATE: ${{ inputs.simulate_fail }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          args=()
+          if [ "$EVENT" = "push" ]; then
+            after="$PUSH_AFTER"; before="$PUSH_BEFORE"
+            # A brand-new branch has no "before"; check the pushed commit alone.
+            if [ -z "$before" ] || [ "$before" = "0000000000000000000000000000000000000000" ]; then before=""; fi
+            mode=live
+          else
+            after=$(git rev-parse "${IN_SHA:-HEAD}")
+            before=$(git rev-parse --verify --quiet "${after}^1" || true)
+            mode="${IN_MODE:-live}"
+            [ -n "$IN_PATHS" ] && args+=(--paths "$IN_PATHS")
+            [ "$IN_SIMULATE" = "true" ] && args+=(--simulate-fail)
+          fi
+          python3 .github/scripts/live_gate.py --before "$before" --after "$after" --mode "$mode" "${args[@]}"

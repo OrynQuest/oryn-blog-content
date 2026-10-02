@@ -1,0 +1,57 @@
+name: Gate ledger (shadow mode)
+
+# Shadow mode of the Agency Hub automation plan (QUEST, 2 Oct 2026). When an
+# Agency Hub pull request closes, record what the gates said (the hidden
+# `<!-- gate-verdict -->` comment from auto-merge-agencyhub.yml) and what a
+# person did — merged (and by whom, changed first or not) or closed — as one
+# JSON line in ledger/gate-ledger.jsonl on the unprotected `gate-ledger`
+# branch, and rebuild ledger/STREAK.md: the run of agreements per folder
+# against the switch-off bar (15 in a row, zero "too loose"). Rules:
+# .github/scripts/gate_ledger.py.
+#
+# Security: pull_request_target runs this workflow from main. It reads the
+# pull request through the API as data and never checks out its code. It
+# writes only to the gate-ledger branch, never to main.
+
+on:
+  pull_request_target:
+    types: [closed]
+  workflow_dispatch:
+    inputs:
+      pr:
+        description: "Pull request number to record"
+        required: true
+      backfill:
+        description: "Record as a backfilled row (never counts toward the streak)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write # the gate-ledger branch only
+  pull-requests: read
+  issues: read
+
+jobs:
+  record:
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.event.pull_request.head.ref, 'agencyhub/')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the rules (main), never the pull request
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Record the verdict and the decision
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number || inputs.pr }}
+          BACKFILL: ${{ inputs.backfill }}
+          SENDER: ${{ github.event.sender.login }}
+        run: |
+          set -euo pipefail
+          [[ "$PR" =~ ^[0-9]+$ ]] || { echo "not a pull request number: $PR"; exit 1; }
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          extra=()
+          [ "${BACKFILL:-false}" = "true" ] && extra+=(--backfill)
+          python3 .github/scripts/gate_ledger.py record --pr "$PR" "${extra[@]}"

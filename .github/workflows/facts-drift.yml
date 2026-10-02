@@ -1,0 +1,73 @@
+name: Fact sheets vs the code
+
+# Gate 6 of the Agency Hub automation plan (QUEST, 2 Oct 2026): the facts come
+# FROM THE CODE. The site publishes https://orynquest.com/facts.json, built from
+# its own constants on every release; this checks every day (and whenever the
+# fact sheets change) that docs/parent-facts.md and docs/vendor-facts.md still
+# state each number and phrase in it (.github/scripts/facts_drift.py), and keeps
+# ONE issue, "Fact sheets drifted from the code", up to date — closed when the
+# sheets match. While /facts.json answers 404 (until the release that adds it)
+# the job skips with a notice.
+#
+# Security: reads this repository's main branch and the public site only.
+
+on:
+  schedule:
+    - cron: "41 14 * * *" # every day 14:41 UTC (07:41 Pacific)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["docs/**", ".github/scripts/facts_drift.py"]
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: facts-drift
+  cancel-in-progress: true
+
+jobs:
+  drift:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Compare the fact sheets with /facts.json
+        id: drift
+        run: python3 .github/scripts/facts_drift.py --url https://orynquest.com/facts.json --out /tmp/drift.md
+      - name: Keep the issue up to date
+        if: steps.drift.outputs.status != 'skipped'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATUS: ${{ steps.drift.outputs.status }}
+          COUNT: ${{ steps.drift.outputs.count }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          title="Fact sheets drifted from the code"
+          num=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 100 --search "\"$title\" in:title" \
+                --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -1)
+          if [ "$STATUS" = "drift" ]; then
+            {
+              echo "**$COUNT fact(s)** in https://orynquest.com/facts.json (generated from the site's code) are not stated on the fact sheets the Agency Hub writes from."
+              echo
+              cat /tmp/drift.md
+              echo
+              echo "Fix the sheet (or, if the sheet is right, the code). Updated $(date -u '+%Y-%m-%d %H:%M UTC') by $RUN_URL; closes itself when the sheets match."
+              echo
+              echo "_Kept up to date by .github/workflows/facts-drift.yml (gate 6 of the Agency Hub automation plan)._"
+            } > /tmp/body.md
+            if [ -n "$num" ]; then
+              gh issue edit "$num" --repo "$GITHUB_REPOSITORY" --body-file /tmp/body.md; echo "Updated issue #$num"
+            else
+              gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body-file /tmp/body.md
+            fi
+          elif [ -n "$num" ]; then
+            gh issue close "$num" --repo "$GITHUB_REPOSITORY" --comment "The fact sheets match /facts.json again ($RUN_URL)."
+          else
+            echo "The fact sheets match /facts.json."
+          fi

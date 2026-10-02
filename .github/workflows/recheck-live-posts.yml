@@ -1,0 +1,94 @@
+name: Re-check every live post
+
+# Gate 7 of the Agency Hub automation plan (QUEST, 2 Oct 2026): when a rule or a
+# fact changes, every post already on the site is checked again — not only new
+# pull requests. Runs .github/scripts/check-post.sh on every post in parents/
+# and vendors/ (drafts are not live, so they are skipped) every day, by hand,
+# and whenever the rules (.github/scripts/**) or the fact sheets (docs/**)
+# change. Keeps ONE issue, "Live posts that break the rules", up to date with
+# the failures, and closes it when there are none.
+#
+# Security: reads this repository's own main branch only.
+
+on:
+  schedule:
+    - cron: "17 14 * * *" # every day 14:17 UTC (07:17 Pacific)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["docs/**", ".github/scripts/**"]
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: recheck-live-posts
+  cancel-in-progress: true
+
+jobs:
+  recheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Check every post
+        id: check
+        run: |
+          set -euo pipefail
+          : > /tmp/problems.md
+          total=0; bad=0
+          for f in parents/*.md vendors/*.md; do
+            [ -f "$f" ] || continue
+            if awk 'NR==1 && $0!="---" {exit} NR>1 && /^---$/ {exit} NR>1 {print}' "$f" | grep -Eqi '^draft:[[:space:]]*"?true"?[[:space:]]*$'; then
+              echo "skip $f (draft)"; continue
+            fi
+            total=$((total+1))
+            out=$(bash .github/scripts/check-post.sh "$f")
+            if [ -n "$out" ]; then
+              bad=$((bad+1))
+              slug=$(basename "$f" .md)
+              { echo "### [$slug](https://orynquest.com/blog/$slug) — \`$f\`"; echo; echo "$out"; echo; } >> /tmp/problems.md
+              echo "::warning title=Post breaks the rules::$f"
+            fi
+          done
+          echo "Checked $total live posts; $bad break the rules."
+          echo "total=$total" >> "$GITHUB_OUTPUT"
+          echo "bad=$bad" >> "$GITHUB_OUTPUT"
+          { echo "### Re-check of every live post"; echo; echo "$bad of $total live posts break the rules."; echo; cat /tmp/problems.md; } >> "$GITHUB_STEP_SUMMARY"
+      - name: Keep the issue up to date
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TOTAL: ${{ steps.check.outputs.total }}
+          BAD: ${{ steps.check.outputs.bad }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          RULES_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          title="Live posts that break the rules"
+          num=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 100 --search "\"$title\" in:title" \
+                --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -1)
+          if [ "$BAD" -gt 0 ]; then
+            {
+              echo "**$BAD of $TOTAL live posts** break the rules in \`.github/scripts/check-post.sh\` (the same check every Agency Hub pull request gets)."
+              echo
+              echo "Updated $(date -u '+%Y-%m-%d %H:%M UTC') by $RUN_URL (rules at \`${RULES_SHA:0:7}\`). Fix the post on \`main\`; this issue closes itself when every post passes."
+              echo
+              cat /tmp/problems.md
+              echo "_Kept up to date by .github/workflows/recheck-live-posts.yml (gate 7 of the Agency Hub automation plan)._"
+            } > /tmp/body.md
+            if [ -n "$num" ]; then
+              gh issue edit "$num" --repo "$GITHUB_REPOSITORY" --body-file /tmp/body.md
+              echo "Updated issue #$num"
+            else
+              gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body-file /tmp/body.md
+            fi
+          elif [ -n "$num" ]; then
+            gh issue close "$num" --repo "$GITHUB_REPOSITORY" --comment "All $TOTAL live posts pass the rules now ($RUN_URL)."
+            echo "Closed issue #$num"
+          else
+            echo "All $TOTAL live posts pass; no issue to update."
+          fi

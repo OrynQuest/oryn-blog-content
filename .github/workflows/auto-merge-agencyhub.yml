@@ -10,6 +10,15 @@ name: Auto-merge Agency Hub posts
 # the safety net: a post that breaks an editorial hard rule is hidden until
 # fixed, never a broken site.
 #
+# Shadow mode (2 Oct 2026, the Agency Hub automation plan): every check leaves
+# a hidden verdict in its pull-request comment, `<!-- gate-verdict: pass|fail -->`
+# plus the commit it judged, `<!-- gate-head: <sha> -->`. The verdict is the
+# gates' own judgement of the post (contract + copy rules) — the hold for a
+# person (HOLD_NEW_POSTS, edits to live posts) is a policy, not a verdict, so
+# it does not change it. gate-ledger.yml compares it with what a person then
+# did. A post this workflow merges itself is handed to live-check.yml and
+# gate-ledger.yml (a merge made with the workflow token starts no workflow).
+#
 # Contract: README.md in this repository.
 
 on:
@@ -19,6 +28,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  actions: write # start live-check.yml and gate-ledger.yml after a merge
 
 jobs:
   check-and-merge:
@@ -46,12 +56,16 @@ jobs:
           files=$(gh api "repos/${GITHUB_REPOSITORY}/pulls/${PR}/files" --paginate --jq '.[] | "\(.status) \(.filename)"')
           echo "$files"
           fail=""
+          # problems = the gates' verdict (shadow mode); the hold lines below are
+          # policy, kept out of it.
+          problems=0
+          problem() { fail="$fail\n$1"; problems=$((problems+1)); }
           while read -r status file; do
             [ -z "$file" ] && continue
             case "$file" in
               parents/*.md|vendors/*.md) ;;
               public/blog/*.png|public/blog/*.jpg|public/blog/*.jpeg|public/blog/*.webp) ;;
-              *) fail="$fail\n- $file is outside parents/, vendors/ or public/blog/";;
+              *) problem "- $file is outside parents/, vendors/ or public/blog/";;
             esac
             case "$status" in
               added)
@@ -66,22 +80,26 @@ jobs:
                 # nobody looking).
                 if [[ "$file" == *.md ]]; then fail="$fail\n- $file: changes an existing post — needs a human look before it goes live";
                 else fail="$fail\n- $file: replaces an image on an existing post — needs a human look before it goes live"; fi;;
-              *) fail="$fail\n- $file: $status is not allowed (only add or modify)";;
+              *) problem "- $file: $status is not allowed (only add or modify)";;
             esac
             if [[ "$file" == *.md ]]; then
               fm=$(gh api "repos/${GITHUB_REPOSITORY}/contents/${file}?ref=${HEAD_SHA}" --jq '.content' | base64 -d | awk 'NR==1 && $0!="---" {bad=1} NR>1 && /^---$/ {done=1} NR>1 && !done && !bad {print} END {exit bad}')
               for key in title description date; do
-                echo "$fm" | grep -Eq "^${key}:[[:space:]]*[^[:space:]]" || fail="$fail\n- $file: front-matter is missing ${key}"
+                echo "$fm" | grep -Eq "^${key}:[[:space:]]*[^[:space:]]" || problem "- $file: front-matter is missing ${key}"
               done
               gh api "repos/${GITHUB_REPOSITORY}/contents/${file}?ref=${HEAD_SHA}" --jq '.content' | base64 -d > /tmp/post.md
               rules=$(bash .github/scripts/check-post.sh /tmp/post.md "$file")
-              [ -n "$rules" ] && fail="$fail\n$rules"
+              [ -n "$rules" ] && problem "$rules"
               base=$(basename "$file" .md)
-              echo "$base" | grep -Eq '^[a-z0-9]+(-[a-z0-9]+)*$' || fail="$fail\n- $file: slug must be lowercase words joined by hyphens"
+              echo "$base" | grep -Eq '^[a-z0-9]+(-[a-z0-9]+)*$' || problem "- $file: slug must be lowercase words joined by hyphens"
             fi
           done <<< "$files"
+          if [ "$problems" -gt 0 ]; then verdict=fail; else verdict=pass; fi
+          echo "verdict=$verdict" >> "$GITHUB_OUTPUT"
+          printf '\n<!-- gate-verdict: %s -->\n<!-- gate-head: %s -->\n' "$verdict" "$HEAD_SHA" > /tmp/verdict.txt
           if [ -n "$fail" ]; then
             printf 'Not merged automatically:%b\n' "$fail" | tee /tmp/reason.txt
+            cat /tmp/verdict.txt >> /tmp/reason.txt
             echo "ok=false" >> "$GITHUB_OUTPUT"
           else
             echo "ok=true" >> "$GITHUB_OUTPUT"
@@ -92,9 +110,29 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR: ${{ github.event.pull_request.number }}
         run: gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --body-file /tmp/reason.txt
+      - name: Record the verdict (no problems found)
+        if: steps.check.outputs.ok == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          { echo "Checked: no problems found — merging."; cat /tmp/verdict.txt; } > /tmp/pass.txt
+          gh pr comment "$PR" --repo "$GITHUB_REPOSITORY" --body-file /tmp/pass.txt
       - name: Merge
         if: steps.check.outputs.ok == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR: ${{ github.event.pull_request.number }}
         run: gh pr merge "$PR" --repo "$GITHUB_REPOSITORY" --squash --delete-branch
+      # A merge made with the workflow token starts no other workflow, so start
+      # the live check (gate 5) and the shadow-mode ledger by hand.
+      - name: Start the live check and the ledger
+        if: steps.check.outputs.ok == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR: ${{ github.event.pull_request.number }}
+        run: |
+          sha=$(gh pr view "$PR" --repo "$GITHUB_REPOSITORY" --json mergeCommit --jq '.mergeCommit.oid')
+          gh workflow run live-check.yml --repo "$GITHUB_REPOSITORY" --ref main -f sha="$sha"
+          gh workflow run gate-ledger.yml --repo "$GITHUB_REPOSITORY" --ref main -f pr="$PR"
