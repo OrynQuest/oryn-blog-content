@@ -38,3 +38,5 @@ One or two. Consistency over months matters more than intensity in one week.
 ---
 
 Find beginner swim classes near you on [Explore](/explore), or [join the waiting list](/waitlist) if we are not in your area yet.
+
+<!-- live-check rehearsal: this commit exists only on a throwaway branch -->
