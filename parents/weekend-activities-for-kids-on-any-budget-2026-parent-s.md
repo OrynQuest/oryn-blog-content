@@ -62,7 +62,7 @@ Good questions to ask before you book include class size, music volume, lighting
 
 ORYN AI works by voice or chat, on the website and in the family app. While you load the dishwasher or pack the snack bag, you can ask it for classes near you by category, then open a listing, pick a session, and tap Confirm to book. The assistant never books on its own.
 
-That means you can move from wondering about things to do with kids this weekend to a confirmed session without opening five separate websites. Your bookings land on the ORYN calendar (and on Google Calendar, if you connect it), and when you arrive, the vendor checks your child in from their roster; nothing to print. If plans change, the assistant can prepare a move or a cancellation for you to confirm, and moving a booking to another session of the same class is free until it starts.
+That means you can move from wondering about things to do with kids this weekend to a confirmed session without opening five separate websites. Your bookings land on the ORYN calendar (and on Google Calendar, if you connect it), and when you arrive, the vendor checks your child in from their roster; nothing to print. If plans change, the assistant can prepare a move or a cancellation for you to confirm, and moving a booking to another session of the same class is free while the class is more than 48 hours away (inside 48 hours you can still cancel, but not move).
 
 While you finish planning, the kids can play ORYN Play and ORYN Town, the free games at [orynquest.com/play](/play). They give younger children something fun to do while the family calendar comes together.
 

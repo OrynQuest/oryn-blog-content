@@ -78,7 +78,7 @@ Kids get sick, nap schedules shift, and a birthday party invite appears out of n
 
 The exact credit amount is always shown before you confirm, and refunded credits return to your balance instantly.
 
-Even better, moving a booking is free. You can shift to another session of the same listing up until the session starts or your child is checked in. (If you booked at a last-minute deal price and move to a time that isn't a deal, the usual credit price applies and the difference comes from your balance.) One rule to know: moving won't raise your refund, so if you cancel later, the share of credits you get back can't be higher than it would have been if you had cancelled when you moved. If a vendor cancels, you get 100% of your credits back automatically.
+Even better, moving a booking is free. You can shift to another session of the same listing while the class is more than 48 hours away; inside 48 hours it can't be moved, though you can still cancel under the schedule above. (Last-minute deal bookings can't be moved at all.) One rule to know: moving won't raise your refund, so if you cancel later, the share of credits you get back can't be higher than it would have been if you had cancelled when you moved. If a vendor cancels, you get 100% of your credits back automatically.
 
 Two small notes: once your child is checked in, a booking cannot be cancelled or moved in the app (contact support@orynquest.com in that case), and when a session is full you can join the waitlist. When a seat opens, the next family in line gets a 24-hour hold on it.
 
