@@ -1,0 +1,78 @@
+name: Golden-set regression
+
+# No mistake twice (criteria/criteria.md, Part D; QUEST, 2 Oct 2026). Replays
+# every case in criteria/golden/ through .github/scripts/check-post.sh whenever
+# the criteria, the fact sheets or the rules change: every known-bad case must
+# fail the check and every known-good case must pass it. Keeps ONE issue,
+# "Golden set: cases the gates don't catch", listing regressions, false alarms,
+# lessons a rule could catch but none does yet (owner QUEST), and lessons only
+# Jev, the image judge or the real-world gate can catch (owner HUB). The run
+# fails on a regression (a closed lesson's bad text passes again) or a false
+# alarm (known-good text rejected).
+#
+# Security: reads this repository's main branch only.
+
+on:
+  push:
+    branches: [main]
+    paths: ["criteria/**", "docs/**", ".github/scripts/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: regression
+  cancel-in-progress: true
+
+jobs:
+  golden:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Replay the golden set
+        id: replay
+        run: |
+          set +e
+          python3 .github/scripts/regression.py --out /tmp/report.md
+          echo "exit=$?" >> "$GITHUB_OUTPUT"
+          cat /tmp/report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Keep the issue up to date
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          STATUS: ${{ steps.replay.outputs.status }}
+          MISSES: ${{ steps.replay.outputs.misses }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          set -euo pipefail
+          title="Golden set: cases the gates don't catch"
+          num=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --limit 100 --search "\"$title\" in:title" \
+                --json number,title --jq ".[] | select(.title == \"$title\") | .number" | head -1)
+          if [ "$STATUS" != "clean" ]; then
+            {
+              cat /tmp/report.md
+              echo
+              echo "Updated $(date -u '+%Y-%m-%d %H:%M UTC') by $RUN_URL. The rules are \`.github/scripts/check-post.sh\`; the cases \`criteria/golden/\`; the lessons \`criteria/LESSONS.md\`. After adding a rule, run \`python3 .github/scripts/regression.py --write\` and commit, so each lesson's \`closed\` matches."
+              echo
+              echo "_Kept up to date by .github/workflows/regression.yml._"
+            } > /tmp/body.md
+            if [ -n "$num" ]; then
+              gh issue edit "$num" --repo "$GITHUB_REPOSITORY" --body-file /tmp/body.md; echo "Updated issue #$num"
+            else
+              gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" --body-file /tmp/body.md
+            fi
+          elif [ -n "$num" ]; then
+            gh issue close "$num" --repo "$GITHUB_REPOSITORY" --comment "Every known-bad case fails and every known-good case passes ($RUN_URL)."
+          else
+            echo "Golden set clean."
+          fi
+      - name: Fail on a regression or a false alarm
+        if: steps.replay.outputs.exit != '0'
+        run: |
+          echo "::error title=Golden set::a closed lesson's bad text passes again, or known-good text is rejected — see the summary"
+          exit 1

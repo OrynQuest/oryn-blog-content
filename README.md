@@ -73,3 +73,9 @@ _Site loader verified live on 20 Sep 2026 (push webhook → orynquest.com/api/bl
 3. The push to `main` calls the site's revalidate webhook; the post is live within a minute. A post that breaks an editorial hard rule (see above) is hidden by the site until fixed.
 
 The founders' review happens inside Agency Hub before step 1; the pull request is a technical step, not a second review.
+
+## The gates (Agency Hub automation plan, 2 Oct 2026)
+- **Criteria:** `criteria/criteria.md` is the one rule book (hard gates the checks enforce, judged criteria Jev scores with quoted evidence). Every past mistake is a lesson in `criteria/LESSONS.md` with a real example in `criteria/golden/`; writer, Jev and the image judge load them every run.
+- **Live check:** after a post reaches `main`, `.github/workflows/live-check.yml` loads it as Googlebot and GPTBot and reverts the commit if the post is missing, hidden or loses its title.
+- **Every live post** is re-checked daily and whenever the rules or fact sheets change (`recheck-live-posts.yml`); the fact sheets are checked daily against the code's own facts at orynquest.com/facts.json (`facts-drift.yml`); the golden set is replayed on every rule change (`regression.yml`).
+- **Shadow mode:** each Hub pull request's verdict and what a person then did go to the `gate-ledger` branch (`ledger/STREAK.md`). New posts merge on their own only after 15 agreements in a row with none "too loose".
