@@ -10,6 +10,7 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 ## Writing rules — read these first
 
 - Say "free to join" and "no commission" with the word **today**. Never "ever".
+- **Commission (Mike, 2 Oct 2026):** our **first 20 founding vendors** (the first 20 approved real shops) pay **0% commission for their first 6 months**, then 20%. Every vendor after the first 20 pays **20%, taken out of their price**: they set $20 a seat and are paid $16, and parents pay the same credits. On 2 Oct there were 16 founding places left. Allowed wording: "Be one of our first 20 founding vendors: 0% commission for your first 6 months." Always say "first 6 months" and "first 20". Never "no commission" without that limit, and never "Set $20, get $20" for vendors in general. Not built yet (Linear ORY-146): until it ships, nobody is charged commission.
 - Vendors ARE paid for no-shows and late family cancellations (see section 4). Never say vendors set their own cancellation or refund rules, or that there are late fees: the family simply gets less back.
 - About photos, say only "you keep ownership of your photos and brand". Don't say how long ORYN may use them.
 - Don't promise every vendor a storefront in ORYN Town.
