@@ -1,6 +1,6 @@
 # Gate ledger — shadow-mode streak
 
-_Rebuilt 2026-10-02T22:03:11Z by .github/scripts/gate_ledger.py from `ledger/gate-ledger.jsonl` (0 live decisions, 14 backfilled)._
+_Rebuilt 2026-10-02T22:03:46Z by .github/scripts/gate_ledger.py from `ledger/gate-ledger.jsonl` (0 live decisions, 16 backfilled)._
 
 **Switch-off bar** (Agency Hub — Full Automation Plan, 2 Oct 2026): the gates must match a person's call on **15 posts in a row, with zero "too loose"** (a post the gates passed that a person then stopped or changed). Only then does `HOLD_NEW_POSTS` turn off for that folder — vendors/ first, then parents/, then edits. A miss resets the count; the fix is a new gate.
 
@@ -18,7 +18,7 @@ None yet — the first Agency Hub pull request closed after 2 Oct 2026 starts th
 
 Verdicts recomputed with the rules on main on the day of the backfill (`.github/scripts/check-post.sh` + the contract), run on the Hub's own last version of each pull request. They show how today's gates would have judged the past; they never count toward the bar.
 
-Of 6 person decisions: 6 agree, 0 too loose, 0 too strict.
+Of 8 person decisions: 8 agree, 0 too loose, 0 too strict.
 
 | PR | Folder | Gates (today's rules) | Person | Edited first | Result |
 |---|---|---|---|---|---|
@@ -36,3 +36,5 @@ Of 6 person decisions: 6 agree, 0 too loose, 0 too strict.
 | #10 | parents | fail | closed by AceWattGit | no | not counted: decided by AceWattGit |
 | #12 | vendors | fail | closed by AceWattGit | no | not counted: decided by AceWattGit |
 | #15 | parents | fail | merged by oryn-quest | yes | agree |
+| #29 | vendors | fail | merged by oryn-quest | yes | agree |
+| #30 | parents | fail | merged by oryn-quest | yes | agree |
