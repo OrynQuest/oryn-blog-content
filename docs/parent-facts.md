@@ -52,7 +52,7 @@ For Hermes / Agency Hub and John. A blog post for parents may state an ORYN fact
 - To book: open a listing, pick a session, choose which child (or children) is coming, confirm. There is no card step; credits come off the balance.
 - A confirmation email arrives right away with the booking reference, and a reminder comes about a day before the session.
 - Bookings live under My Bookings and on the in-app Calendar. If the parent connects Google Calendar in Account, bookings sync there too.
-- Moving a booking is free, to another session of the same listing, until the session starts or the child is checked in. A move never raises a later refund.
+- Moving a booking is free, to another session of the same listing, while the class is **more than 48 hours away** (Refund Policy §8.8, from 1 Oct 2026). Inside 48 hours it can't be moved; the family can still cancel (schedule below). The new session may be soon. A move never raises a later refund.
 - Cancelling uses one schedule for every listing: more than 48 hours before, 100% of credits back; 24–48 hours before, 50%; under 24 hours, nothing. The exact credits are shown before you confirm, and refunded credits return instantly.
 - If the vendor cancels, the family gets 100% back.
 - Once the child is checked in, the booking can't be cancelled or moved in the app. The family contacts support.
@@ -79,7 +79,7 @@ For Hermes / Agency Hub and John. A blog post for parents may state an ORYN fact
 - Built into the website and the family app. Works by typing or by voice.
 - It can: search listings by what you describe and by category, show listings near you, open listing and vendor details, find similar listings, show your bookings, credits, children, favorites, subscription and next session, open the Explore filters, message a vendor, join a waitlist and check your place on it, post in the community, and prepare a booking, a reschedule or a cancellation.
 - Booking always needs the parent's tap on **Confirm** on screen; the assistant never books on its own. In chat, a move, a cancel, joining a waitlist, a message or a post also needs a tap on Confirm. By voice, those can be confirmed by saying yes (convex/ai/voiceConfirmationPolicy.ts: tier 1 = voice may confirm, tier 2 = on-screen only).
-- It can also filter by needs: autism-friendly, and accommodations such as wheelchair accessible or sensory-friendly ("find a sensory-friendly art class near Pasadena" works). It searches by category and place, not by day or time. Say "find a gymnastics class for a 4-year-old near Pasadena", then the parent picks the slot.
+- It can also filter by needs: autism-friendly, and accommodations such as wheelchair accessible or sensory-friendly ("find a sensory-friendly art class near Pasadena" works). It searches by category and place, not by day or time. Only use examples that match a real, bookable listing (as of 1 Oct 2026 the only one is Made With Love Kids Cooking, ages 5–13, Los Angeles): e.g. "find a cooking class for my 6-year-old in Los Angeles", then the parent picks the slot. There is no gymnastics listing today.
 - It does not "sync your calendar". Bookings land on the ORYN calendar (and Google Calendar if connected) whoever made them.
 
 ## 7. ORYN Play and ORYN Town
@@ -96,6 +96,7 @@ For Hermes / Agency Hub and John. A blog post for parents may state an ORYN fact
 - ❌ That the assistant books without the parent tapping Confirm, or moves or cancels in chat without a tap, "syncs your calendar", or finds "Saturday morning" or "small group" classes.
 - ❌ Per-vendor or per-camp cancellation windows, makeup policies "on the listing", or "check the camp's policy". One schedule for every listing.
 - ❌ Moving a "missed" lesson (only upcoming bookings move) or moving credits "to another program".
+- ❌ Moving a booking "any time before class" or "until it starts": moves close 48 hours before class (cancelling is still open). A last-minute (deal) booking can't be moved at all.
 - ❌ What a plan "fits" (one weekly class, two kids, a full season), "cheaper per class", "savings", "comes out ahead", or that vendors "price accordingly" for members.
 - ❌ "One credit" for a class or a trial; a "series booking" or automatic term enrollment (recurring enrollment is off).
 - ❌ Any ORYN number or ranking not on this sheet: "most searched", "most-requested slot", "most-booked category", "often booking for multiple children", "many listings".
