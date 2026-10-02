@@ -9,8 +9,8 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 
 ## Writing rules — read these first
 
-- Say "free to join" and "no commission" with the word **today**. Never "ever".
-- **Commission (Mike, 2 Oct 2026):** our **first 20 founding vendors** (the first 20 approved real shops) pay **0% commission for their first 6 months**, then 20%. Every vendor after the first 20 pays **20%, taken out of their price**: they set $20 a seat and are paid $16, and parents pay the same credits. On 2 Oct there were 16 founding places left. Allowed wording: "Be one of our first 20 founding vendors: 0% commission for your first 6 months." Always say "first 6 months" and "first 20". Never "no commission" without that limit, and never "Set $20, get $20" for vendors in general. Not built yet (Linear ORY-146): until it ships, nobody is charged commission.
+- Say "free to join" (applying, listing classes and every vendor tool are free). Do NOT say "no commission", "you keep your full price" or "Set $20, get $20" in public content: ORYN keeps an agreed percentage of the listed price.
+- **Commission (Mike + Mariam, 2 Oct 2026):** ORYN keeps **20% of the price a vendor sets**, taken out of their payout and never added to what families pay (a $20 seat pays the vendor $16; the family pays the same credits). **Founding vendors** — the first 20 approved real shops (demo and test shops don't count) — pay **no commission for as long as their shop is on ORYN Quest**: no end date, no switch to 20% later. It ends only if that shop's account is closed or terminated, and it can't be transferred or sold to another account, owner or business. Each booking keeps the rate it was made under. **NEVER PUBLISH the founding offer** (Mariam + Mike, 2 Oct): not on the website, blog, social posts or ads. It lives only in the Vendor Agreement and in emails and conversations with vendors. Public answer to "what does it cost?" (Mariam's wording): "Nothing. Applying, listing classes, and every vendor tool are free. When families book through ORYN Quest, we retain an agreed percentage of the listed class price to support discovery, bookings, and payments." Not live yet (Linear ORY-146): until that release ships, nobody is charged commission.
 - Vendors ARE paid for no-shows and late family cancellations (see section 4). Never say vendors set their own cancellation or refund rules, or that there are late fees: the family simply gets less back.
 - About photos, say only "you keep ownership of your photos and brand". Don't say how long ORYN may use them.
 - Don't promise every vendor a storefront in ORYN Town.
@@ -130,6 +130,7 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 - ❌ Instant, same-day or on-demand payouts, a fixed payout day (for example "the 3rd"), or "within X days". The only promise is the 30-day outer limit.
 - ❌ "Paid through Stripe", the $50 minimum, the 14-day wait, or "Get paid now". These are Stripe-only rules, and Stripe payouts are off.
 - ❌ "No commission / no fees, **ever**". Once Stripe payouts are on, "Get paid now" carries a fee.
+- ❌ Any founding-vendor offer ("first 20", "0% commission", "founding vendor") in public content. Vendors hear it by email or in person only.
 - ❌ Coverage outside Southern California (ZIPs 900–935). San Francisco and New York are NOT served.
 - ❌ That the **ORYN Quest Business** app is in the App Store or on Google Play.
 - ❌ Recurring enrollment or automatic term billing for families. It is switched off.

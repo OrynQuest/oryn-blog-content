@@ -69,4 +69,4 @@ Split it if you can. A class for "ages 3–12" makes every parent wonder if thei
 
 ---
 
-List your classes on ORYN Quest: free to join and no commission today, and families nearby can find you. [Apply as a vendor](/vendor-apply).
+List your classes on ORYN Quest: it's free to join, and families nearby can find you. [Apply as a vendor](/vendor-apply).

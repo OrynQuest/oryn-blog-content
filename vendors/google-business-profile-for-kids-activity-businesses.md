@@ -98,4 +98,4 @@ Only to a page for your business itself. Google's link policy rules out general 
 
 This post is general information about Google's published guidelines, which can change. Check Google's Business Profile Help pages for the current rules.
 
-If you run kids' classes, camps or lessons in Southern California, ORYN Quest is a marketplace where local families find and book them. It is free to join today, and today there is no commission: nothing is taken from the price you set. [Apply to list your classes](/vendor-apply).
+If you run kids' classes, camps or lessons in Southern California, ORYN Quest is a marketplace where local families find and book them. Applying, listing your classes and every vendor tool are free. [Apply to list your classes](/vendor-apply).
