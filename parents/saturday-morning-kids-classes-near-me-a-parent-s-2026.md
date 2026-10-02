@@ -1,5 +1,6 @@
 ---
 title: "Saturday Morning Kids Classes Near Me: A Parent's 2026 Shortlist"
+seoTitle: "Saturday Morning Kids Classes Near Me: 2026 Shortlist"
 description: "How Southern California families find and book Saturday morning kids' classes: what to check by age, sensory-friendly options, and how ORYN credits work."
 date: 2026-09-25
 author: "ORYN Quest, Inc."
@@ -61,7 +62,7 @@ The Saturday flow:
 3. Your booking appears under My Bookings, and a confirmation email follows.
 4. At the studio, gym, or field, the vendor checks your child in from their roster. No printed forms, no clipboard, nothing to scan while your child practices cartwheels in the lobby.
 
-The built-in ORYN AI assistant handles the rest of the morning logistics by voice or chat, hands-free while you flip pancakes: "Find a gymnastics class for a 4-year-old near Pasadena," then pick the Saturday slot that fits. It can also reschedule or cancel a booking once you tap Confirm and answer account questions, and every booking lands on your ORYN calendar (and on Google Calendar if you connect it), so you are not scrolling confirmation emails at a stoplight.
+Nova, ORYN Quest's built-in assistant, handles the rest of the morning logistics by voice or chat, hands-free while you flip pancakes: "Find a cooking class for my 6-year-old in Los Angeles," then pick the Saturday slot that fits. It can also reschedule or cancel a booking once you tap Confirm and answer account questions, and every booking lands on your ORYN calendar (and on Google Calendar if you connect it), so you are not scrolling confirmation emails at a stoplight.
 
 For a second opinion, the ORYN Quest parent community is where local families swap honest recommendations, like which swim instructor is patient with beginners or which studio welcomes wiggly 5-year-olds.
 

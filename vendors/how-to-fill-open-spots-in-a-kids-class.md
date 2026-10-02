@@ -1,6 +1,7 @@
 ---
 title: "How to fill open spots in a kids' class (without discounting)"
-description: "Empty seats in a children's class cost you twice: lost revenue and a smaller group for the kids who came. Six things that fill spots faster than a discount — from listing detail to timing."
+seoTitle: "How to Fill Open Spots in a Kids' Class Without Discounts"
+description: "Empty seats cost a kids' class twice: lost revenue and a smaller group. Six things that fill open spots faster than a discount, from detail to timing."
 date: 2026-09-21
 author: "ORYN Quest Team"
 keyword: "how to fill open spots in a kids class"

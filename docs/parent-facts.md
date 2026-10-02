@@ -12,6 +12,7 @@ For Hermes / Agency Hub and John. A blog post for parents may state an ORYN fact
 - Say **vendor**, never "provider". Never "vetted", never counts of vendors, families or bookings, never guarantees. The site hides a post that breaks these.
 - Say **credits**, never a dollar price, for anything booked on ORYN. Families see only credits.
 - Families use both orynquest.com and the ORYN Quest family app (App Store and Google Play). Don't say "everything is in the app".
+- The assistant is **Nova** (section 6). Never "ORYN AI" or "the ORYN assistant".
 - Don't invent what a plan "fits" (one weekly class, two kids, a full season). Use the plan's own one-line description in section 2.
 - Don't describe a feature you can't find on this sheet. There is no digital pass, no day-of-week filter and no series booking.
 - Every post: `areas: [Southern California]`, a real 120–160-character description, full alt text, a bright daylight hero at 1200×630 under 300 KB, no swimwear scenes, no photos of real children.
@@ -74,8 +75,9 @@ For Hermes / Agency Hub and John. A blog post for parents may state an ORYN fact
 - For a booking the vendor sees the parent's name and picture, and the child's name, picture, age, and autism-friendly and sensory-support flags. It does not get the parent's email or phone, or insurance or medical notes.
 - A child's profile can record interests, an autism-friendly flag and sensory-support needs. The assistant can use them to recommend activities for that child.
 
-## 6. The ORYN AI assistant
+## 6. Nova, the ORYN Quest assistant
 
+- Its name is **Nova** (Mike, 1 Oct 2026). First mention in a post: "Nova, ORYN Quest's assistant"; after that, "Nova". Never "ORYN AI" or "the ORYN assistant". The company stays ORYN Quest.
 - Built into the website and the family app. Works by typing or by voice.
 - It can: search listings by what you describe and by category, show listings near you, open listing and vendor details, find similar listings, show your bookings, credits, children, favorites, subscription and next session, open the Explore filters, message a vendor, join a waitlist and check your place on it, post in the community, and prepare a booking, a reschedule or a cancellation.
 - Booking always needs the parent's tap on **Confirm** on screen; the assistant never books on its own. In chat, a move, a cancel, joining a waitlist, a message or a post also needs a tap on Confirm. By voice, those can be confirmed by saying yes (convex/ai/voiceConfirmationPolicy.ts: tier 1 = voice may confirm, tier 2 = on-screen only).

@@ -1,5 +1,6 @@
 ---
 title: "How to Compare Children's Activity Classes Before You Book One"
+seoTitle: "How to Compare Kids' Activity Classes Before You Book"
 description: "A five-point checklist for comparing kids' classes in Southern California: fit, instructor, format, logistics and real cost, plus how to use ORYN to shortlist."
 date: 2026-09-25
 author: "ORYN Quest, Inc."
@@ -59,11 +60,11 @@ A 25-minute drive for a 45-minute class means 100 minutes of round-trip time, an
 - **Cancellation window:** On ORYN, every listing uses the same schedule: cancel more than 48 hours before the session and all your credits come back, 24 to 48 hours before returns half, and under 24 hours returns nothing. You can also move a booking to another session for free until it starts. Outside ORYN, policies vary, so read them before booking rather than after the fact.
 - **Check-in:** Nothing to print or scan. The vendor checks your child in from their roster when you arrive, and the booking lives under My Bookings if you need the details while carrying a water bottle and a leotard.
 
-## Use ORYN's Filters, Reviews, and ORYN AI to Shortlist Classes Faster
+## Use ORYN's Filters, Reviews, and Nova to Shortlist Classes Faster
 
 Once you know what you want, let ORYN narrow the field. Explore filters by category, age and credit cost, plus needs like sensory-friendly, autism-friendly or wheelchair access, and can sort by distance from you. Each listing shows its upcoming sessions and open seats, so the list matches your real week rather than your theoretical one.
 
-For fuzzy, real-life questions, ask the ORYN AI assistant. By voice or chat, you can say "find a gymnastics class for a 4-year-old near Irvine" or "show me art studios in Pasadena," and the assistant searches, books once you tap Confirm, and the session lands on your ORYN calendar (and on Google Calendar, if you connect it). It can also answer account questions, like how many credits you have left before summer camp registration opens.
+For fuzzy, real-life questions, ask Nova, ORYN Quest's assistant. By voice or chat, you can say "find a cooking class for my 6-year-old in Los Angeles" or "show me art studios in Pasadena," and Nova searches, books once you tap Confirm, and the session lands on your ORYN calendar (and on Google Calendar, if you connect it). It can also answer account questions, like how many credits you have left before summer camp registration opens.
 
 Reviews work best when you read them like a detective. Skip the five-star summaries and look for specifics: how the instructor handled a child who did not want to participate, whether the instructor learned names in the first session, what happened during a fire drill.
 

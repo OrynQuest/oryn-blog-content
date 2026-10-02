@@ -1,6 +1,6 @@
 ---
 title: "What age should kids start swim lessons?"
-description: "Most children are ready for structured swim lessons between ages 4 and 6, and water-familiarisation classes can start earlier. How to tell if your child is ready, and what a first lesson looks like."
+description: "Most children are ready for structured swim lessons between ages 4 and 6. How to tell if your child is ready, and what a first swim lesson looks like."
 date: 2026-09-21
 author: "ORYN Quest Team"
 keyword: "what age should kids start swim lessons"

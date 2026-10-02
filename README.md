@@ -19,6 +19,7 @@ The folder decides the audience. The file name is the slug: lowercase, hyphens, 
 ```yaml
 ---
 title: "What age should kids start swim lessons?"     # required, ≤ 70 chars shown, ≤ 60 ideal
+seoTitle: "Swim lessons: what age to start"            # optional; the search-result title when the title is over 60 chars (also: seo_title, metaTitle)
 description: "…"                                      # required, 120–160 chars, the meta description
 date: 2026-09-28                                      # required, YYYY-MM-DD (also accepted: publishedAt, published)
 updated: 2026-09-28                                   # optional (also: updatedAt, lastUpdated)
@@ -46,7 +47,7 @@ Unknown keys are ignored. A post missing `title`, `description` or `date` is ski
 
 ## Areas (Southern California first — per post, never site-wide)
 - `areas:` says where the post is for: `[Orange County]`, `[Los Angeles, Long Beach]`, or `[Southern California]` for a region-wide post. Recognised today: Southern California, Los Angeles, Glendale, Burbank, Orange County, San Diego, Inland Empire, Ventura County, Long Beach, Pasadena, Irvine, Anaheim, Santa Monica, Riverside, San Bernardino, Temecula (SoCal / LA / OC are understood). Any other place is kept as written — when ORYN expands, write it as one list item `"City, State"` (e.g. `["Phoenix, Arizona"]`); no site change is needed.
-- The site turns `areas` into location chips on the post and the card, `<meta keywords>`, RSS categories, and `spatialCoverage` / `contentLocation` in the article's structured data. The area never appears on the site's main landing page or in the site-wide Organization schema — the founders will expand, and the blog is where the local page lives.
+- The site turns `areas` into location chips on the post and the card, `<meta keywords>`, RSS categories, and `spatialCoverage` / `contentLocation` in the article's structured data. The area never appears on the site's main landing page — the founders will expand, and the blog is where the local page lives. (The site-wide Organization schema names only the service area, Southern California, from the site's own `shared/serviceAreas.ts`.)
 - Editorial: put the area in the keyword and the title when a family would search that way ("swim lessons in Orange County", "kids' art classes in Pasadena"); name real local specifics (seasons, school calendars, venue types, drive times); keep one evergreen post for every two or three local ones. A local post is still about the activity — the area is not padding, and never claims "best in …".
 
 ## Body conventions the site understands

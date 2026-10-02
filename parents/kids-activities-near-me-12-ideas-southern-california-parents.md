@@ -1,6 +1,7 @@
 ---
 keyword: "kids activities near me"
 title: "Kids Activities Near Me: 12 Ideas Southern California Parents Love"
+seoTitle: "Kids Activities Near Me: 12 Southern California Ideas"
 date: 2026-09-21
 author: "ORYN Quest"
 description: "A parent-focused guide to finding great local kids activities: what to look for, how to budget, and 12 activity ideas."

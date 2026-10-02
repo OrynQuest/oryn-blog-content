@@ -78,7 +78,7 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 ## 4. Bookings, cancellations, no-shows
 
 - Vendors get an email for every new booking. Families get a reminder about one day before class.
-- Family cancellations use one schedule for every listing: more than 48 hours before, 100% of credits back; 24–48 hours, 50%; under 24 hours, nothing. Families can move a booking to another time for free until class starts or the child is checked in.
+- Family cancellations use one schedule for every listing: more than 48 hours before, 100% of credits back; 24–48 hours, 50%; under 24 hours, nothing. Families can move a booking to another session of the same listing for free while it is more than 48 hours away (Refund Policy §8.8, from 1 Oct 2026); inside 48 hours they can only cancel.
 - **Late cancels and no-shows pay the vendor** (since 27 Sep 2026): the vendor gets the share the family didn't get back. Under 24 hours before class, or a no-show: the vendor's full price. 24–48 hours: half. More than 48 hours: nothing. A late cancel counts as earned when the class would have started.
 - The share follows what the family actually got back: if a family gets more back (for example a Platinum loyalty member, or a refund ORYN adjusts), the vendor's share is smaller. If the vendor cancels the session before it starts, or ORYN cancels a booking, the vendor is not paid for it. A no-show already in a payout can't be undone by the vendor (support can).
 - A no-show may only be recorded for a child who didn't come to a class that ran. Recording a false one breaks the Vendor Agreement.
@@ -121,7 +121,7 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 - Anyone sharing a referral link must say they earn credits for it.
 - ORYN may feature vendor listings in its marketing (email, social media, ads) and invite vendors to optional promotions.
 - Search ranking can depend on parent satisfaction, reply speed, completion and cancellation rates, and profile completeness. ORYN doesn't publish the weights.
-- Parents find classes by search, on a map, and through ORYN's AI assistant. ORYN does not guarantee bookings, revenue, ranking or AI recommendations.
+- Parents find classes by search, on a map, and through Nova, ORYN Quest's assistant (its name since 1 Oct 2026; never "ORYN AI"). ORYN does not guarantee bookings, revenue, ranking or AI recommendations.
 
 ---
 

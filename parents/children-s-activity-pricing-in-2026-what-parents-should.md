@@ -66,7 +66,7 @@ ORYN Quest structures activity spending around monthly credits instead of a draw
 - **Pro:** "For active families."
 - **Premium:** "Our best value per credit."
 
-Prices and credit counts for each plan are on [orynquest.com/pricing](/pricing), and every class shows its credit price before you confirm. When spring break arrives, or both siblings suddenly need a second weekly class, one-time credit packs (the Boost packs) cover the extra bookings without changing your monthly plan. The ORYN AI assistant works by voice or chat, so a request like "find a sensory-friendly art class in Costa Mesa" brings up listings with their credit prices; you pick a session and tap Confirm to book. At the class, the vendor checks your child in from their roster; nothing to print.
+Prices and credit counts for each plan are on [orynquest.com/pricing](/pricing), and every class shows its credit price before you confirm. When spring break arrives, or both siblings suddenly need a second weekly class, one-time credit packs (the Boost packs) cover the extra bookings without changing your monthly plan. Nova, ORYN Quest's assistant, works by voice or chat, so a request like "find a sensory-friendly art class in Costa Mesa" brings up listings with their credit prices; you pick a session and tap Confirm to book. At the class, the vendor checks your child in from their roster; nothing to print.
 
 ## Hidden Costs to Watch: Registration, Gear, Makeups, and Sibling Fees
 
@@ -101,6 +101,6 @@ Build your children's extracurricular budget for 2026 in five steps:
 2. Estimate the monthly cost per child using the table above.
 3. Compare that total with the Play, Plus, Pro and Premium plans on [orynquest.com/pricing](/pricing), and check the credit price on the listings you would book.
 4. Set a rule for top-ups, such as one top-up pack per school break for camp weeks.
-5. Ask ORYN AI how many credits you have left; the credit price is shown before you confirm.
+5. Ask Nova how many credits you have left; the credit price is shown before you confirm.
 
 Review the numbers once a month, upgrade or downgrade your plan as seasons change (you can do it yourself any time, with no long-term contract), and leave check-in to the vendor, who checks your child in from their roster. Browse classes and camps across Southern California on [orynquest.com/explore](/explore) or in the ORYN Quest family app (App Store and Google Play), compare the plans, and start the school year with a number you can actually plan around.

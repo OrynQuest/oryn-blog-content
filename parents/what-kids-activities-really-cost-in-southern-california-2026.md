@@ -78,17 +78,17 @@ Kids get sick, nap schedules shift, and a birthday party invite appears out of n
 
 The exact credit amount is always shown before you confirm, and refunded credits return to your balance instantly.
 
-Even better, moving a booking is free. You can shift to another session of the same listing up until the session starts or your child is checked in. (If you booked at a last-minute deal price and move to a time that isn't a deal, the usual credit price applies and the difference comes from your balance.) One rule to know: moving won't raise your refund, so if you cancel later, the share of credits you get back can't be higher than it would have been if you had cancelled when you moved. If a vendor cancels, you get 100% of your credits back automatically.
+Even better, moving a booking is free while the session is more than 48 hours away: you can shift to another session of the same listing. Inside 48 hours a booking can no longer be moved in the app, but you can still cancel it on the schedule above. (A last-minute deal booking is already inside that window, so it can't be moved.) One rule to know: moving won't raise your refund, so if you cancel later, the share of credits you get back can't be higher than it would have been if you had cancelled when you moved. If a vendor cancels, you get 100% of your credits back automatically.
 
 Two small notes: once your child is checked in, a booking cannot be cancelled or moved in the app (contact support@orynquest.com in that case), and when a session is full you can join the waitlist. When a seat opens, the next family in line gets a 24-hour hold on it.
 
-## Using Filters and the ORYN AI Assistant to Compare Nearby Options
+## Using Filters and Nova to Compare Nearby Options
 
 Finding kids classes in Southern California is faster when the search tools do the sorting for you. On orynquest.com, the Explore page offers filters for category, child's age, maximum credit cost, listing type (class, camp, drop-in, or birthday party), in-person or online, skill level, favorites, and accessibility needs, including an Inclusive (autism-friendly) filter, Wheelchair Accessible, Sensory-friendly, and insurance accepted. You can sort by recommended, distance, credit price, rating, or newest. The ORYN Quest family app has the same filters apart from favorites (there the autism-friendly one is labelled Autism-friendly), and the same sorts apart from distance.
 
-The ORYN AI assistant takes it further, by voice or by chat. You can say something like "find a sensory-friendly art class near Pasadena" or "find a gymnastics class for a 4-year-old near Pasadena" and it will pull matching listings. It can also check your credits, show upcoming bookings, message a vendor, or prepare a reschedule. The assistant searches by category, age, place, and needs rather than by day or time, so you describe the activity and then pick the session slot yourself.
+Nova, ORYN Quest's assistant, takes it further, by voice or by chat. You can say something like "find a sensory-friendly art class near Pasadena" or "find a cooking class for my 6-year-old in Los Angeles" and it will pull matching listings. It can also check your credits, show upcoming bookings, message a vendor, or prepare a reschedule. Nova searches by category, age, place, and needs rather than by day or time, so you describe the activity and then pick the session slot yourself.
 
-The assistant never books on its own. Booking always needs your tap on Confirm, which keeps you in control of every credit spent. For families exploring what is out there, our list of [kids activities near me that Southern California parents love](https://orynquest.com/blog/kids-activities-near-me-12-ideas-southern-california-parents) is a friendly place to start, and for a specific weekend format, our [Saturday morning kids classes shortlist](https://orynquest.com/blog/saturday-morning-kids-classes-near-me-a-parent-s-2026) narrows it down.
+Nova never books on its own. Booking always needs your tap on Confirm, which keeps you in control of every credit spent. For families exploring what is out there, our list of [kids activities near me that Southern California parents love](https://orynquest.com/blog/kids-activities-near-me-12-ideas-southern-california-parents) is a friendly place to start, and for a specific weekend format, our [Saturday morning kids classes shortlist](https://orynquest.com/blog/saturday-morning-kids-classes-near-me-a-parent-s-2026) narrows it down.
 
 ## FAQ
 
@@ -102,11 +102,11 @@ When two or more siblings are booked into the same session, the first child pays
 
 ### What happens if my child gets sick the night before class?
 
-Cancellations under 24 hours before the session return no credits, so a same-day illness unfortunately falls in that window. Between 24 and 48 hours you get 50% back, and beyond 48 hours you get 100% back, with refunded credits returning instantly. You can still move the booking to another session of the same listing, up until the class starts.
+Cancellations under 24 hours before the session return no credits, so a same-day illness unfortunately falls in that window. Between 24 and 48 hours you get 50% back, and beyond 48 hours you get 100% back, with refunded credits returning instantly. If you know more than 48 hours ahead, you can move the booking to another session of the same listing for free instead.
 
 ### Can I search for classes by day or time?
 
-Not currently. The filters search by category, age, and needs such as sensory-friendly or wheelchair accessible, and the ORYN AI assistant can also search near a place you name. You open a listing to see its upcoming sessions and choose the slot that fits your schedule.
+Not currently. The filters search by category, age, and needs such as sensory-friendly or wheelchair accessible, and Nova can also search near a place you name. You open a listing to see its upcoming sessions and choose the slot that fits your schedule.
 
 ### Can I change my membership plan?
 
