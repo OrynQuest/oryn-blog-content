@@ -13,11 +13,11 @@ tags: [fill-kids-classes, fill, kids, vendors]
 
 # How to Fill Kids Classes: 7 Practical Steps for Southern California Studios and Camps
 
-Filling kids' classes comes down to seven habits: price clearly, discount only the seats about to expire, write listings that answer parents' real questions, run a waitlist, reply fast, keep your profile complete, and read your numbers. On ORYN Quest, joining costs $0 today with nothing taken from the price you set, and each step below pairs one platform feature with the plain practice that makes it work.
+Filling kids' classes comes down to seven habits: price clearly, discount only the seats about to expire, write listings that answer parents' real questions, run a waitlist, reply fast, keep your profile complete, and read your numbers. On ORYN Quest, joining and listing are free, and each step below pairs one platform feature with the plain practice that makes it work.
 
 ## 1. Set a Dollar Price Per Seat and Let the Platform Round Up to Credits
 
-In the listing form, the Class Cost field is the dollar amount you receive per booked seat. You set a dollar price, the platform converts it to credits for families by rounding up, and you are paid exactly your dollar price. At today's rate, a $20 class shows families 23 credits, and the vendor receives $20.00.
+In the listing form, Class Cost is your dollar price per booked seat. The platform converts it to credits for families by rounding up, and you are paid that price less ORYN's agreed percentage, as set out in your vendor agreement. At today's rate, a $20 class shows families 23 credits.
 
 Two practical notes follow from that setup. First, discounting never cuts your pay: promo codes, last-minute deals, and the sibling discount are paid for by ORYN, not out of your price. Second, families see only credits at checkout, so keep pricing decisions in the listing form rather than in chat.
 
@@ -73,7 +73,7 @@ On the money side, there is no fixed payout day. Each payout is recorded at the 
 
 ### Does it cost anything to list classes on ORYN Quest?
 
-Joining costs $0 today: no setup fee, no subscription, and nothing taken from the price you set. To apply, you confirm your business carries general liability insurance, and you handle your own taxes. ORYN issues tax forms such as 1099s where the law requires.
+Joining costs $0: no setup fee and no subscription. When families book, ORYN keeps an agreed percentage of the listed price. To apply, you confirm your business carries general liability insurance, and you handle your own taxes. ORYN issues tax forms such as 1099s where the law requires.
 
 ### Can I serve families outside Southern California?
 

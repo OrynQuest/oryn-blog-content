@@ -39,7 +39,7 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 - ORYN does not check licenses, certifications, insurance, staff qualifications or accessibility claims itself. Vendors vouch for these.
 - ORYN does not run or require criminal background checks. Each vendor screens its own staff as the law requires.
 - If approved, you get an email and can publish listings. If declined, you get an email with the reason (if one was given) and can fix and resubmit.
-- Joining costs $0 today: no setup fee, no subscription, and nothing taken from the price you set.
+- Joining costs $0: no setup fee and no subscription. When families book, ORYN keeps an agreed percentage of the listed price (see Commission above; never name the founding offer in public).
 - One vendor business per account. The owner can also book as a parent, but not their own classes.
 - Vendors agree to tell ORYN about a serious safety incident within 24 hours.
 
@@ -60,7 +60,7 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 ## 3. Pricing and money
 
 - The vendor sets its own price, in **dollars per booked seat**. The form calls it "the dollar amount you receive per booked seat".
-- ORYN turns that price into credits for families, **rounding up**. The vendor is paid exactly its dollar price, and ORYN keeps the small rounding extra. Example at today's rate: a $20 class shows families 23 credits, and the vendor gets $20.00.
+- ORYN turns that price into credits for families, **rounding up**. The vendor is paid its dollar price less the commission (see Commission above), and ORYN keeps the small rounding extra. Example at today's rate: a $20 class shows families 23 credits.
 - The vendor can't set a separate credit price for a dollar-priced class. Families see only the credits, never the vendor's dollar figure.
 - Today's default payout rate is 88 cents per credit. ORYN earns from the gap between what families pay for plans and what vendors are paid, about 28% on average at today's settings. That gap is **not** taken out of the vendor's price. ORYN can change these settings going forward, with notice.
 - The vendor is paid the price the listing had **when the family booked**, even if it changes later.
