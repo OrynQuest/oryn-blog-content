@@ -46,7 +46,7 @@ For Hermes / Agency Hub and John. A blog post for parents may state an ORYN fact
 - A monthly plan IS ORYN's membership: the site says "Start Your Membership" and "ORYN Quest Membership", and the legal documents call it a Membership. "Membership" and "plan" may be used for the same thing. A plan is one fixed monthly price, so it turns a family's activity spending into one predictable monthly amount. Don't claim it costs less than paying elsewhere (section 8).
 - One-time credit packs (the "Boost" packs) need no subscription. A plan is the better deal for anyone booking regularly.
 - Siblings booked into the same session get a sibling discount (10% today). ORYN pays it.
-- Promo codes exist. ORYN pays for them; the vendor is paid in full.
+- Promo codes exist. ORYN pays for them, so the discount doesn't reduce what the vendor is paid. (Never write "the vendor is paid in full": ORYN keeps an agreed percentage of every price.)
 
 ## 3. Booking, moving, cancelling
 

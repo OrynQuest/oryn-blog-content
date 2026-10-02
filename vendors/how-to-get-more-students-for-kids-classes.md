@@ -8,7 +8,7 @@ tags: [marketing, growth, bookings]
 areas: [Southern California]
 answer: "New students mostly come from parents searching nearby, from other parents, and from schools and community groups. Be easy to find with a complete Google profile and listings, easy to trust with real photos, clear details and reviews, and easy to book with a published schedule. Then turn first visits into regular spots."
 image: "/blog-assets/how-to-get-more-students-for-kids-classes.jpg"
-imageAlt: "A sunny park with palm trees set up for a kids' sports class: rows of coral, teal and yellow cones on the grass, a bag of soccer balls, and a table with a water cooler and bright water bottles"
+imageAlt: "A sunny park with palm trees set up for a sports class: rows of coral, teal and yellow cones on the grass, a bag of soccer balls, and a table with a water cooler and bright water bottles"
 draft: false
 ---
 

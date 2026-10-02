@@ -8,8 +8,8 @@ keyword: "weekend activities for kids near me"
 tags: [weekend activities, free activities, budgeting, sensory-friendly, southern california]
 areas: [Southern California]
 answer: "Mix free outings with a paid class now and then. In Southern California, the California Science Center and Griffith Observatory are free to enter, Cabrillo Marine Aquarium asks only a suggested donation, and library story times cost nothing; parking is extra at most spots. Add a single drop-in class when a child wants to try something new."
-image: "/blog-assets/weekend-activities-for-kids-on-any-budget-2026-parent-s.jpg"
-imageAlt: "A parent unpacks tote bags at a sunny park picnic table as two girls, seen from behind, help; books, a soccer ball, a phone and a map sit on the table"
+image: "/blog-assets/weekend-activities-for-kids-on-any-budget-2026-parent-s-v2.jpg"
+imageAlt: "A soccer ball, sneakers, a jump rope and a rolled-up yoga mat on a sunny outdoor court"
 ---
 
 # Weekend Activities for Kids Near Me: A Southern California Family Playbook for 2026

@@ -67,10 +67,10 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 - Discounts ORYN pays for don't cut vendor pay: promo codes, last-minute deals, and the 10% sibling discount.
 - Last-minute deal: a vendor can offer 5–75% off sessions starting within 24 hours that still have seats. ORYN pays the discount.
 - Vendors are paid for **completed** sessions (checked out, or completed by the platform or ORYN), and for the part of a booking the family gives up by cancelling late or not showing (section 4).
-- **How vendors are paid today:** ORYN's finance team sends a bank transfer. Stripe payouts to vendors are switched OFF.
-- **When:** there is no fixed payout day. ORYN must start each payout within 30 days after the end of the month the session was completed in (for a late cancel or no-show, the month it was earned), once your bank details are confirmed.
-- Bank details: the vendor enters only the last 4 digits of its account and routing numbers. ORYN confirms the full numbers directly before the first transfer. Each payout is recorded at the full amount earned, with no fee taken out, and shows on the Payouts page with its status and reference code.
-- Stripe payouts (monthly, $50 minimum, 14-day wait, optional paid "Get paid now") are in the Vendor Agreement and built, but **switched OFF** today. "Get paid now" is hidden and refused while off. ORYN may switch Stripe on after telling vendors.
+- **How vendors are paid today: through Stripe.** Stripe payouts are switched ON (checked on production, 2 Oct 2026). The vendor sets up a Stripe payout account: it adds its bank and tax details on Stripe's own secure page.
+- **When (Marketplace Rules, the Stripe payouts paragraph):** one regular payout a month, through Stripe, for sessions completed (and late-cancel / no-show shares earned) at least **14 days** earlier, when at least **$50** is due. A smaller balance rolls over (it is paid once the oldest unpaid session is 3 months old, or when the shop closes). There is no fixed payout day.
+- Fees: ORYN pays the payout fee on the **regular monthly payout**. An optional earlier payout ("Get paid now", any amount, any time) carries a fee that is shown before the vendor confirms. Each payout shows on the Payouts page with its status.
+- If ORYN ever switches Stripe payouts off again, the Marketplace Rules fall back to bank transfers sent by hand, no later than 30 days after the end of the month. That is a fallback, not today's schedule: don't write about it in posts.
 - ORYN may hold a payout while it looks into fraud or a dispute, and may take refunds and chargebacks out of future payouts. Payouts are in US dollars.
 - Vendors handle their own taxes. ORYN keeps earnings records and issues tax forms (such as 1099s) where the law requires.
 - ORYN does not give tax advice. For what handling your own taxes means, point vendors to the IRS "Self-employed individuals tax center" (irs.gov/businesses/small-businesses-self-employed/self-employed-individuals-tax-center) or a tax professional. Use that exact name; don't paraphrase what the IRS says.
@@ -79,7 +79,7 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 
 - Vendors get an email for every new booking. Families get a reminder about one day before class.
 - Family cancellations use one schedule for every listing: more than 48 hours before, 100% of credits back; 24–48 hours, 50%; under 24 hours, nothing. Families can move a booking to another session of the same listing for free while it is more than 48 hours away (Refund Policy §8.8, from 1 Oct 2026); inside 48 hours they can only cancel.
-- **Late cancels and no-shows pay the vendor** (since 27 Sep 2026): the vendor gets the share the family didn't get back. Under 24 hours before class, or a no-show: the vendor's full price. 24–48 hours: half. More than 48 hours: nothing. A late cancel counts as earned when the class would have started.
+- **Late cancels and no-shows pay the vendor** (since 27 Sep 2026): the vendor gets the share the family didn't get back. Under 24 hours before class, or a no-show: the vendor's full payout for that seat. 24–48 hours: half. More than 48 hours: nothing. A late cancel counts as earned when the class would have started.
 - The share follows what the family actually got back: if a family gets more back (for example a Platinum loyalty member, or a refund ORYN adjusts), the vendor's share is smaller. If the vendor cancels the session before it starts, or ORYN cancels a booking, the vendor is not paid for it. A no-show already in a payout can't be undone by the vendor (support can).
 - A no-show may only be recorded for a child who didn't come to a class that ran. Recording a false one breaks the Vendor Agreement.
 - If the vendor cancels, the family automatically gets 100% back, however close to class time. A vendor can't cancel after the child is checked in or class has started. Frequent cancelling can hurt a vendor's ranking.
@@ -127,9 +127,9 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 
 ## 8. NEVER CLAIM (false or unproven today)
 
-- ❌ Instant, same-day or on-demand payouts, a fixed payout day (for example "the 3rd"), or "within X days". The only promise is the 30-day outer limit.
-- ❌ "Paid through Stripe", the $50 minimum, the 14-day wait, or "Get paid now". These are Stripe-only rules, and Stripe payouts are off.
-- ❌ "No commission / no fees, **ever**". Once Stripe payouts are on, "Get paid now" carries a fee.
+- ❌ Instant or same-day payouts, a fixed payout day (for example "the 3rd"), "within X days", or the old "no later than 30 days after the end of the month" (that is the bank-transfer fallback, not how vendors are paid now). Say it the way section 3 does: monthly through Stripe, for sessions at least 14 days old, when $50 or more is due.
+- ❌ That every payout is free of fees, or "with no fee taken out" without saying which payout. Only the regular monthly payout is; "Get paid now" carries a fee shown before the vendor confirms.
+- ❌ "No commission / no fees, **ever**", "paid in full", "your full price" or "you keep your full price". ORYN keeps an agreed percentage; say "your full payout", or that a discount "never reduces your payout".
 - ❌ Any founding-vendor offer ("first 20", "0% commission", "founding vendor") in public content. Vendors hear it by email or in person only.
 - ❌ Coverage outside Southern California (ZIPs 900–935). San Francisco and New York are NOT served.
 - ❌ That the **ORYN Quest Business** app is in the App Store or on Google Play.

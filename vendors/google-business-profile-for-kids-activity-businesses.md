@@ -8,7 +8,7 @@ tags: [marketing, local-search]
 areas: [Southern California]
 answer: "Claim and verify your profile, use your real business name with no extra keywords, pick the most specific category for what you mainly do, keep hours and photos current, ask every family for an honest review, and add a booking link that goes to a page for your business only."
 image: "/blog-assets/google-business-profile-for-kids-activity-businesses.jpg"
-imageAlt: "A bright, empty kids' art studio in the morning, with big sunny windows, potted plants, low white tables, coral and teal stools and jars of paint brushes"
+imageAlt: "A bright, empty art studio in the morning, with big sunny windows, potted plants, low white tables, coral and teal stools and jars of paint brushes"
 draft: false
 ---
 

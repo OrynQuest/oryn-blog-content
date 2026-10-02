@@ -8,8 +8,8 @@ keyword: "children's activity pricing 2026"
 tags: [pricing, budgeting, camps, hidden costs, southern california]
 areas: [Southern California]
 answer: "Plan on roughly $25 to $45 for a drop-in class, $115 to $195 a month for a weekly gymnastics or martial arts class, and $325 to $575 for a week of general day camp. These are typical Southern California asking prices we have seen. Add registration, gear and recital fees, then set a monthly ceiling per child."
-image: "/blog-assets/children-s-activity-pricing-in-2026-what-parents-should.jpg"
-imageAlt: "A parent's hands sort kids' class and camp brochures at a sunny kitchen table beside a coin jar, a calculator, a soccer ball and ballet slippers"
+image: "/blog-assets/children-s-activity-pricing-in-2026-what-parents-should-v2.jpg"
+imageAlt: "A sunlit activity studio with a long wooden table, wooden stools and shelves full of art and craft supplies"
 ---
 
 # Children's Activity Pricing in 2026: What Southern California Families Should Expect

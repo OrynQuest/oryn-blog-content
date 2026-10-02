@@ -16,7 +16,7 @@ tags: [kids-classes, kids, classes, parents]
 Kids' classes in Southern California vary widely in price depending on the activity type, instructor experience, session length, and location, so a single flat rate rarely tells the full story. On ORYN Quest, every listing shows its credit price per seat before you confirm, and monthly membership plans turn scattered activity spending into one predictable amount. Sibling discounts, roll-over credits, and one standard cancellation schedule add further protection.
 
 ## What Shapes Kids' Class and Camp Pricing Across Southern California in 2026
-![A parent and young child shape clay bowls at a wooden table in a sunlit studio](/blog-assets/what-kids-activities-really-cost-in-southern-california-2026-s1.jpg)
+![A violin in its open case, ballet slippers and a piano in a sunny music room](/blog-assets/what-kids-activities-really-cost-in-southern-california-2026-s1-v2.jpg)
 
 
 If you have ever compared a martial arts studio in Pasadena with a ceramics class in San Diego and wondered why one costs nearly double the other, the difference usually comes down to a handful of factors:
@@ -62,7 +62,7 @@ Two rules worth knowing: credits from a plan don't expire, and unused credits ro
 
 ## Saving With Sibling Discounts When Booking Multiple Kids
 
-For families with multiple kids, the sibling discount is one of the easiest savings on the platform. When you book two or more siblings into the same session, the first child pays the listed credit price and each additional child gets 10% off today, applied automatically. ORYN covers the discount, so the vendor is paid in full.
+For families with multiple kids, the sibling discount is one of the easiest savings on the platform. When you book two or more siblings into the same session, the first child pays the listed credit price and each additional child gets 10% off today, applied automatically. ORYN covers the discount, so it doesn't reduce what the vendor is paid.
 
 In practice this works nicely for same-age or close-in-age siblings who enjoy the same activity, such as a siblings' art class or a beginner martial arts group. When you book, you simply choose which children are coming, and the discount applies to the extra children in that shared session.
 
@@ -98,7 +98,7 @@ No. Credits from a monthly plan roll over, and each month's credits are added on
 
 ### How much can I save with the sibling discount?
 
-When two or more siblings are booked into the same session, the first child pays the listed credit price and each additional child gets 10% off today, applied automatically. ORYN covers the cost, so the vendor is paid in full.
+When two or more siblings are booked into the same session, the first child pays the listed credit price and each additional child gets 10% off today, applied automatically. ORYN covers the cost, so the discount doesn't reduce what the vendor is paid.
 
 ### What happens if my child gets sick the night before class?
 

@@ -7,8 +7,8 @@ author: "ORYN Quest, Inc."
 keyword: "saturday morning kids classes near me"
 tags: [saturday classes, weekend activities, sensory-friendly, southern california]
 areas: [Southern California]
-image: /blog-assets/saturday-morning-kids-classes-near-me-a-parent-s-2026.jpg
-imageAlt: "A parent and a young child with a backpack hold hands on a sunny path toward a coral-colored art studio with arched windows and palm trees"
+image: /blog-assets/saturday-morning-kids-classes-near-me-a-parent-s-2026-v2.jpg
+imageAlt: "Paintbrushes in a jar, colored pencils, a pottery bowl and a watercolor palette on a sunlit art-class table"
 draft: false
 ---
 

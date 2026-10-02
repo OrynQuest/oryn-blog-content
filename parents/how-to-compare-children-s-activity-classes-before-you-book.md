@@ -7,8 +7,8 @@ author: "ORYN Quest, Inc."
 keyword: "how to choose kids activity class"
 tags: [choosing a class, sensory-friendly, budgeting, southern california]
 areas: [Southern California]
-image: /blog-assets/how-to-compare-children-s-activity-classes-before-you-book.jpg
-imageAlt: "A parent at a sunlit kitchen table compares printed class schedules beside a phone, a teal ribbon and a child's toy car, with palm trees outside the window"
+image: /blog-assets/how-to-compare-children-s-activity-classes-before-you-book-v2.jpg
+imageAlt: "A wooden abacus, a tangram puzzle, building blocks, colored pencils and an open notebook on a sunny desk"
 draft: false
 ---
 

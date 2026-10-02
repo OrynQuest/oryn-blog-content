@@ -8,7 +8,7 @@ tags: [marketing, listings]
 areas: [Southern California]
 answer: "A kids' class listing gets booked when a parent can answer four questions at a glance: is it right for my child's age, what will they actually do, when does it run, and what should we bring. Say those plainly, show the real room in your photos, and publish the schedule weeks ahead."
 image: "/blog-assets/how-to-write-a-kids-class-listing-parents-book.jpg"
-imageAlt: "A bright, empty children's dance studio before class, with a pale wood floor, big sunny windows, rows of coral and teal floor spots and a bench of folded yellow scarves and tambourines"
+imageAlt: "A bright, empty dance studio before class, with a pale wood floor, big sunny windows, rows of coral and teal floor spots and a bench of folded yellow scarves and tambourines"
 draft: false
 ---
 
