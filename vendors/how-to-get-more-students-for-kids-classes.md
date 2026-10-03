@@ -71,7 +71,7 @@ Getting a family through the door is the expensive part. Keeping them is where a
 ORYN Quest is a marketplace where Southern California families book kids' activities with credits from a monthly membership. For a vendor, today:
 
 - **Joining and listing are free.** You set a dollar price per seat, and families see it in credits. When a family books, ORYN keeps an agreed percentage of the listed price, as set out in your vendor agreement.
-- **Families find you by search, on a map and through Nova, ORYN Quest's assistant.** Nobody can promise bookings, but it puts your class where families are already looking.
+- **Families find you by search, on a map and through ORYN, the built-in assistant.** Nobody can promise bookings, but it puts your class where families are already looking.
 - **A waitlist refills freed seats.** When a seat opens, the next family on the list gets a 24-hour hold.
 - **Last-minute deals don't cut your pay.** You can offer 5–75% off a session that starts within 24 hours and still has seats. ORYN pays the discount.
 - **Reviews come only from families who completed a booking,** and you can reply publicly.

@@ -14,10 +14,14 @@ out() { printf -- '- %s: %s\n' "$name" "$1"; }
 
 # 1. Wording the founders ruled out on the public site (2 Oct 2026): the founding
 #    offer is never published; ORYN keeps an agreed percentage, so no "no
-#    commission" / "paid in full" / "keep your full price"; the assistant is Nova;
-#    the site's own hard rules (no "vetted", no guarantees).
-hits=$(printf '%s\n' "$body" | grep -oiE "founding vendors?|first 20 (approved|founding|real|vendors|shops)|0% commission|no commission|commission[- ]free|paid in full|(receive|receives|get|gets|keep|keeps|paid|pays)[^.]{0,25}full (dollar )?price|keep (the|your) full price|keep the price you set|ORYN AI|ORYN assistant|Ask ORYN|\bvetted\b|\bguarantee[sd]?\b" | sort -fu | paste -sd ';' - || true)
+#    commission" / "paid in full" / "keep your full price"; the site's own hard
+#    rules (no "vetted", no guarantees). The assistant is ORYN ("Ask ORYN" is
+#    fine) and never "Nova": Amazon owns NOVA for chatbot software (founders,
+#    2 Oct 2026). "bossa nova", the dance, is not the assistant.
+hits=$(printf '%s\n' "$body" | grep -oiE "founding vendors?|first 20 (approved|founding|real|vendors|shops)|0% commission|no commission|commission[- ]free|paid in full|(receive|receives|get|gets|keep|keeps|paid|pays)[^.]{0,25}full (dollar )?price|keep (the|your) full price|keep the price you set|\bvetted\b|\bguarantee[sd]?\b" | sort -fu | paste -sd ';' - || true)
 [ -n "$hits" ] && out "banned wording (docs/vendor-facts.md, founders 2 Oct 2026): ${hits//;/, }"
+nova=$(printf '%s\n' "$body" | grep -oiE "(\bbossa[[:space:]]+)?\bnova\b" | grep -viE "^bossa" | sort -fu | paste -sd ';' - || true)
+[ -n "$nova" ] && out "the assistant is ORYN, never \"Nova\" (Amazon owns NOVA for chatbot software; docs/parent-facts.md, founders 2 Oct 2026): ${nova//;/, }"
 prov=$(printf '%s\n' "$body" | grep -oiE "([a-z-]+[[:space:]]+)?providers?\b" | grep -viE "^(insurance|oauth|sign-in|login|identity|email|internet|health ?care|healthcare|therapy|service)[[:space:]]+providers?$" | sort -fu | paste -sd ';' - || true)
 [ -n "$prov" ] && out "the word is \"vendor\", never \"provider\": ${prov//;/, }"
 
@@ -76,8 +80,8 @@ rule "L-009..012" "never say what a plan fits or that it is cheaper — use the 
 rule "L-013" "ORYN Play and ORYN Town are web pages, not in the app (parent-facts §7)" \
   "(ORYN Play|ORYN Town)[^.]{0,80}\b(in|inside|built into|within) the (ORYN Quest |family )?app\b|\b(in|inside|built into) the (ORYN Quest |family )?app[^.]{0,40}(ORYN Play|ORYN Town)" \
   "\bnot (in|inside|built into|within) the|\baren'?t (in|inside)"
-rule "L-014..015" "Nova never books, moves or cancels without the parent's tap on Confirm, and does not sync calendars (parent-facts §6, §8)" \
-  "\b(searches|finds)[^.]{0,60}\bbooks\b[^.]{0,40}|\b(AI|assistant|Nova)\b[^.]{0,20}\bbooks (it|the|a|your)\b[^.]{0,40}|\bsyncs? your calendar|\badds? (it|the session|the class) to your (family )?calendar" \
+rule "L-014..015" "ORYN never books, moves or cancels without the parent's tap on Confirm, and does not sync calendars (parent-facts §6, §8)" \
+  "\b(searches|finds)[^.]{0,60}\bbooks\b[^.]{0,40}|\b(AI|assistant|ORYN|Nova)\b[^.]{0,20}\bbooks (it|the|a|your)\b[^.]{0,40}|\bsyncs? your calendar|\badds? (it|the session|the class) to your (family )?calendar" \
   "confirm|\btap\b|never books"
 rule "L-016..018" "no ORYN numbers or rankings that are not on the fact sheets (parent-facts §8)" \
   "\bmost[- ](requested|booked|searched)\b"

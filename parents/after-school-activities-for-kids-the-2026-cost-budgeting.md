@@ -64,7 +64,7 @@ One-time top-up credit packs handle the irregular stuff: a birthday pottery clas
 Families with two or three kids face a multiplication problem: three registrations, three activity schedules, three sets of gear. A few tactics that work:
 
 - **Pool your credits.** One ORYN membership covers every child in the household, so you are not buying three separate program commitments.
-- **Run one shared calendar.** The ORYN calendar (website and app) shows everyone's bookings together, and you can ask Nova, ORYN Quest's assistant, by voice or chat, to show your upcoming bookings or your next session before you book another.
+- **Run one shared calendar.** The ORYN calendar (website and app) shows everyone's bookings together, and you can ask ORYN, our assistant, by voice or chat, to show your upcoming bookings or your next session before you book another.
 - **Guard against overlap losses.** The classic multi-kid money drain is the non-refundable deposit lost when a class collides with a sibling's recital. A quick look at the ORYN calendar before you confirm prevents it.
 - **Use the parent community.** Other ORYN families post questions and swap recommendations on nearby classes in the parent community.
 
@@ -72,7 +72,7 @@ Families with two or three kids face a multiplication problem: three registratio
 
 Low cost and good fit are two different questions. A $15 drop-in gym class with 20 kids, loud music, and fluorescent lights can be a hard no for a sensory-sensitive child, while a $30 class capped at six students with a visual schedule and a quiet corner is a bargain at twice the price.
 
-Before booking, check the listing details and its parent reviews for specifics: class size caps, whether parents can stay, lighting and sound levels, instructor experience with sensory needs, and whether a quiet space exists. You can ask Nova to surface sensory friendly kids activities near you and summarize what a listing includes before you spend any credits. Several SoCal museums also run dedicated sensory hours, and those are worth pairing into the rotation.
+Before booking, check the listing details and its parent reviews for specifics: class size caps, whether parents can stay, lighting and sound levels, instructor experience with sensory needs, and whether a quiet space exists. You can ask ORYN to surface sensory friendly kids activities near you and summarize what a listing includes before you spend any credits. Several SoCal museums also run dedicated sensory hours, and those are worth pairing into the rotation.
 
 The budget move: book one session with credits before committing to an eight-week run. One trial beats a season-long mistake.
 
