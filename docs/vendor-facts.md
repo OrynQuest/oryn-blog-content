@@ -121,7 +121,7 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 - Anyone sharing a referral link must say they earn credits for it.
 - ORYN may feature vendor listings in its marketing (email, social media, ads) and invite vendors to optional promotions.
 - Search ranking can depend on parent satisfaction, reply speed, completion and cancellation rates, and profile completeness. ORYN doesn't publish the weights.
-- Parents find classes by search, on a map, and through ORYN, the built-in assistant (one short word; never "Nova", Amazon's trademark). ORYN does not guarantee bookings, revenue, ranking or AI recommendations.
+- Parents find classes by search, on a map, and through Lanti, the built-in assistant (one word; never "ORYN", which is the company, and never "Nova", Amazon's trademark). ORYN does not guarantee bookings, revenue, ranking or AI recommendations.
 
 ---
 

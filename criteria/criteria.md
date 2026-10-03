@@ -1,11 +1,11 @@
 ---
-criteria_version: 2
+criteria_version: 3
 updated: 2026-10-02
 owner: QUEST (hard gates, golden set, lessons) · HUB (writer, Jev, image judge, real-world gate)
 read_by: [Agency Hub writer, Jev, the Hub image judge, .github/scripts/check-post.sh, .github/workflows/regression.yml]
 ---
 
-# ORYN Quest blog — publishing criteria (v2)
+# ORYN Quest blog — publishing criteria (v3)
 
 This is the ONE rule book for every ORYN Quest blog post. The writer reads it
 before drafting, Jev scores against it, and QUEST's automatic checks enforce
@@ -39,7 +39,7 @@ against the golden set (`regression.yml`). The site itself
 |---|---|---|
 | H1 | **Contract.** Files only under `parents/`, `vendors/` or `public/blog/`; add or modify only; front-matter has `title`, `description`, `date`; slug is lowercase words joined by hyphens. | — |
 | H2 | **Search limits.** Search title (title, or `seoTitle` when set) ≤ 60 characters; description 120–160 characters. | — |
-| H3 | **Founders' banned wording.** Never the founding-vendor offer ("founding vendor", "first 20", "0% commission"); never "no commission", "commission-free", "paid in full", "(receive/keep/get) full price", "keep the price you set", "paid exactly your price", "nothing taken from the price you set"; never "Nova" — the assistant is **ORYN**, one short word ("Ask ORYN" is fine; Amazon owns NOVA for chatbot software). | L-023…L-028, L-037 |
+| H3 | **Founders' banned wording.** Never the founding-vendor offer ("founding vendor", "first 20", "0% commission"); never "no commission", "commission-free", "paid in full", "(receive/keep/get) full price", "keep the price you set", "paid exactly your price", "nothing taken from the price you set"; never "Nova" — the assistant is **Lanti**, one word, title case ("Ask Lanti" is fine; Amazon owns NOVA for chatbot software); never the assistant as "ORYN" — "Ask ORYN", "ORYN AI", "ORYN assistant", "ORYN, our assistant" (ORYN is the company); never "LANTI" or "Lanti AI". | L-023…L-030, L-037, L-038 |
 | H4 | **Vendor, never provider.** (Exceptions: insurance, OAuth, sign-in, login, identity, email, internet, health care, therapy, service providers.) | L-031 |
 | H5 | **Never "vetted"**; never certified / verified / licensed / insured / background-checked vendors; vendors don't "sync" openings. | L-020, L-021, L-031 |
 | H6 | **No guarantees** — the word itself, even negated ("will not guarantee"). Say "no promise". | L-032 |
@@ -50,7 +50,7 @@ against the golden set (`regression.yml`). The site itself
 | H11 | **One cancellation schedule** for every listing (>48 h all credits back, 24–48 h half, <24 h none); no per-camp or per-studio windows; **moves close 48 hours before class** (never "until it starts"). | L-007, L-008, L-022 |
 | H12 | **Plans** are described only in their own one-line descriptions — never what a plan "fits", "suits" or "covers", never cheaper, savings, "comes out ahead". | L-009…L-012 |
 | H13 | **ORYN Play and ORYN Town are web pages**, never "in the app". | L-013 |
-| H14 | **ORYN (the assistant) never books, moves or cancels without the parent's tap on Confirm**, and does not "sync your calendar". | L-014, L-015, L-036 |
+| H14 | **Lanti (the assistant) never books, moves or cancels without the parent's tap on Confirm**, and does not "sync your calendar". | L-014, L-015, L-036 |
 | H15 | **No ORYN rankings or statistics** ("most-requested", "most-booked", "most searched"). | L-016…L-018 |
 | H16 | **Known-closed places** are never recommended (Eaton Canyon, closed since the January 2025 Eaton Fire). | L-019 |
 | H17 | **Live.** After merge the post loads on orynquest.com for Googlebot and GPTBot (200, its title, not "not found", not noindex) — else it is reverted (`live-check.yml`). | — |
@@ -79,7 +79,7 @@ weakness Jev names, **0** = fails.
 below 2. Otherwise PASS. Jev's output (JSON):
 
 ```json
-{"criteria_version": 2, "verdict": "pass|fail",
+{"criteria_version": 3, "verdict": "pass|fail",
  "hard_gates": {"passed": true, "failed": []},
  "judged": [{"id": "J1", "score": 2, "evidence": ["<quote from the draft>", "<fact-sheet line>"], "note": "…"}],
  "lessons_checked": ["L-001", "…"], "reflection_needed": false}
@@ -106,5 +106,6 @@ below 2. Otherwise PASS. Jev's output (JSON):
 
 ## Changelog
 
+- **v3 — 2 Oct 2026 (QUEST).** The assistant is now **Lanti** (founders, 2 Oct 2026, 18:46 PT; Mike: "Yes Lanti is good, lets proceed"): one word, title case, said "LAN-tee". ORYN is the company again, never the assistant. H3 bans "Nova" and the assistant-as-ORYN wording ("Ask ORYN", "ORYN AI", "ORYN assistant", "ORYN, our assistant") and allows "Lanti" and "Ask Lanti"; it also bans "LANTI" and "Lanti AI"/"Lanti assistant". H14 says Lanti. Lessons L-029 ("never ORYN AI") and L-030 ("never Ask ORYN") are back with their golden cases; new lesson L-038 (never "ORYN, our assistant", golden case `bad-oryn-our-assistant`); `good-oryn` became `good-lanti` and `good-ask-oryn` became `good-ask-lanti`. Golden set: 38 known-bad, 17 known-good; 38 lessons.
 - **v2 — 2 Oct 2026 (QUEST).** The assistant is **ORYN** again, not Nova (founders, 2 Oct 2026: Amazon owns NOVA for chatbot software; the name is one short word). H3 now bans "Nova" and allows "ORYN" and "Ask ORYN"; H14 and J1 say ORYN / the assistant. Lessons L-029 ("never ORYN AI") and L-030 ("never Ask ORYN") were rules for the Nova name and are withdrawn with their golden cases; new lesson L-037 (never Nova, golden case `bad-nova`); `good-nova` became `good-oryn`, and `good-ask-oryn` is new. Golden set: 35 known-bad, 17 known-good; 35 lessons.
 - **v1 — 2 Oct 2026 (QUEST).** First version: hard gates H1–H17 (mirroring `check-post.sh`, the auto-merge contract, the site's `rules.ts` and the live gate), judged criteria J1–J7, the reflection loop, the golden set (36 known-bad, 16 known-good) and 36 lessons. Mike, 2 Oct: "we must give good and solid gates and criteria, and in case criteria are not met, there should be a self reflect, auto regression and self learning type of system not to make same mistakes twice."
