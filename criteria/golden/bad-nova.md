@@ -2,7 +2,7 @@
 id: bad-nova
 expected: fail
 audience: parents
-rule: "The assistant is ORYN, one short word — never \"Nova\": Amazon owns NOVA for chatbot software (founders, 2 Oct 2026)."
+rule: "The assistant is Lanti — never \"Nova\": Amazon owns NOVA for chatbot software (founders, 2 Oct 2026)."
 source: "OrynQuest/oryn-blog-content commit 1246048, parents/what-kids-activities-really-cost-in-southern-california-2026.md (line 89)"
 field: body
 lesson: L-037

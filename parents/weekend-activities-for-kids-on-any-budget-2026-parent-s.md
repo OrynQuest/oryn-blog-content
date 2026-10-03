@@ -54,15 +54,15 @@ When camp season arrives, top-up credit packs can cover extra sessions. Spring b
 
 Families searching for sensory friendly kids classes near me usually need more than a listing title. They need to know whether the room is loud, whether the lights are bright, whether the group is small, and whether a child can take a movement break. ORYN Quest gives parents two practical starting points.
 
-First, use the filters on [Explore](/explore) (Inclusive, Wheelchair Accessible, Sensory-friendly), or ask ORYN, our built-in voice-and-chat assistant, for sensory-friendly art classes near Pasadena, then pick a Saturday slot. Second, open the parent community. Southern California parents can share which studios, pools, gyms, and instructors have welcomed their children, and they can suggest what to ask before booking.
+First, use the filters on [Explore](/explore) (Inclusive, Wheelchair Accessible, Sensory-friendly), or ask Lanti, our built-in voice-and-chat assistant, for sensory-friendly art classes near Pasadena, then pick a Saturday slot. Second, open the parent community. Southern California parents can share which studios, pools, gyms, and instructors have welcomed their children, and they can suggest what to ask before booking.
 
 Good questions to ask before you book include class size, music volume, lighting, seating, whether caregivers can observe, and whether the space has a quiet corner. Early Saturday sessions are often calmer than midday ones. Some gyms and swim schools offer sensory-friendly hours with smaller groups and reduced noise. Before booking, confirm the details that matter most to your child, especially if your family needs accessible parking, step-free entry, or a particular communication style from instructors.
 
 ## Using ORYN to Search and Book From Your Phone
 
-ORYN works by voice or chat, on the website and in the family app. While you load the dishwasher or pack the snack bag, you can ask it for classes near you by category, then open a listing, pick a session, and tap Confirm to book. ORYN never books on its own.
+Lanti works by voice or chat, on the website and in the family app. While you load the dishwasher or pack the snack bag, you can ask it for classes near you by category, then open a listing, pick a session, and tap Confirm to book. Lanti never books on its own.
 
-That means you can move from wondering about things to do with kids this weekend to a confirmed session without opening five separate websites. Your bookings land on the ORYN calendar (and on Google Calendar, if you connect it), and when you arrive, the vendor checks your child in from their roster; nothing to print. If plans change, ORYN can prepare a move or a cancellation for you to confirm, and moving a booking to another session of the same class is free while it is more than 48 hours away.
+That means you can move from wondering about things to do with kids this weekend to a confirmed session without opening five separate websites. Your bookings land on the ORYN calendar (and on Google Calendar, if you connect it), and when you arrive, the vendor checks your child in from their roster; nothing to print. If plans change, Lanti can prepare a move or a cancellation for you to confirm, and moving a booking to another session of the same class is free while it is more than 48 hours away.
 
 While you finish planning, the kids can play ORYN Play and ORYN Town, the free games at [orynquest.com/play](/play). They give younger children something fun to do while the family calendar comes together.
 
@@ -78,7 +78,7 @@ The Saturday scramble gets smaller when the routine repeats.
 
 1. Open [orynquest.com/explore](/explore) or download the ORYN Quest family app on iOS or Android.
 2. Compare the Play, Plus, Pro, and Premium monthly credit plans on [orynquest.com/pricing](/pricing).
-3. Ask ORYN, by voice or chat, to find classes near you, then tap Confirm to book; the booking lands on your ORYN calendar.
+3. Ask Lanti, by voice or chat, to find classes near you, then tap Confirm to book; the booking lands on your ORYN calendar.
 4. Add a one-time top-up credit pack during busy camp months if you need extra credits without changing plans.
 5. At the class, the vendor checks your child in from their roster; nothing to print.
 6. Join the parent community for recommendations.

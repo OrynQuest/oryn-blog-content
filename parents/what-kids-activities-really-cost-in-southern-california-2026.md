@@ -86,9 +86,9 @@ Two small notes: once your child is checked in, a booking cannot be cancelled or
 
 Finding kids classes in Southern California is faster when the search tools do the sorting for you. On orynquest.com, the Explore page offers filters for category, child's age, maximum credit cost, listing type (class, camp, drop-in, or birthday party), in-person or online, skill level, favorites, and accessibility needs, including an Inclusive (autism-friendly) filter, Wheelchair Accessible, Sensory-friendly, and insurance accepted. You can sort by recommended, distance, credit price, rating, or newest. The ORYN Quest family app has the same filters apart from favorites (there the autism-friendly one is labelled Autism-friendly), and the same sorts apart from distance.
 
-ORYN, our assistant, takes it further, by voice or by chat. You can say something like "find a sensory-friendly art class near Pasadena" or "find a cooking class for my 6-year-old in Los Angeles" and it will pull matching listings. It can also check your credits, show upcoming bookings, message a vendor, or prepare a reschedule. ORYN searches by category, age, place, and needs rather than by day or time, so you describe the activity and then pick the session slot yourself.
+Lanti, our assistant, takes it further, by voice or by chat. You can say something like "find a sensory-friendly art class near Pasadena" or "find a cooking class for my 6-year-old in Los Angeles" and it will pull matching listings. It can also check your credits, show upcoming bookings, message a vendor, or prepare a reschedule. Lanti searches by category, age, place, and needs rather than by day or time, so you describe the activity and then pick the session slot yourself.
 
-ORYN never books on its own. Booking always needs your tap on Confirm, which keeps you in control of every credit spent. For families exploring what is out there, our list of [kids activities near me that Southern California parents love](https://orynquest.com/blog/kids-activities-near-me-12-ideas-southern-california-parents) is a friendly place to start, and for a specific weekend format, our [Saturday morning kids classes shortlist](https://orynquest.com/blog/saturday-morning-kids-classes-near-me-a-parent-s-2026) narrows it down.
+Lanti never books on its own. Booking always needs your tap on Confirm, which keeps you in control of every credit spent. For families exploring what is out there, our list of [kids activities near me that Southern California parents love](https://orynquest.com/blog/kids-activities-near-me-12-ideas-southern-california-parents) is a friendly place to start, and for a specific weekend format, our [Saturday morning kids classes shortlist](https://orynquest.com/blog/saturday-morning-kids-classes-near-me-a-parent-s-2026) narrows it down.
 
 ## FAQ
 
@@ -106,7 +106,7 @@ Cancellations under 24 hours before the session return no credits, so a same-day
 
 ### Can I search for classes by day or time?
 
-Not currently. The filters search by category, age, and needs such as sensory-friendly or wheelchair accessible, and ORYN, our assistant, can also search near a place you name. You open a listing to see its upcoming sessions and choose the slot that fits your schedule.
+Not currently. The filters search by category, age, and needs such as sensory-friendly or wheelchair accessible, and Lanti, our assistant, can also search near a place you name. You open a listing to see its upcoming sessions and choose the slot that fits your schedule.
 
 ### Can I change my membership plan?
 
