@@ -1,18 +1,20 @@
 # Gate ledger — shadow-mode streak
 
-_Rebuilt 2026-10-02T22:04:44Z by .github/scripts/gate_ledger.py from `ledger/gate-ledger.jsonl` (0 live decisions, 17 backfilled)._
+_Rebuilt 2026-10-07T13:22:22Z by .github/scripts/gate_ledger.py from `ledger/gate-ledger.jsonl` (1 live decisions, 17 backfilled)._
 
 **Switch-off bar** (Agency Hub — Full Automation Plan, 2 Oct 2026): the gates must match a person's call on **15 posts in a row, with zero "too loose"** (a post the gates passed that a person then stopped or changed). Only then does `HOLD_NEW_POSTS` turn off for that folder — vendors/ first, then parents/, then edits. A miss resets the count; the fix is a new gate.
 
 | Folder | Current streak | Bar | Too loose in the streak | Too loose ever | Too strict ever | Person decisions counted | Status |
 |---|---|---|---|---|---|---|---|
 | vendors/ — new posts | 0 | 0/15 | 0 | 0 | 0 | 0 | not yet |
-| parents/ — new posts | 0 | 0/15 | 0 | 0 | 0 | 0 | not yet |
+| parents/ — new posts | 1 | 1/15 | 0 | 0 | 0 | 1 | not yet |
 | edits to live posts (text or images) | 0 | 0/15 | 0 | 0 | 0 | 0 | not yet |
 
 ## Last live decisions
 
-None yet — the first Agency Hub pull request closed after 2 Oct 2026 starts the count.
+| PR | Folder | Gates | Person | Edited first | Result |
+|---|---|---|---|---|---|
+| #32 | parents | fail | merged by oryn-quest | yes | agree |
 
 ## Backfill (pull requests before shadow mode — NOT counted)
 
