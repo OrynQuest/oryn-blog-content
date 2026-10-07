@@ -16,7 +16,6 @@ tags: [kids-activity-booking-app, kids, activity, parents]
 A great first class matches your child's age and interests, fits your family's logistics, and shows you real sessions with open seats before you commit. Read the listing closely, message the vendor about their approach, use the Inclusive, Wheelchair Accessible, and Sensory-friendly filters, and know the cancellation schedule first. Southern California families book all of it with credits on orynquest.com or the family app.
 
 ## What a "Great Fit" Actually Looks Like for a Young Child
-![A young child in a coral t-shirt dips both hands into a wide tray of sunny yellow paint at a low wooden table inside a bright community art studio](/blog-assets/what-a-great-first-class-actually-looks-like-and-what-to-ask-s1.jpg)
 
 
 The first class is about the experience of walking in the door, and the activity itself matters less than parents expect. A three-year-old who loves paint does not need a technique-focused art studio. A six-year-old with big energy might do better in a sports drop-in than a seated tutoring session, at least to start.
@@ -30,7 +29,6 @@ Before you compare anything, get honest about three things at home:
 If you are comparing several options at once, our guide on [how to compare children's activity classes](https://orynquest.com/blog/how-to-compare-children-s-activity-classes-before-you-book) walks through the full checklist, including how to weigh distance, cost, and teaching style.
 
 ## How to Read a Class Listing Before You Book
-![A mother sits on a sunny park bench beneath swaying palm trees](/blog-assets/what-a-great-first-class-actually-looks-like-and-what-to-ask-s2.jpg)
 
 
 Every ORYN Quest listing shows its title, category, description, photos, credit price per seat, length, location, upcoming sessions with open seats, and reviews. Some listings add an age range, skill level, accessibility accommodations, a short video, and a waitlist.
@@ -45,7 +43,6 @@ How to actually use that information:
 If budget is the deciding factor, our breakdown of [what kids' activities really cost in Southern California](https://orynquest.com/blog/what-kids-activities-really-cost-in-southern-california-2026) gives useful context before you set a maximum credit cost in the filters.
 
 ## The Questions Worth Messaging the Vendor First
-![A parent sits on a sunny park bench beneath swaying palm trees, holding a phone in both hands while smiling softly](/blog-assets/what-a-great-first-class-actually-looks-like-and-what-to-ask-s3.jpg)
 
 
 You can message any listed vendor before booking, and for a first class you should. A studio that answers a nervous parent's questions patiently at the messaging stage will likely answer your child's questions patiently in person.
@@ -57,16 +54,16 @@ Good first questions:
 - What should my child wear or bring?
 - Is there a spot where I can wait nearby?
 
-That last one matters more than parents expect. The American Academy of Pediatrics notes that separation readiness varies widely by child and temperament, and a gradual handoff works better for some children than a hard goodbye at the door. Ask before booking if your child needs you in the room for session one. The CDC's guidance on helping young children build independence also suggests practicing short separations in familiar settings first, so a trial run at the library or a relative's house can tell you a lot.
+That last one matters more than parents expect. Some children are ready to wave goodbye at the door; others need a parent nearby for the first session. Ask before booking if your child needs you in the room for session one, and a short practice separation somewhere familiar can tell you a lot.
 
 ## Accessibility and Sensory-Friendly Filters Worth Using
 
-This is where a kids activity booking app should do real work for real families. On Explore you can filter by category, child's age, maximum credit cost, listing type (class, camp, drop-in, birthday party), in person or online, skill level, favorites only, and text search, plus the needs filters labelled Inclusive, Wheelchair Accessible, and Sensory-friendly.
+This is where a kids activity booking app should do real work for real families. On Explore you can filter by category, child's age, maximum credit cost, listing type (class, camp, drop-in, birthday party), in person or online, skill level, favorites only, and text search, plus the needs filters: Inclusive (called Autism-friendly on phones and in the app), Wheelchair Accessible, and Sensory-friendly.
 
 A few tips for using them well:
 
 - **Combine, don't settle.** Sensory-friendly plus your child's age plus a maximum credit cost gets you a short, usable list. Starting too broad is how parents end up scrolling for an hour at 11 p.m.
-- **Let the assistant do the typing.** The ORYN AI assistant works by voice or chat and understands needs-based requests, for example "find a sensory-friendly art class near Pasadena." It searches by category and place, so you still pick the specific session yourself.
+- **Let Lanti do the typing.** Lanti, our built-in assistant, works by voice or chat and understands needs-based requests, for example "find a sensory-friendly art class near Pasadena." It searches by category and place, so you still pick the specific session yourself.
 - **Still message the vendor.** A sensory-friendly label tells you the vendor has thought about it. A quick question, "what does a sensory break look like in your class?", tells you how. The difference matters.
 
 One honest note: there is no filter for day of the week or time of day. You open a listing to see its sessions and choose one. If you are hunting weekend options, our [Saturday morning kids classes shortlist](https://orynquest.com/blog/saturday-morning-kids-classes-near-me-a-parent-s-2026) does that narrowing for you.
@@ -80,9 +77,9 @@ By the time you leave the house you will already have a confirmation email with 
 Two more day-one things to know:
 
 - **Waivers.** Some listings need a signed waiver, done in the app before booking or on paper at the first session. Read it in advance rather than standing in a doorway with a clipboard and a wound-up child.
-- **The cancellation schedule, which is the same for every listing.** More than 48 hours before the session, you get 100% of your credits back; 24 to 48 hours before, 50%; under 24 hours, nothing. The exact amount is shown before you confirm, and refunded credits return instantly. If the vendor cancels, you get 100% back. Moving to another session of the same listing is free until the session starts or your child is checked in.
+- **The cancellation schedule, which is the same for every listing.** More than 48 hours before the session, you get 100% of your credits back; 24 to 48 hours before, 50%; under 24 hours, nothing. The exact amount is shown before you confirm, and refunded credits return instantly. If the vendor cancels, you get 100% back. Moving to another session of the same listing is free while the class is more than 48 hours away. Inside 48 hours it can't be moved, but you can still cancel under the schedule above.
 
-Life with young children is a cancellation machine, so this schedule is worth memorizing. Sick grandparent, surprise fever, birthday party invitation that trumps everything: the 48-hour line is your friend, and the free move is your best friend.
+Life with young children is a cancellation machine, so this schedule is worth memorizing. Sick grandparent, surprise fever, birthday party invitation that trumps everything: the 48-hour line is your friend, for moving and for cancelling.
 
 ## After Class: Reviews, Feedback, and Booking the Next One
 
@@ -100,15 +97,15 @@ Every class has its own credit price, shown before you confirm. Credits arrive m
 
 ### What if my child doesn't enjoy the class?
 
-If the session has not started yet, you can move the booking to another session of the same listing for free, or cancel under the standard schedule: 100% back more than 48 hours out, 50% back 24 to 48 hours out, nothing under 24 hours. Afterward, leave a review so the next parent benefits from what you learned about fit.
+If the class is more than 48 hours away, you can move the booking to another session of the same listing for free. You can also cancel under the standard schedule: 100% back more than 48 hours out, 50% back 24 to 48 hours out, nothing under 24 hours. Afterward, leave a review so the next parent benefits from what you learned about fit.
 
 ### How do I find sensory-friendly or Inclusive listings?
 
-Use the Inclusive, Wheelchair Accessible, and Sensory-friendly filters on Explore, or ask the ORYN AI assistant by typing or voice, for example "find a sensory-friendly art class near Pasadena." Your child's profile can also record sensory-support needs, which the assistant uses when suggesting activities.
+Use the Inclusive, Wheelchair Accessible, and Sensory-friendly filters on Explore, or ask Lanti, our assistant, by typing or voice, for example "find a sensory-friendly art class near Pasadena." Your child's profile can also record sensory-support needs, which Lanti can use when suggesting activities.
 
-### Can the AI assistant book a class for me?
+### Can Lanti book a class for me?
 
-The assistant can search listings, show your bookings and credits, message a vendor, join a waitlist, and prepare a booking, reschedule, or cancellation. Every one of those actions still needs your tap on Confirm on screen. The assistant never books on its own.
+Lanti can search listings, show your bookings and credits, message a vendor, join a waitlist, and prepare a booking, reschedule, or cancellation. A booking always needs your tap on Confirm on screen; Lanti never books on its own. Other changes are confirmed by you too, on screen or by saying yes when you use voice.
 
 ### Do I need to show anything at check-in?
 
