@@ -38,26 +38,21 @@ eff="${seo:-$title}"
 desc=$(fmv description)
 if [ -n "$desc" ] && { [ "${#desc}" -lt 120 ] || [ "${#desc}" -gt 160 ]; }; then out "description is ${#desc} characters (must be 120–160)"; fi
 
-# 3. Hero picture: real alt text, and no people on the website (Mariam, 1 Oct 2026).
+# 3. Hero picture: real alt text. (People ARE allowed: Mike, 7 Oct 2026, "Ignore the
+#    no people rule" — it overrides Mariam's 1 Oct rule; lesson L-033 retired.)
 img=$(fmv image); alt=$(fmv imageAlt)
 if [ -n "$img" ]; then
   if [ -z "$alt" ]; then out "imageAlt is required when image is set";
   else
     printf '%s' "$alt" | grep -qiE "^hero image" && out "imageAlt must say what the picture shows, not \"Hero image: …\""
-    ppl=$(printf '%s' "$alt" | grep -oiE "\b(child|children|kid|kids|girl|girls|boy|boys|parent|parents|mom|moms|dad|dads|mother|father|family|families|teacher|teachers|instructor|coach|student|students|people|person|toddler|toddlers|baby|teen|teens|man|men|woman|women|swimmer|dancer|dancers)\b" | sort -fu | paste -sd ',' - || true)
-    [ -n "$ppl" ] && out "website pictures show no people (Mariam, 1 Oct 2026) — imageAlt mentions: $ppl"
   fi
 fi
 
-# 4. Pictures inside the post follow the same rules, and every picture is bright
+# 4. Every picture, hero or inside the post, is bright
 #    daylight (Mike, 23 Sep 2026: "we can't have empty and dark depressing
 #    visually like this"; lesson L-034). The alt text is all a text check can
 #    see — the Hub's image judge looks at the pixels.
 inl=$(printf '%s\n' "$body" | grep -oE '!\[[^]]*\]' | sed -E 's/^!\[//; s/\]$//' || true)
-if [ -n "$inl" ]; then
-  ppl=$(printf '%s\n' "$inl" | grep -oiE "\b(child|children|kid|kids|girl|girls|boy|boys|parent|parents|mom|moms|dad|dads|mother|father|family|families|teacher|teachers|instructor|coach|student|students|people|person|toddler|toddlers|baby|teen|teens|man|men|woman|women|swimmer|dancer|dancers)\b" | sort -fu | paste -sd ',' - || true)
-  [ -n "$ppl" ] && out "website pictures show no people (Mariam, 1 Oct 2026) — an inline image's alt mentions: $ppl"
-fi
 dark=$(printf '%s\n%s\n' "$alt" "$inl" | grep -oiE "golden[- ]hour|sunset|sundown|dusk|twilight|at night|nighttime|evening light|backlit|silhouette" | sort -fu | paste -sd ',' - || true)
 [ -n "$dark" ] && out "pictures are bright daylight (Mike, 23 Sep 2026; lesson L-034) — alt text says: $dark"
 
