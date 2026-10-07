@@ -56,6 +56,7 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 - "In the app" needs at least one required waiver switched on, and a family can't finish booking until they sign. "On paper": the vendor collects and keeps it, and ORYN does not check it. With every answer, parents still accept ORYN's own Parent Waiver & Release before booking.
 - ORYN does not review what a vendor's waiver says. An AI tool can turn a photo or PDF of a paper waiver into editable text. You check it before saving, and the upload is then deleted.
 - Schedule: add time slots one at a time, or a whole term at once from a repeating pattern (weekly, every 2 weeks, monthly). Listings can be paused or archived.
+- Keep repeating (since 6 Oct 2026): a weekly class can keep going on its own. ORYN adds new class times automatically so there are always about 8 weeks of sessions ahead to book, topped up by a daily job. In "Get your class live" the box "Keep repeating after that" is ticked by default; on the Schedule page it is "Keep repeating after the term ends", unticked by default. A vendor can stop repeating at any time; existing bookings stay as they are. (Checked in code: convex/rollingSlots.ts, convex/crons.ts extend-rolling-slots, src/components/vendor/get-live/ClassTimesStep.tsx.)
 - **Recurring enrollment** (a family enrolls for a term and is charged automatically) is built but **switched OFF** for the public.
 
 ## 3. Pricing and money
