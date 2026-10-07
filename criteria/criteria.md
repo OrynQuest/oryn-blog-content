@@ -44,7 +44,7 @@ against the golden set (`regression.yml`). The site itself
 | H5 | **Never "vetted"**; never certified / verified / licensed / insured / background-checked vendors; vendors don't "sync" openings. | L-020, L-021, L-031 |
 | H6 | **No guarantees** — the word itself, even negated ("will not guarantee"). Say "no promise". | L-032 |
 | H7 | **No counts** of ORYN's own vendors, families, members or bookings; nothing nationwide (the service area is Southern California). | — |
-| H8 | **Pictures.** `imageAlt` is required with `image` and says what the picture shows (never "Hero image: …"); **no people** in any website picture, hero or inline (Mariam, 1 Oct 2026); bright daylight — never golden hour, sunset, dusk, night or backlit (Mike, 23 Sep 2026). | L-033, L-034 |
+| H8 | **Pictures.** `imageAlt` is required with `image` and says what the picture shows (never "Hero image: …"); people are allowed (Mike, 7 Oct 2026, overriding Mariam's 1 Oct no-people rule; every AI picture still passes the slop judge); bright daylight — never golden hour, sunset, dusk, night or backlit (Mike, 23 Sep 2026). | L-033, L-034 |
 | H9 | **No digital pass, QR code or scan** at check-in — the vendor checks the child in from its roster. | L-001…L-003 |
 | H10 | **No filters that don't exist** — no filter or sort by day, time, weekend, morning or city. | L-004…L-006 |
 | H11 | **One cancellation schedule** for every listing (>48 h all credits back, 24–48 h half, <24 h none); no per-camp or per-studio windows; **moves close 48 hours before class** (never "until it starts"). | L-007, L-008, L-022 |

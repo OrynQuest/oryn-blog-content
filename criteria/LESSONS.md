@@ -40,8 +40,8 @@ A lesson is **closed** only when its original bad text now FAILS the check named
 | L-030 | 2026-09-25 | The assistant is Lanti — never "Ask ORYN": ORYN is the company (founders, 2 Oct 2026). | QUEST | check-post.sh | yes | [bad-ask-oryn](golden/bad-ask-oryn.md) |
 | L-031 | 2026-10-02 | The word is vendor, never provider; never "vetted" (site rules, src/lib/blog/rules.ts). | QUEST | check-post.sh | yes | [bad-provider-vetted](golden/bad-provider-vetted.md) |
 | L-032 | 2026-10-02 | No guarantees, not even "will not guarantee" — the site hides the post (site rules). | QUEST | check-post.sh | yes | [bad-guarantee](golden/bad-guarantee.md) |
-| L-033 | 2026-10-02 | Website pictures show no people (Mariam, 1 Oct 2026). | QUEST | check-post.sh | yes | [bad-people-in-hero](golden/bad-people-in-hero.md) |
-| L-034 | 2026-09-23 | Heroes are bright daylight, never golden hour or dusk (Mike, 23 Sep 2026) — and no people. | QUEST | check-post.sh | yes | [bad-golden-hour-hero](golden/bad-golden-hour-hero.md) |
+| L-033 | 2026-10-02 | ~~Website pictures show no people (Mariam, 1 Oct 2026).~~ RETIRED 7 Oct 2026: Mike, "Ignore the no people rule". | QUEST | check-post.sh | yes | [good-people-in-hero](golden/good-people-in-hero.md) |
+| L-034 | 2026-09-23 | Heroes are bright daylight, never golden hour or dusk (Mike, 23 Sep 2026) | QUEST | check-post.sh | yes | [bad-golden-hour-hero](golden/bad-golden-hour-hero.md) |
 | L-035 | 2026-09-25 | No text, captions or logos baked into a picture (README: images). Only the pixels show it. | HUB | Hub image judge (vision) | **no** | [bad-baked-in-text-image](golden/bad-baked-in-text-image.md) |
 | L-036 | 2026-09-25 | The assistant does not "sync your calendar" (parent-facts §6, §8). | QUEST | check-post.sh | yes | [bad-ai-syncs-calendar](golden/bad-ai-syncs-calendar.md) |
 | L-037 | 2026-10-02 | The assistant is Lanti — never "Nova": Amazon owns NOVA for chatbot software (founders, 2 Oct 2026). | QUEST | check-post.sh | yes | [bad-nova](golden/bad-nova.md) |

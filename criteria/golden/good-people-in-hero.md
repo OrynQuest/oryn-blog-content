@@ -1,8 +1,8 @@
 ---
-id: bad-people-in-hero
-expected: fail
+id: good-people-in-hero
+expected: pass
 audience: parents
-rule: "Website pictures show no people (Mariam, 1 Oct 2026)."
+rule: "People are allowed in website pictures (Mike, 7 Oct 2026: \"Ignore the no people rule\"; retires L-033)."
 source: "Agency Hub PR #32, Hub version 5d0cf52, parents/what-a-great-first-class-actually-looks-like-and-what-to-ask.md (line 9)"
 field: imageAlt
 lesson: L-033
