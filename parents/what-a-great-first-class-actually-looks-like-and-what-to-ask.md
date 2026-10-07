@@ -1,12 +1,10 @@
 ---
 keyword: "kids activity booking app"
 title: "What a Great First Class Actually Looks Like"
-date: 2026-10-01
+date: 2026-10-07
 status: "published"
 author: "ORYN Quest, Inc."
 description: "A great first class matches your child's age and interests, fits your family's logistics, and shows you real sessions with open seats before you commit."
-image: "/blog-assets/what-a-great-first-class-actually-looks-like-and-what-to-ask.jpg"
-imageAlt: "Professional documentary-style photography of a young child happily participating in a beginner gymnastics class inside"
 areas: [Southern California]
 tags: [kids-activity-booking-app, kids, activity, parents]
 ---
