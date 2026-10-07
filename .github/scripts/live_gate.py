@@ -117,7 +117,10 @@ def title_matches(page_title: str, candidates: list[str]) -> bool:
     shown = norm(page_title)
     shown = re.sub(r"\s*\|\s*oryn quest$", "", shown)
     for cand in candidates:
-        want = norm(cand)
+        # Strip the brand suffix from the expected title too: a seoTitle such as
+        # "Why Kids' Classes Stop Getting Bookings | ORYN Quest" never matched the
+        # page title once its own suffix was removed (false revert, issue #42).
+        want = re.sub(r"\s*\|\s*oryn quest$", "", norm(cand))
         if not want:
             continue
         if want in shown:
