@@ -131,7 +131,7 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 - ❌ Instant or same-day payouts, a fixed payout day (for example "the 3rd"), "within X days", or the old "no later than 30 days after the end of the month" (that is the bank-transfer fallback, not how vendors are paid now). Say it the way section 3 does: monthly through Stripe, for sessions at least 14 days old, when $50 or more is due.
 - ❌ That every payout is free of fees, or "with no fee taken out" without saying which payout. Only the regular monthly payout is; "Get paid now" carries a fee shown before the vendor confirms.
 - ❌ "No commission / no fees, **ever**", "paid in full", "your full price" or "you keep your full price". ORYN keeps an agreed percentage; say "your full payout", or that a discount "never reduces your payout".
-- ❌ Any founding-vendor offer ("first 20", "0% commission", "founding vendor") in public content. Vendors hear it by email or in person only.
+- ❌ Any founding-vendor offer ("first 20", "0% commission", "founding vendor" as a deal or a spot to claim) in public content. Vendors hear it by email or in person only. *Exception (founders, 6 Oct 2026, ORY-194):* the site itself shows a "Founding vendor" badge on those shops' classes and pages. Posts may say a shop is a founding vendor, but never what it gets, how many spots exist, or that spots are open.
 - ❌ Coverage outside Southern California (ZIPs 900–935). San Francisco and New York are NOT served.
 - ❌ That the **ORYN Quest Business** app is in the App Store or on Google Play.
 - ❌ Recurring enrollment or automatic term billing for families. It is switched off.
