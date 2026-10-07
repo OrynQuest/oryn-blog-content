@@ -1,7 +1,7 @@
 ---
 title: "Why kids' classes quietly stop getting bookings (and the simple fix)"
 seoTitle: "Why Kids' Classes Stop Getting Bookings | ORYN Quest"
-description: "A weekly kids' class often stops getting bookings because the schedule runs out, not because parents lost interest. Here's how to keep class times rolling."
+description: "A weekly kids' class often stops getting new bookings because the schedule runs out, not because parents lost interest. Here's how to keep class times rolling."
 date: 2026-10-07
 author: "ORYN Quest Team"
 keyword: "kids class bookings dropped"
