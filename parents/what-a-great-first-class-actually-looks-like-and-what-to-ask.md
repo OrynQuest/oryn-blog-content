@@ -5,6 +5,8 @@ date: 2026-10-07
 status: "published"
 author: "ORYN Quest, Inc."
 description: "A great first class matches your child's age and interests, fits your family's logistics, and shows you real sessions with open seats before you commit."
+image: "/blog-assets/first-class-tumbling-coach-2026-10-07.jpg"
+imageAlt: "A coach kneels on a blue gym mat helping a small boy do a forward roll while three young kids wait their turn in a bright community gym"
 areas: [Southern California]
 tags: [kids-activity-booking-app, kids, activity, parents]
 ---
