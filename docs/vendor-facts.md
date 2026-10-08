@@ -3,6 +3,7 @@
 For Hermes / Agency Hub and John. A blog post for kids'-activity business owners may state an ORYN fact **only if it is on this sheet**. If it is not here, leave it out.
 
 - Checked against the live product and the published legal documents (orynquest.com/legal) on 23–24 Sep 2026. John keeps it up to date.
+- Section 3 payout rate, margin and rounding example re-checked against the product code on 8 Oct 2026, after the plan repricing.
 - Always say **vendor**. Numbers marked "today" can change, so keep that word in the post.
 
 ---
@@ -63,9 +64,9 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 ## 3. Pricing and money
 
 - The vendor sets its own price, in **dollars per booked seat**. The form calls it "the dollar amount you receive per booked seat".
-- ORYN turns that price into credits for families, **rounding up**. The vendor is paid its dollar price less the commission (see Commission above), and ORYN keeps the small rounding extra. Example at today's rate: a $20 class shows families 23 credits.
+- ORYN turns that price into credits for families, **rounding up**. The vendor is paid its dollar price less the commission (see Commission above), and ORYN keeps the small rounding extra. Example at today's rate: a $20 class shows families 20 credits (a $20.50 class shows 21).
 - The vendor can't set a separate credit price for a dollar-priced class. Families see only the credits, never the vendor's dollar figure.
-- Today's default payout rate is 88 cents per credit. ORYN earns from the gap between what families pay for plans and what vendors are paid, about 28% on average at today's settings. That gap is **not** taken out of the vendor's price. ORYN can change these settings going forward, with notice.
+- Today's default payout rate is $1.00 per credit. ORYN earns from the gap between what families pay for plans and what vendors are paid, about 23% on average at today's settings. That gap is **not** taken out of the vendor's price. ORYN can change these settings going forward, with notice.
 - The vendor is paid the price the listing had **when the family booked**, even if it changes later.
 - Discounts ORYN pays for don't cut vendor pay: promo codes, last-minute deals, and the 10% sibling discount.
 - Last-minute deal: a vendor can offer 5–75% off sessions starting within 24 hours that still have seats. ORYN pays the discount.
