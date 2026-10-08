@@ -17,7 +17,7 @@ Filling kids' classes comes down to seven habits: price clearly, discount only t
 
 ## 1. Set a Dollar Price Per Seat and Let the Platform Round Up to Credits
 
-In the listing form, Class Cost is your dollar price per booked seat. The platform converts it to credits for families by rounding up, and you are paid that price less ORYN's agreed percentage, as set out in your vendor agreement. At today's rate, a $20 class shows families 23 credits.
+In the listing form, Class Cost is your dollar price per booked seat. The platform converts it to credits for families by rounding up, and you are paid that price less ORYN's agreed percentage, as set out in your vendor agreement. At today's rate, a $20 class shows families 20 credits.
 
 Two practical notes follow from that setup. First, discounting never cuts your pay: promo codes, last-minute deals, and the sibling discount are paid for by ORYN, not out of your price. Second, families see only credits at checkout, so keep pricing decisions in the listing form rather than in chat.
 

@@ -5,8 +5,8 @@ date: 2026-09-29
 status: "published"
 author: "ORYN Quest, Inc."
 description: "Kids' classes in Southern California vary widely in price depending on the activity type, instructor experience, session length, and location."
-image: "/blog-assets/what-kids-activities-really-cost-in-southern-california-2026-plans.jpg"
-imageAlt: "The four ORYN Quest monthly plans side by side: Play $49 for 35 credits, Plus $99 for 75 credits, Pro $299 for 235 credits, and Premium $499 for 415 credits"
+image: "/blog-assets/what-kids-activities-really-cost-in-southern-california-2026-plans-v2.jpg"
+imageAlt: "The four ORYN Quest monthly plans side by side: Play $79 for 56 credits, Plus $199 for 151 credits, Pro $299 for 235 credits, and Premium $499 for 415 credits"
 areas: [Southern California]
 tags: [kids-classes, kids, classes, parents]
 ---

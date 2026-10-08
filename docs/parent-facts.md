@@ -3,6 +3,7 @@
 For Hermes / Agency Hub and John. A blog post for parents may state an ORYN fact **only if it is on this sheet or on `docs/vendor-facts.md`**. If it is not here, leave it out.
 
 - Checked against the product code and the vendor fact sheet on 25 Sep 2026. John keeps it up to date.
+- Section 2 (credit rounding, first-plan bonus, end of welcome credits) re-checked against the product code and the published Refund Policy §12.8 on 8 Oct 2026, after the plan repricing.
 - Numbers marked "today" can change, so keep that word in the post.
 
 ---
@@ -38,10 +39,12 @@ For Hermes / Agency Hub and John. A blog post for parents may state an ORYN fact
 ## 2. Credits, plans and packs
 
 - Families book with credits. Every class has its own credit price, shown before you confirm. A class is never "one credit".
-- How a price is set: the vendor sets a dollar price per seat and ORYN turns it into credits, rounding up (today $20 becomes 23 credits). Don't put this arithmetic in a parent post; families see only credits.
+- How a price is set: the vendor sets a dollar price per seat and ORYN turns it into credits, rounding up (today $20 becomes 20 credits). Don't put this arithmetic in a parent post; families see only credits.
 - Four monthly plans today, with ORYN's own descriptions: **Play** "Perfect for trying out activities", **Plus** "Great for regular activities", **Pro** "For active families" (the "Popular" tier), **Premium** "Our best value per credit". Bigger plans cost less per credit. Prices and credit counts live on orynquest.com/pricing; link there rather than quoting numbers.
 - Credits arrive monthly. Parents can upgrade, downgrade or cancel any time, self-serve, with no long-term contract.
 - Credits from a plan **don't expire**: unused credits roll over and each month's credits are added on top (Refund Policy §3.5). Promotional or bonus credits may have an end date, and parents are told it when they get them.
+- First-plan bonus: the first time an account starts a paid plan, 25 bonus credits are added to the wallet when that first payment succeeds, on top of the plan's own credits. It is given **once per account**: an account that has already had a paid plan (including one that cancelled and re-joined, changed plans or renewed) does not get it again. If that first payment is refunded, the unused part of the bonus is removed in proportion to the refund, never taking the balance below zero. It has no end date today, has no cash value and can't be transferred (Refund Policy §12.8; Parent Terms §14). A post may say "25 bonus credits with your first plan".
+- There are **no welcome or sign-up credits** for new accounts: accounts created on or after 7 Oct 2026 get none (accounts created before that date keep the 10 they received). Don't write "free credits when you join".
 - Credits belong to the account they're in. They can't be sold, transferred or gifted to another account (Parent Terms §14.6).
 - A monthly plan IS ORYN's membership: the site says "Start Your Membership" and "ORYN Quest Membership", and the legal documents call it a Membership. "Membership" and "plan" may be used for the same thing. A plan is one fixed monthly price, so it turns a family's activity spending into one predictable monthly amount. Don't claim it costs less than paying elsewhere (section 8).
 - One-time credit packs (the "Boost" packs) need no subscription. A plan is the better deal for anyone booking regularly.
