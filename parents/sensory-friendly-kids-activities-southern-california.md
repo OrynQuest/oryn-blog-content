@@ -88,7 +88,7 @@ A little preparation can turn an unknown place into a known one.
 
 ORYN Quest is a marketplace for kids' activities run by independent local vendors across Southern California. On [Explore](/explore), there are needs filters you can combine with category and child's age, then sort by distance:
 
-- **Autism-friendly.** On the website's desktop filter panel it is labelled **Inclusive**; on phones, tablets and in the family app it is labelled **Autism-friendly**. Both labels control the same filter.
+- **Autism-friendly.** Depending on the screen it is labelled **Inclusive** or **Autism-friendly**; both are the same filter.
 - **Sensory-friendly.**
 - **Wheelchair Accessible.**
 - **Insurance accepted.**
@@ -97,7 +97,7 @@ Some listings also describe their accessibility accommodations or include a shor
 
 A child's profile can record an autism-friendly flag and sensory-support needs. Lanti, our assistant, can use them to recommend activities for that child, and can filter by needs when you ask, by typing or by voice. Lanti searches by category and place; you still choose the session yourself and tap Confirm.
 
-When you book, the vendor sees your child's name, picture, age, and autism-friendly and sensory-support flags. It does not see your email or phone, or any insurance or medical notes. So if there are details that would help, share them yourself through ORYN's built-in messaging, which lets families message any listed vendor.
+When you book, the vendor sees your child's name, picture, age and Special Care flags (such as autism or sensory support). It does not see your email or phone, or any insurance or medical notes. So if there are details that would help, share them yourself through ORYN's built-in messaging, which lets families message any listed vendor.
 
 You can also ask other parents in the ORYN parent community.
 
@@ -113,11 +113,11 @@ It depends on the child. Outdoor spaces give room to move and fresh air, but bri
 
 ### Should I tell the vendor about my child's needs before the first session?
 
-It usually helps. Share what calms your child, what overwhelms them and the early signs to watch for. On ORYN Quest, the vendor sees your child's autism-friendly and sensory-support flags with a booking, but not medical notes, so add useful details by message.
+It usually helps. Share what calms your child, what overwhelms them and the early signs to watch for. On ORYN Quest, the vendor sees your child's name, picture, age and Special Care flags (such as autism or sensory support) with a booking, but not medical notes, so add useful details by message.
 
 ### How do I find sensory-friendly classes on ORYN Quest?
 
-Open Explore and use the needs filters: Sensory-friendly, Wheelchair Accessible, insurance accepted, and the autism-friendly filter, labelled Inclusive on desktop and Autism-friendly on phones, tablets and in the app. You can also ask Lanti, our assistant, to search by needs.
+Open Explore and use the needs filters: Sensory-friendly, Wheelchair Accessible, insurance accepted, and the autism-friendly filter. Depending on the screen it is labelled Inclusive or Autism-friendly; both are the same filter. You can also ask Lanti, our assistant, to search by needs.
 
 ### What if the first session is too much for my child?
 
