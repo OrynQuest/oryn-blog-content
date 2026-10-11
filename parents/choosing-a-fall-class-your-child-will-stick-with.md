@@ -68,7 +68,7 @@ During and after that first session, watch for small signals:
 - Do they mention the instructor or another kid by name?
 - Do they ask when they can go back?
 
-After a completed class, the vendor can send your family short feedback, with ratings for engagement, focus, social skills and confidence, plus a note. For a first class, a note like "watched for a while, then joined the last activity" can tell you a lot about fit. You can also leave one review per completed booking to help the next parent.
+After a completed class, the vendor can rate how your child took part, and those ratings feed your child's Progress page. You can also leave one review per completed booking to help the next parent.
 
 ## Give it a few weeks before you decide
 
