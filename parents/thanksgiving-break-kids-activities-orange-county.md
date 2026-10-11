@@ -4,7 +4,7 @@ description: "Plan the Thanksgiving school break in Orange County: check your di
 date: 2026-10-17
 author: "ORYN Quest Team"
 image: /blog-assets/thanksgiving-break-kids-activities-orange-county.jpg
-imageAlt: "A wide park path lined with sycamore trees and fallen yellow-brown leaves, with a wooden bench beside it on a clear late-autumn morning"
+imageAlt: "The ORYN Quest Explore filter panel with Activity Type set to Camps and a Camps chip under Active Filters"
 areas: [Southern California]
 keyword: "Thanksgiving break activities for kids Orange County"
 tags: [thanksgiving, school-break, camps, drop-ins, orange-county]
