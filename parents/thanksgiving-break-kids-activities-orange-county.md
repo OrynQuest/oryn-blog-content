@@ -59,7 +59,7 @@ A few local details are worth building into your plan:
 
 - **Weather.** Late November in Orange County is often mild and sunny, but it can also bring early-season rain or dry Santa Ana winds. Keep an indoor backup for any outdoor plan.
 - **Traffic.** The days around Thanksgiving are some of the busiest of the year on the roads. On the day before Thanksgiving especially, activities close to home are easier on everyone.
-- **Short days.** In late November it gets dark before 5 p.m., so outdoor plans work better earlier in the day.
+- **Short days.** In late November the sun sets before 5 p.m., so outdoor plans work better earlier in the day.
 - **Busy weekends.** The weekend after Thanksgiving is a popular time for shopping and outings, so shared spaces may be more crowded than usual.
 
 ## Free and low-key ideas between bookings
@@ -83,8 +83,8 @@ A few more things that help during a school break:
 
 - **Waitlist.** If a session you want is full, join the waitlist. When a seat opens, the next family gets a 24-hour hold.
 - **Deals.** The Deals page shows last-minute deals on sessions starting within 24 hours, worth a look the evening before an open day.
-- **Siblings.** Siblings booked into the same session get a sibling discount.
-- **Lanti, our assistant.** Ask Lanti, by typing or by voice, for camps or drop-in classes near you. Lanti searches by category and place, so open each listing to check its dates, then tap Confirm when you book.
+- **Siblings.** When you book more than one child into the same session, each extra child gets a sibling discount.
+- **Lanti, our assistant.** Ask Lanti, by typing or by voice, for camps or drop-ins near you, check the date on each card, then tap Confirm.
 - **Your calendar.** Bookings appear under My Bookings and on the in-app Calendar, and sync to Google Calendar if you connect it. A reminder arrives about a day before each session.
 
 Every class has its own credit price, shown before you confirm. Plan details are on [orynquest.com/pricing](/pricing).
