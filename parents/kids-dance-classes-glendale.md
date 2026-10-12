@@ -131,3 +131,5 @@ Open Explore, choose Music & Dance, set your child's age and sort by distance fr
 ---
 
 Ready to look? Browse Music & Dance on [Explore](/explore), set your child's age, and see what vendors near you have listed.
+
+Want new posts like this in your inbox? [Subscribe to ORYN Quest news](/go/hbmmmjgr).
