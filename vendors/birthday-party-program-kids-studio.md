@@ -134,3 +134,5 @@ Send every guest home with what they made and a card with your class schedule, a
 ---
 
 Run parties at your studio in Southern California? List them alongside your classes on ORYN Quest. [See how it works for vendors](/vendors).
+
+Want new posts like this in your inbox? [Subscribe to ORYN Quest news](/go/hbmmmjgr).
