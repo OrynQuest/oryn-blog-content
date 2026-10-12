@@ -112,7 +112,7 @@ One clear message saves a lot of questions. Include:
 
 ## How ORYN Quest fits
 
-If you run camps in Southern California, you can list them on ORYN Quest. A listing can be a class, camp, birthday party or drop-in, and the form has optional camp extras alongside the age range, total seats and a waitlist. You set your own price in dollars per booked seat, and families see it in credits.
+If you run camps in Southern California, you can apply to ORYN Quest, and once approved you can list them there. A listing can be a class, camp, birthday party or drop-in, and the form has optional camp extras alongside the age range, total seats and a waitlist. You set your own price in dollars per booked seat, and families see it in credits.
 
 For the schedule, you can add time slots one at a time or a whole term at once from a repeating pattern. Before any listing goes live, you choose how families handle the waiver: they sign in the app before booking, sign on paper at the first session, or there is no waiver.
 
