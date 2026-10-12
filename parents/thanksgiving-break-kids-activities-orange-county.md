@@ -1,7 +1,7 @@
 ---
 title: "Thanksgiving break kids' activities in Orange County"
 description: "Plan the Thanksgiving school break in Orange County: check your district calendar, mix camps and drop-ins with downtime, and look early for open seats."
-date: 2026-10-17
+date: 2026-10-16
 author: "ORYN Quest Team"
 image: /blog-assets/thanksgiving-break-kids-activities-orange-county.jpg
 imageAlt: "The ORYN Quest Explore filter panel with Activity Type set to Camps and a Camps chip under Active Filters"
