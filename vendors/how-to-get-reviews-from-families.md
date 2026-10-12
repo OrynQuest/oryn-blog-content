@@ -142,3 +142,5 @@ Wait before you reply. Thank them, acknowledge the concern without arguing, say 
 ---
 
 Run kids' classes, camps or lessons in Southern California? On ORYN Quest, families who complete a booking can review your class, and you can reply in your own words. Applying, listing your classes and every vendor tool are free. [See how it works for vendors](/vendors).
+
+Want new posts like this in your inbox? [Subscribe to ORYN Quest news](/go/hbmmmjgr).
