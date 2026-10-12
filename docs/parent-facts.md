@@ -75,7 +75,7 @@ For Hermes / Agency Hub and John. A blog post for parents may state an ORYN fact
 - Built-in messaging: families can message any listed vendor; a vendor can start a chat only with families who booked with it. Messaging is adults only.
 - Chat is checked automatically: no dollar prices, no off-platform payment requests, no slurs or threats.
 - Parent community: parents can post, comment, and join groups. There is no events or meetup feature.
-- For a booking the vendor sees the parent's name and picture, and the child's name, picture, age, and autism-friendly and sensory-support flags. It does not get the parent's email or phone, or insurance or medical notes.
+- For a booking the vendor sees the parent's name and picture, and the child's name, picture, age, and any Special Care flags you set (Wheelchair access, Vision support, Hearing support, Autism support, Sensory-friendly setting). It does not get the parent's email or phone, or insurance or medical notes.
 - A child's profile can record interests, an autism-friendly flag and sensory-support needs. The assistant can use them to recommend activities for that child.
 
 ## 6. Lanti, the assistant
