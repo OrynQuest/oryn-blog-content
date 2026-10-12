@@ -115,3 +115,5 @@ Run a great session, tell the parent one thing their child did well, and send th
 ---
 
 Run kids' classes in Southern California? Apply to ORYN Quest, and once approved you can list drop-in sessions alongside your classes. [See how it works for vendors](/vendors).
+
+Want new posts like this in your inbox? [Subscribe to ORYN Quest news](/go/hbmmmjgr).
