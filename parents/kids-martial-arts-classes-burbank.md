@@ -121,3 +121,5 @@ Open Explore, choose Sports & Fitness, set your child's age and sort by distance
 ---
 
 Curious what is nearby? Browse Sports & Fitness on [Explore](/explore), set your child's age, and see what vendors near you have listed.
+
+Want new posts like this in your inbox? [Subscribe to ORYN Quest news](/go/hbmmmjgr).
