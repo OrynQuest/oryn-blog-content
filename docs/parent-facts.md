@@ -68,7 +68,7 @@ For Hermes / Agency Hub and John. A blog post for parents may state an ORYN fact
 - There is **no** digital pass, QR code or scan. The vendor checks the child in from its roster in the vendor portal. Check-in opens 1 hour before class. Nothing to print.
 - Waivers: some listings need a signed waiver. It is signed in the app before booking, or on paper at the first session. Parents also accept ORYN's Parent Waiver & Release before booking.
 - Reviews: a parent with a completed booking can leave one review per booking (1–5 stars). Families are asked 1–72 hours after class, and vendors can reply publicly.
-- After a completed class, the vendor can send the family short feedback: ratings for engagement, focus, social skills and confidence, plus a note.
+- After a completed class, the vendor can rate how the child took part, and those ratings feed the child's Progress page. Parents don't see the vendor's feedback or note itself.
 
 ## 5. Messaging, community, privacy
 
