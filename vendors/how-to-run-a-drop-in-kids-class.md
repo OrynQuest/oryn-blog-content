@@ -94,7 +94,7 @@ To go live, a listing needs a title, category, dollar price per seat, length, lo
 
 Before a listing goes live, you choose how families handle the waiver: they sign in the app before booking, sign on paper at the first session, or there is no waiver.
 
-You get an email for every new booking, and families get a reminder about one day before class. For each booking you see the parent's name and picture, and the child's name, picture, age and Special Care flags (such as autism or sensory support), which helps you plan a mixed group. Check-in opens 1 hour before class.
+You get an email for every new booking, and families get a reminder about one day before class. For each booking you see the parent's name and picture, and the child's name, picture, age and any Special Care flags the parent set (such as Autism support or a sensory-friendly setting), which helps you plan a mixed group. Check-in opens 1 hour before class.
 
 If the waitlist is on and a seat opens, the next family gets a 24-hour hold. Built-in messaging lets you start a chat with families who booked with you, which is a handy place to send your what-to-bring details. Family information is only for running the booked activity: never sell it or build marketing lists from it.
 
