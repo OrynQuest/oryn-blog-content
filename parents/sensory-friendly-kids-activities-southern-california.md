@@ -126,3 +126,5 @@ Leave early if you need to and treat it as information, not failure. Talk with t
 ---
 
 Find activities that fit your child on [Explore](/explore). Outside Southern California? [Join the waiting list](/waitlist).
+
+Want new posts like this in your inbox? [Subscribe to ORYN Quest news](/go/hbmmmjgr).
