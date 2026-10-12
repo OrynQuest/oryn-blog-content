@@ -121,3 +121,5 @@ Review it once a year and whenever your activities, space or equipment change. H
 ---
 
 Running kids' classes in Southern California? ORYN Quest is free to join, and you choose how families sign your waiver for every listing. [See how it works for vendors](/vendors).
+
+Want new posts like this in your inbox? [Subscribe to ORYN Quest news](/go/hbmmmjgr).
