@@ -113,4 +113,4 @@ Open Explore, choose STEM & Science, set your child's age and sort by distance f
 
 ---
 
-Ready to start? Browse STEM & Science on [Explore](/explore), set your child's age, and book a first session that fits your week.
+Ready to look? Browse STEM & Science on [Explore](/explore), set your child's age, and see what vendors near you have listed.
