@@ -114,3 +114,5 @@ Explore lists camps and drop-ins. A drop-in is a single session, so it can cover
 ---
 
 Start planning your break on [Explore](/explore). Not in Southern California? [Join the waiting list](/waitlist).
+
+Want new posts like this in your inbox? [Subscribe to ORYN Quest news](/go/hbmmmjgr).
