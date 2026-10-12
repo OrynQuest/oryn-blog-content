@@ -119,3 +119,5 @@ Under a minute is plenty. On ORYN Quest, a listing can include one short video o
 ---
 
 Ready to show families your space? See how [listing your classes on ORYN Quest](/vendors) works, then apply as a vendor. It's free to join.
+
+Want new posts like this in your inbox? [Subscribe to ORYN Quest news](/go/hbmmmjgr).
