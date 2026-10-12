@@ -125,3 +125,5 @@ Explore lists camps, drop-ins and classes, and you can filter by listing type. T
 ---
 
 Start your winter break plan early. [See what vendors near you have listed on Explore](/explore). Not in Southern California? [Join the waiting list](/waitlist).
+
+Want new posts like this in your inbox? [Subscribe to ORYN Quest news](/go/hbmmmjgr).
