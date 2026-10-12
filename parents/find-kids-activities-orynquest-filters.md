@@ -5,7 +5,7 @@ description: "A five-minute walk-through of the ORYN Quest Explore page: set you
 date: 2026-11-08
 author: "ORYN Quest Team"
 image: /blog-assets/find-kids-activities-orynquest-filters.jpg
-imageAlt: "The Lanti assistant panel on ORYN Quest: Hi, I'm Lanti! How can I help?, with suggestions such as Find art classes for my kids and an Ask anything box"
+imageAlt: "The Lanti panel on ORYN Quest: Hi, I'm Lanti! How can I help?, with suggestions such as Find art classes for my kids and an Ask anything box"
 areas: [Southern California]
 keyword: "find kids activities near me"
 tags: [how-to, explore, filters, choosing a class, all-ages]
