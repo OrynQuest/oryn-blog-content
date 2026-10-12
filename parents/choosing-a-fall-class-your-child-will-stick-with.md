@@ -1,7 +1,7 @@
 ---
 title: "Choosing a fall class your child will stick with"
 description: "How Los Angeles parents can pick a fall class a child will stay with: start from what they love, plan around the drive, try one session, then decide together."
-date: 2026-10-13
+date: 2026-10-12
 author: "ORYN Quest Team"
 image: /blog-assets/choosing-a-fall-class-your-child-will-stick-with.jpg
 imageAlt: "The ORYN Quest Explore page: a search box, a Saved button and Map View, with category buttons for Arts & Crafts, Sports & Fitness, STEM & Science, Music & Dance and Tutoring & Education"
