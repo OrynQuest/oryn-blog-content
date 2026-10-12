@@ -132,3 +132,5 @@ After each term. Check what filled, your costs and what families said, and annou
 This article is general information for business owners, not tax or legal advice. For your own situation, talk to an accountant or adviser.
 
 Run kids' classes, camps or lessons in Southern California? [See how ORYN Quest works for vendors](/vendors).
+
+Want new posts like this in your inbox? [Subscribe to ORYN Quest news](/go/hbmmmjgr).
