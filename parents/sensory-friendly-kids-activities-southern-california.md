@@ -1,7 +1,7 @@
 ---
 title: "Sensory-friendly kids' activities in Southern California"
 description: "What sensory-friendly and autism-friendly kids' activities look like in Southern California, what to look for in a space, and what to ask a vendor first."
-date: 2026-10-15
+date: 2026-10-14
 author: "ORYN Quest Team"
 image: /blog-assets/sensory-friendly-kids-activities-southern-california.jpg
 imageAlt: "The ORYN Quest Explore filter panel showing a Difficulty menu and the needs filters Inclusive, Insurance Accepted, Wheelchair Accessible and Sensory-friendly"
