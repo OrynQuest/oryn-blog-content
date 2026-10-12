@@ -117,3 +117,5 @@ Yes. Explore lists activities in person or online, and you can filter for either
 ---
 
 Ready for fall? Browse classes, camps and drop-ins near you on [Explore](/explore). Outside Southern California? Join the [waiting list](/waitlist).
+
+Want new posts like this in your inbox? [Subscribe to ORYN Quest news](/go/hbmmmjgr).
