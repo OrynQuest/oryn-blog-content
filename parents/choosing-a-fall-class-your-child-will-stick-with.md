@@ -115,3 +115,5 @@ Every class has its own credit price, shown before you confirm a booking. Famili
 ---
 
 Ready to look? Browse fall classes on [Explore](/explore), set your child's age, and see what vendors near you have listed.
+
+Want new posts like this in your inbox? [Subscribe to ORYN Quest news](/go/hbmmmjgr).
