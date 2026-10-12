@@ -140,3 +140,5 @@ Times, the address and door, what to bring and wear, pick-up rules, how to share
 ---
 
 List your winter break camp on ORYN Quest: it's free to join, and families nearby can find you. [See how it works for vendors](/vendors).
+
+Want new posts like this in your inbox? [Subscribe to ORYN Quest news](/go/hbmmmjgr).
