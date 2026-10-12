@@ -97,7 +97,7 @@ Some listings also describe their accessibility accommodations or include a shor
 
 A child's profile can record an autism-friendly flag and sensory-support needs. Lanti, our assistant, can use them to recommend activities for that child, and can filter by needs when you ask, by typing or by voice. Lanti searches by category and place; you still choose the session yourself and tap Confirm.
 
-When you book, the vendor sees your child's name, picture, age and Special Care flags (such as autism or sensory support). It does not see your email or phone, or any insurance or medical notes. So if there are details that would help, share them yourself through ORYN's built-in messaging, which lets families message any listed vendor.
+When you book, the vendor sees your child's name, picture, age and any Special Care flags you set (such as Autism support or a sensory-friendly setting). It does not see your email or phone, or any insurance or medical notes. So if there are details that would help, share them yourself through ORYN's built-in messaging, which lets families message any listed vendor.
 
 You can also ask other parents in the ORYN parent community.
 
@@ -113,7 +113,7 @@ It depends on the child. Outdoor spaces give room to move and fresh air, but bri
 
 ### Should I tell the vendor about my child's needs before the first session?
 
-It usually helps. Share what calms your child, what overwhelms them and the early signs to watch for. On ORYN Quest, the vendor sees your child's name, picture, age and Special Care flags (such as autism or sensory support) with a booking, but not medical notes, so add useful details by message.
+It usually helps. Share what calms your child, what overwhelms them and the early signs to watch for. On ORYN Quest, the vendor sees your child's name, picture, age and any Special Care flags you set (such as Autism support or a sensory-friendly setting) with a booking, but not medical notes, so add useful details by message.
 
 ### How do I find sensory-friendly classes on ORYN Quest?
 
