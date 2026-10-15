@@ -56,7 +56,7 @@ For the wider season picture, our [after-school and seasonal cost guide for 2026
 Every camp listing on ORYN Quest shows the title, category, description, photos, credit price per seat, session length, location, upcoming sessions with open seats, and reviews. Vendors can optionally add an age range, skill level, accessibility accommodations, a short video, and a waitlist. A few reading habits make that detail work harder:
 
 - **Open the session list before judging the price.** The session list tells you which weeks actually have open seats at which price.
-- **Read reviews from completed bookings.** Only families with a completed booking can leave a review, one per booking, on a 1-to-5 star scale, and vendors can reply publicly. That two-way record beats a bare star average.
+- **Know how reviews work.** On ORYN Quest, only families with a completed booking can leave a review, one per booking, on a 1-to-5 star scale, and vendors can reply publicly. That two-way record beats a bare star average.
 - **Message the vendor with specific questions.** Families can message any listed vendor through built-in messaging. Ask about noise levels, group size, and how the day is structured. For sensory-sensitive kids, the answers matter more than the category label.
 - **Ask about safety and staffing directly.** The [American Camp Association](https://www.acacamps.org/) maintains accreditation standards for camps, but nothing replaces a direct conversation, so use messaging to ask a specific camp how it handles staffing ratios and health procedures.
 
