@@ -2,7 +2,7 @@
 title: "Kids' art classes in the San Gabriel Valley: what to look for"
 seoTitle: "Kids' art classes in the San Gabriel Valley"
 description: "San Gabriel Valley parents: how drawing, painting, clay and mixed media classes differ, what suits each age from 3 to 13, and what to ask before a first class."
-date: 2026-11-24
+date: 2026-10-18
 author: "ORYN Quest Team"
 image: /blog-assets/kids-art-classes-san-gabriel-valley.jpg
 imageAlt: "The ORYN Quest Explore map view over the San Gabriel Valley, from Burbank and Glendale to Pasadena, Arcadia, Monrovia and West Covina, with activity pins"
