@@ -1,7 +1,7 @@
 ---
 title: "Things to do in Southern California with kids, every week"
 description: "A plain guide for Southern California parents: weekly kids' classes by type and age, how to pick one, and how to fit activities into a busy family week."
-date: 2026-11-22
+date: 2026-10-17
 author: "ORYN Quest Team"
 image: /blog-assets/things-to-do-southern-california-kids.jpg
 imageAlt: "The ORYN Quest Explore map view over Southern California, from Santa Clarita and Los Angeles down to Long Beach, Santa Ana and Temecula, with activity pins near Los Angeles"
