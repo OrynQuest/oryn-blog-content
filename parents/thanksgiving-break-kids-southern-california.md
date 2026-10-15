@@ -1,7 +1,7 @@
 ---
 title: "Thanksgiving break with kids: a calm week plan"
 description: "A calm Thanksgiving break plan for Southern California families: a light routine, real rest, family time, time outdoors and maybe a drop-in class or short camp."
-date: 2026-11-26
+date: 2026-11-09
 author: "ORYN Quest Team"
 image: /blog-assets/thanksgiving-break-kids-southern-california.jpg
 imageAlt: "The ORYN Quest Explore map view over the Los Angeles coast and city, from Santa Monica and Culver City to downtown Los Angeles, with activity pins"
