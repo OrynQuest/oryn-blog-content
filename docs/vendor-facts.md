@@ -42,6 +42,7 @@ For Hermes / Agency Hub and John. A blog post for kids'-activity business owners
 - ORYN does not run or require criminal background checks. Each vendor screens its own staff as the law requires.
 - If approved, you get an email and can publish listings. If declined, you get an email with the reason (if one was given) and can fix and resubmit.
 - Once approved, a pop-up offers "Get your class live": a short step-by-step setup for the first class (name and ages, price per seat, where it happens, a photo, waivers, then class times, which can repeat every week). If you tap Later, a reminder email comes 24 hours later if the class still isn't live (since 3 Oct 2026).
+- Get Live step 1 (and the application's "Your first class" step) has an optional "What will kids do?" box: 2–3 sentences on what kids do, learn and bring. It shows on the class page as its description. In the vendor portal, a soft "add 2–3 sentences" hint sits under every class description; it never blocks a save (since 15 Oct 2026).
 - Joining costs $0: no setup fee and no subscription. When families book, ORYN keeps an agreed percentage of the listed price (see Commission above; never name the founding offer in public).
 - One vendor business per account. The owner can also book as a parent, but not their own classes.
 - Vendors agree to tell ORYN about a serious safety incident within 24 hours.
